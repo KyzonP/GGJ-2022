@@ -1,0 +1,49 @@
+# generic events
+
+add_namespace = china
+
+# Concert in town
+social_event = {
+	id = concert.1
+	title = "Concert invite"
+	who_from = rand_Char(roommate, oldFren,workFren,workBoss)
+	desc = "Hey duuude, hear there is a concert in town this cycle, wanna come with??"
+	
+	
+	is_triggered_only = yes
+	
+	option = { # go to concert
+		name = "Sure thing, will meet you there!"
+		effect_tooltip = {
+			JON = {
+				add_social = 100
+				add_energy = 100
+				add_happiness = 100
+				add_money = -50
+								
+			}
+		}
+		hidden_effect = {
+			get_infected = .75
+			fren_infected = .75
+		}
+		
+	}
+	option = { # dont go to concert
+		name = "No thanks, have to catch up on work stuff, go on without me"
+		
+		effect_tooltip = {
+			JON = {
+				add_social = -10
+				add_energy = 0
+				add_happiness = 0
+				add_money = 0
+								
+			}
+		}
+		hidden_effect = {
+				fren_infected = .75
+		}
+		
+	}
+}
