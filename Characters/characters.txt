@@ -1,0 +1,162 @@
+#characters stuff goes here
+
+#character assigning stuff
+
+character{
+	id = fren.1
+	name = "Roomamte"
+	type = person
+
+	tracker = {
+		infected = false
+		social_threshold = 100
+		last_seen = 0
+
+	}
+
+}
+
+character{
+	id = fren.2
+	name = "Party Fren"
+	type = person
+
+	tracker = {
+		infected = false
+		social_threshold = 100
+		last_seen = 0
+
+	}
+
+}
+
+character{
+	id = fren.3
+	name = "Party Guests"
+	type = people
+
+	tracker = {
+		infected = false
+		social_threshold = 100
+		last_seen = 0
+
+	}
+
+}
+
+character{
+	id = fren.4
+	name = "Grandma"
+	type = person
+
+	tracker = {
+		infected = false
+		social_threshold = 100
+		last_seen = 0
+
+	}
+
+}
+
+character{
+	id = fren.5
+	name = "Work Fren"
+	type = person
+
+	tracker = {
+		infected = false
+		social_threshold = 100
+		last_seen = 0
+
+	}
+
+}
+
+character{
+	id = fren.6
+	name = "Work Boss"
+	type = person
+
+	tracker = {
+		infected = false
+		social_threshold = 100
+		last_seen = 0
+
+	}
+
+}
+
+character{
+	id = fren.7
+	name = "ol Fren"
+	type = person
+
+	tracker = {
+		infected = false
+		social_threshold = 100
+		last_seen = 0
+
+	}
+
+}
+
+character{
+	id = fren.8
+	name = "Shop Boi"
+	type = person
+
+	tracker = {
+		infected = false
+		social_threshold = 100
+		last_seen = 0
+
+	}
+
+}
+
+character{
+	id = fren.9
+	name = "Parents"
+	type = family
+
+	tracker = {
+		infected = false
+		social_threshold = 100
+		last_seen = 0
+
+	}
+
+}
+
+character{
+	id = fren.10
+	name = "pupper"
+	type = pet
+
+	tracker = {
+		infected = false
+		social_threshold = 100
+		last_seen = 0
+
+	}
+
+}
+
+character{
+	id = fren.11
+	name = playerName
+	type = player
+
+	tracker = {
+		infected = false
+		moraility = 100
+		hunger = 100
+		social = 100
+		energy = 100
+		money = 100
+		happiness = 100
+		
+
+	}
+
+}

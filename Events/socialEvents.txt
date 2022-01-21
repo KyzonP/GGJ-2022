@@ -6,7 +6,7 @@ add_namespace = china
 social_event = {
 	id = concert.1
 	title = "Concert invite"
-	who_from = rand_Char(roommate, oldFren,workFren,workBoss)
+	who_from = rand_Char(person)
 	desc = "Hey duuude, hear there is a concert in town this cycle, wanna come with??"
 	
 	
