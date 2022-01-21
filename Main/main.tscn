@@ -1,3 +1,11 @@
-[gd_scene format=2]
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Main/Sprite.gd" type="Script" id=1]
+[ext_resource path="res://Assets/BasicBiscuit.png" type="Texture" id=2]
 
 [node name="main" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 50, 50 )
+texture = ExtResource( 2 )
+script = ExtResource( 1 )
