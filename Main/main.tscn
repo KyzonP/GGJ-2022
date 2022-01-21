@@ -5,10 +5,6 @@
 
 [node name="main" type="Node2D"]
 
-[node name="Control2" parent="." instance=ExtResource( 2 )]
+[node name="Control" parent="." instance=ExtResource( 2 )]
 
-[node name="Control" parent="." instance=ExtResource( 1 )]
-margin_left = 127.0
-margin_top = 82.0
-margin_right = 127.0
-margin_bottom = 82.0
+[node name="Card" parent="." instance=ExtResource( 1 )]

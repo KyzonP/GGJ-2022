@@ -8,8 +8,6 @@ export (int) var money = 50
 export (int) var happiness = 50
 export (bool) var infected = false 
 
-export (bool) var dragging = false
-
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
