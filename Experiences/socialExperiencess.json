@@ -241,12 +241,127 @@
 			}
 			"hidden_effect": 
 			{
-				"fren_infected": .5,
+				"get_infected": 0,
+				"fren_infected": 0,
 			}
 			
 		}
-		"option2": { # dont go to grans
+		"option2": { # dont hang out
 			"name": "Maybe, I'll think about it",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": -10,
+					"add_happiness": -10,
+					"add_money": 0,
+					"add_hunger": 10,
+					"add_work": 0 ,	
+									
+									
+				}
+			}
+			"hidden_effect": 
+			{
+					"fren_infected": 0,
+			}
+			
+		}
+	}
+
+	#hang out with old fren
+
+	"social6": 
+	{
+		"title": "Hang out with frens from school",
+		"who_from": fren.7,
+		
+		"desc": "We should hang out dude",
+		
+		
+		"option1": { #hang out
+			"name": "Sure",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 10,
+					"add_energy": -5,
+					"add_happiness": 10,
+					"add_money": -20,
+					"add_hunger": -5,
+					"add_work": 0 ,	
+									
+				}
+			}
+			"hidden_effect": 
+			{
+				"get_infected": 0.25,
+				"fren_infected": 0.25,
+			}
+			
+		}
+		"option2": { # dont hang out
+			"name": "No thanks",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": -10,
+					"add_happiness": -10,
+					"add_money": 0,
+					"add_hunger": 10,
+					"add_work": 0 ,	
+									
+									
+				}
+			}
+			"hidden_effect": 
+			{
+					"fren_infected": 0,
+			}
+			
+		}
+	}
+
+	#go to the cinema
+
+	"social7": 
+	{
+		"title": "Hang out with frens at the cinema",
+		"who_from": person,
+		
+		"desc": "We should go to the cinema",
+		
+		
+		"option1": { #hang out
+			"name": "Sure",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 10,
+					"add_energy": -5,
+					"add_happiness": 10,
+					"add_money": -20,
+					"add_hunger": -5,
+					"add_work": 0 ,	
+									
+				}
+			}
+			"hidden_effect": 
+			{
+				"get_infected": 0.25,
+				"fren_infected": 0.25,
+			}
+			
+		}
+		"option2": { # dont hang out
+			"name": "No thanks",
 			
 			"effect_tooltip": 
 			{
