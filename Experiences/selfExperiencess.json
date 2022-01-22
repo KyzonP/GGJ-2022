@@ -1,0 +1,495 @@
+# generic events
+
+
+{
+
+	#get dog event
+
+	"8": 
+	{
+		"title": "Pupper wants a home",
+		"who_from": person,
+		
+		"desc": "So my fren has a doggo that needs a home, you want another fren?",
+		
+		
+		"option1": { # go to concert
+			"name": "Sure thing, send me their details",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 0,
+					"add_energy": -30,
+					"add_happiness": 30,
+					"add_money": -50,
+					"add_hunger": 0,
+					"add_work": 0 ,	
+					"has_pupper": 'true',
+									
+				}
+			}
+			"hidden_effect": 
+			{
+				"get_infected": 0,
+				"fren_infected": 0,
+				"add_morality": 5,
+
+			}
+
+			
+		}
+		"option2": { # dont go to concert
+			"name": "No thanks, I dont have the time to care for a pupper sorry :( ",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 0,
+					"add_energy": 0,
+					"add_happiness": -5,
+					"add_money": 0,
+					"add_hunger": 0,
+					"add_work": 0 ,	
+														
+				}
+			}
+			"hidden_effect": 
+			{
+					"fren_infected": 0,
+			}
+			
+		}
+	}
+
+	#buy smol boi game
+
+	"9": 
+	{
+		"title": "Reminder: SmolBoi games are out",
+		"who_from": player,
+		
+		"desc": "Its time to buy a new game, which one to get?",
+		
+		
+		"option1": { # go to concert
+			"name": "Demon Slayer: Infinity",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 0,
+					"add_energy": -5,
+					"add_happiness": 30,
+					"add_money": -60,
+					"add_hunger": 0,
+					"add_work": 0 ,	
+					
+									
+				}
+			}
+			"hidden_effect": 
+			{
+				"get_infected": 0,
+				"add_morality": -10,
+				"fren_infected": 0,
+
+			}
+
+			
+		}
+		"option2": { # dont go to concert
+			"name": "Human Migration: Old Passing",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 0,
+					"add_energy": -5,
+					"add_happiness": 30,
+					"add_money": -60,
+					"add_hunger": 0,
+					"add_work": 0 ,	
+														
+				}
+			}
+			"hidden_effect": 
+			{
+					"fren_infected": 0,
+					"add_morality": 10,
+			}
+			
+		}
+	}
+
+	#stay at home
+
+	"10": 
+	{
+		"title": "Stay at home",
+		"who_from": person,
+		
+		"desc": "I think you should stay at home today",
+		
+		
+		"option1": { # go to concert
+			"name": "Sounds like a plan",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -5,
+					"add_energy": 10,
+					"add_happiness": 5,
+					"add_money": 0,
+					"add_hunger": 0,
+					"add_work": -5 ,	
+					
+									
+				}
+			}
+			"hidden_effect": 
+			{
+				"get_infected": 0,
+				"add_morality": 10,
+				"fren_infected": 0,
+
+			}
+
+			
+		}
+		"option2": { # dont go to concert
+			"name": "I should go to work",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 0,
+					"add_energy": 0,
+					"add_happiness": -5,
+					"add_money": 0,
+					"add_hunger": 0,
+					"add_work": 5 ,	
+														
+				}
+			}
+			"hidden_effect": 
+			{
+					"get_infected": .1,
+					"fren_infected": 0,
+					"add_morality": 0,
+			}
+			
+		}
+	}
+
+	# Clean home
+
+	"11": 
+	{
+		"title": "Time to clean apartment",
+		"who_from": fren.1,
+		
+		"desc": "I think we should clean the apartment today",
+		
+		
+		"option1": { # go to concert
+			"name": "I agree, looks like a mess",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social":0,
+					"add_energy": -10,
+					"add_happiness": 5,
+					"add_money": 0,
+					"add_hunger": 0,
+					"add_work": -5 ,	
+					
+									
+				}
+			}
+			"hidden_effect": 
+			{
+				"get_infected": .10,
+				"add_morality": 0,
+				"fren_infected": .10,
+
+			}
+
+			
+		}
+		"option2": { # dont go to concert
+			"name": "No, I should go to work",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 0,
+					"add_energy": 0,
+					"add_happiness": -5,
+					"add_money": 0,
+					"add_hunger": 0,
+					"add_work": 5 ,	
+														
+				}
+			}
+			"hidden_effect": 
+			{
+					"get_infected": .1,
+					"fren_infected": .1,
+					"add_morality": -10,
+			}
+			
+		}
+	}
+
+	#play games
+
+	"12": 
+	{
+		"title": "Wanna play some games together?",
+		"who_from": person,
+		
+		"desc": "Heard you got a new game, wanna have a few rounds in it?",
+		
+		
+		"option1": { # go to concert
+			"name": "Sure",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social":5,
+					"add_energy": 0,
+					"add_happiness": 10,
+					"add_money": 0,
+					"add_hunger": 0,
+					"add_work": 0 ,	
+					
+									
+				}
+			}
+			"hidden_effect": 
+			{
+				"get_infected": .10,
+				"add_morality": 0,
+				"fren_infected": .10,
+
+			}
+
+			
+		}
+		"option2": { # dont go to concert
+			"name": "No, I should go to work",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 0,
+					"add_energy": 0,
+					"add_happiness": -5,
+					"add_money": 0,
+					"add_hunger": 0,
+					"add_work": 5 ,	
+														
+				}
+			}
+			"hidden_effect": 
+			{
+					"get_infected": 0,
+					"fren_infected": 0,
+					"add_morality": 0,
+			}
+			
+		}
+	}
+
+	#watch movies
+
+	"13":
+	{
+		"title": "Wanna watch a movie?",
+		"who_from": person,
+		
+		"desc": "Found a few films we should watch, wanna hang",
+		
+		
+		"option1": { # go to concert
+			"name": "Sure, I'll put on the popcorn",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social":5,
+					"add_energy": 5,
+					"add_happiness": 10,
+					"add_money": -15,
+					"add_hunger": -20,
+					"add_work": -5 ,	
+					
+									
+				}
+			}
+			"hidden_effect": 
+			{
+				"get_infected": .10,
+				"add_morality": 0,
+				"fren_infected": .10,
+
+			}
+
+			
+		}
+		"option2": { # dont go to concert
+			"name": "No, I should go to work",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 0,
+					"add_energy": 0,
+					"add_happiness": -5,
+					"add_money": 0,
+					"add_hunger": 0,
+					"add_work": 5 ,	
+														
+				}
+			}
+			"hidden_effect": 
+			{
+					"get_infected": 0,
+					"fren_infected": 0,
+					"add_morality": 0,
+			}
+			
+		}
+	}
+
+	"14":
+	{
+		"title": "We should go for a walk",
+		"who_from": person,
+		
+		"desc": "Its a nice day outside, lets go for a walk",
+		
+		
+		"option1": { 
+			"name": "Sure, I'll meet you at the park",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social":10,
+					"add_energy": 5,
+					"add_happiness": 15,
+					"add_money": 0,
+					"add_hunger": -5,
+					"add_work": -5 ,	
+					
+									
+				}
+			}
+			"hidden_effect": 
+			{
+				"get_infected": 0.10,
+				"add_morality": 0,
+				"fren_infected": 0.10,
+
+			}
+
+			
+		}
+		"option2": { # dont go to concert
+			"name": "No, I should go to work",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 0,
+					"add_energy": 0,
+					"add_happiness": -5,
+					"add_money": 0,
+					"add_hunger": 0,
+					"add_work": 5 ,	
+														
+				}
+			}
+			"hidden_effect": 
+			{
+					"get_infected": 0,
+					"fren_infected": 0,
+					"add_morality": 0,
+			}
+			
+		}
+	}
+
+	"15":
+	{
+		"title": "Gym time",
+		"who_from": person,
+		
+		"desc": "We should go to the gym",
+		
+		
+		"option1": { 
+			"name": "Sure, I'll meet you there",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 10,
+					"add_energy": -20,
+					"add_happiness": 20,
+					"add_money": -10,
+					"add_hunger": -5,
+					"add_work": -5 ,	
+					
+									
+				}
+			}
+			"hidden_effect": 
+			{
+				"get_infected": 0.10,
+				"add_morality": -5,
+				"fren_infected": 0.10,
+
+			}
+
+			
+		}
+		"option2": {
+			"name": "No, I should go to work",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -5,
+					"add_energy": 0,
+					"add_happiness": -5,
+					"add_money": 0,
+					"add_hunger": 0,
+					"add_work": 5 ,	
+														
+				}
+			}
+			"hidden_effect": 
+			{
+					"get_infected": 0,
+					"fren_infected": 0,
+					"add_morality": 0,
+			}
+			
+		}
+	}
+
+}
