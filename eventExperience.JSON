@@ -1,35 +1,107 @@
 {
-	"event1": 
-		{
-			"background": "res://Assets/Backgrounds/test_house_1.png",
-			"character": "res://Assets/Characters/characterBoss.png",
-			"dialogue": "this is some event see the effects below event 1",
+	"event1": {
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/characterBoss.png",
+		"dialogue": "this is some event see the effects below event 1",
 
-			"effects": {
-				"morality": 0,
-				"hunger": 5,
-				"social": -60,
-				"energy": 50,
-				"money": 67,
-				"happiness": 100,
-				"infected": "false"
-			}
+		"effects": {
+			"morality": 0,
+			"hunger": 5,
+			"social": -60,
+			"energy": 50,
+			"money": 67,
+			"happiness": 100,
+			"infected": "false"
 		}
-	,
-	"event2": 
-		{
-			"background": "res://Assets/Backgrounds/test_house_2.png",
-			"character": "res://Assets/Characters/characterFlatmate.png",
-			"dialogue": "this is some event see the effects below event 2",
+	},
+	"event2": {
+		"background": "res://Assets/Backgrounds/PartyHouse.png",
+		"character": "res://Assets/Characters/characterPartyFriend.png",
+		"dialogue": "Man that was awesome. We should do this more often.",
 
-			"effects": {
-				"morality": 0,
-				"hunger": 5,
-				"social": -60,
-				"energy": 50,
-				"money": 67,
-				"happiness": 100,
-				"infected": "false"
-			}
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
 		}
+	},
+	"event3": {
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "Man that was awesome. We should do this more often.",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+	},
+	"event4": {
+		"background": "res/Assets/Backgrounds/backgroundGrandmasHouse.png",
+		"character": "res://Assets/Characters/characterGrandma.png",
+		"dialogue": "It was so nice to see you my dear. Have a safe journey home.",
+
+		"effects": {
+			"morality": 10,
+			"hunger": -25,
+			"social": 20,
+			"energy": 10,
+			"money": 0,
+			"happiness": 35,
+			"infected": "false"
+		}
+	},
+	"event5": {
+		"background": "res/Assets/Backgrounds/backgroundPlayerHouse.png",
+		"character": "res/Assets/Characters/characterFlatmate.png",
+		"dialogue": "Nice hanging out dude. Weird how we barely do that despite living in the same place.",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 0,
+			"social": 10,
+			"energy": 15,
+			"money": 0,
+			"happiness": 15,
+			"infected": "false"
+		}
+	},
+	"event6": {
+		"background": "res/Assets/Backgrounds/backgroundFriendHouse.png",
+		"character": "res/Assets/Characters/characterPartyFriend.png",
+		"dialogue": "That was awesome bro! We gotta do this more often.",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 25,
+			"energy": 15,
+			"money": -5,
+			"happiness": 20,
+			"infected": "false"
+		}
+	},
+	"event7": {
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "Man that was awesome. We should do this more often.",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+	}
 }
