@@ -6,7 +6,7 @@ add_namespace = china
 social_Experience = {
 	id = social.1
 	title = "Concert invite"
-	who_from = rand_Char(person)
+	who_from = fren.1
 	background = "image_go_here.png"
 
 

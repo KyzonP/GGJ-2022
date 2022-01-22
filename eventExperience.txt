@@ -1,0 +1,20 @@
+event1 = {
+	background = filepath
+	character = filepath
+	dialoage = "this is some event see the effects below"
+
+	effects = {
+		morality = 0
+		hunger = 5
+		social = -60
+		energy = 50
+		money = 67
+		happiness = 100
+		infected = false
+
+
+	}
+
+
+
+}
