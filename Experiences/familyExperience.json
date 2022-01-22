@@ -3,6 +3,58 @@
 	{
 		"title": "Parents visit town",
 		"who_from": "person",
+		"type": "family",
+		
+		"desc": "We are coming to town, we should a coffee",
+		
+		
+		"option1": {
+			"name": "Sure thing, come over and ill put the kettle on!",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "Not at the moment sorry",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+	"17": 
+	{
+		"title": "Parents visit town",
+		"who_from": "person",
+		"type": "family",
 		
 		"desc": "We are coming to town, we should a coffee",
 		

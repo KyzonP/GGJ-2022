@@ -3,6 +3,7 @@
 	{
 		"title": "Concert invite",
 		"who_from": "person",
+		"type": "social",
 		
 		"desc": "Hey duuude, hear there is a concert in town this cycle, wanna come with??",
 		
@@ -52,6 +53,7 @@
 	{
 		"title": "Wanna go to a party?",
 		"who_from": "person",
+		"type": "social",
 		
 		"desc": "Hey. there is gonna be this sick party soon, you should come with",
 		
@@ -102,6 +104,7 @@
 	{
 		"title": "Pub Time",
 		"who_from": "person",
+		"type": "social",
 		
 		"desc": "Its that time of the cycle again, you coming to the pub?",
 		
@@ -151,6 +154,7 @@
 	"4": {
 		"title": "Go visit your granny",
 		"who_from": family,
+		"type": "social",
 
 		"desc": "I think you should go visit your gran",
 
@@ -199,6 +203,7 @@
 	{
 		"title": "Hang out with roomy",
 		"who_from": "person",
+		"type": "social",
 		
 		"desc": "We should hang out dude",
 		
@@ -254,6 +259,7 @@
 	{
 		"title": "Hang out with frens from school",
 		"who_from": "person",
+		"type": "social",
 		
 		"desc": "We should hang out dude",
 		
@@ -309,6 +315,7 @@
 	{
 		"title": "Hang out with frens at the cinema",
 		"who_from": "person",
+		"type": "social",
 		
 		"desc": "We should go to the cinema",
 		
