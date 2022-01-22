@@ -1,0 +1,39 @@
+"event1": {
+	"background": res://Assets/Backgrounds/test_house_1.png,
+	"character": res://Assets/Characters/test-char-1.png,
+	"dialoage": "this is some event see the effects below event 1"
+
+	"effects": {
+		"morality": 0,
+		"hunger": 5,
+		"social": -60,
+		"energy": 50,
+		"money": 67,
+		"happiness": 100,
+		"infected": false,
+
+
+	},
+
+},
+
+"event2": {
+	"background": res://Assets/Backgrounds/test_house_2.png,
+	"character": res://Assets/Characters/test-char-1.png,
+	"dialoage": "this is some event see the effects below event 2"
+
+	"effects": {
+		"morality": 0,
+		"hunger": 5,
+		"social": -60,
+		"energy": 50,
+		"money": 67,
+		"happiness": 100,
+		"infected": false,
+
+
+	},
+
+
+
+},
