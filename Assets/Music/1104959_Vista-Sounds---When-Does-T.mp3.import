@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/1104959_Vista-Sounds---When-Does-T.mp3-b41079cade0bab23eca9f583ac26fe92.mp3str"
+
+[deps]
+
+source_file="res://Assets/Music/1104959_Vista-Sounds---When-Does-T.mp3"
+dest_files=[ "res://.import/1104959_Vista-Sounds---When-Does-T.mp3-b41079cade0bab23eca9f583ac26fe92.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/1103648_Coffee-cup.mp3-268844ff940922329eaeb7d3e22e5c7d.mp3str"
+
+[deps]
+
+source_file="res://Assets/Music/1103648_Coffee-cup.mp3"
+dest_files=[ "res://.import/1103648_Coffee-cup.mp3-268844ff940922329eaeb7d3e22e5c7d.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
