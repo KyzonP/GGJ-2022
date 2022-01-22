@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/CustardCream.png-ac1033d6ce58c0d4eed74415b917adf7.stex"
+path="res://.import/ScheduleSelector_Social.png-3afeee9e2a8a6333455efb492ccb4eb1.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/CustardCream.png"
-dest_files=[ "res://.import/CustardCream.png-ac1033d6ce58c0d4eed74415b917adf7.stex" ]
+source_file="res://Assets/Schedule/ScheduleSelector_Social.png"
+dest_files=[ "res://.import/ScheduleSelector_Social.png-3afeee9e2a8a6333455efb492ccb4eb1.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

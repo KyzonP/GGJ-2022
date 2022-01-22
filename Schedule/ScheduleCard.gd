@@ -5,8 +5,10 @@ var dayEvent = 2
 onready var KB = $KinematicBody2D
 onready var sprite = KB.get_node("Sprite")
 
-onready var back1 = load("res://Assets/JaffaCake.png")
-onready var back2 = load("res://Assets/JammieDodger.png")
+onready var backFam = load("res://Assets/Schedule/ScheduleSelector_Family.png")
+onready var backLif = load("res://Assets/Schedule/ScheduleSelector_Life.png")
+onready var backWor = load("res://Assets/Schedule/ScheduleSelector_Work.png")
+onready var backSoc = load("res://Assets/Schedule/ScheduleSelector_Social.png")
 
 
 # Called when the node enters the scene tree for the first time.
@@ -17,8 +19,10 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
 	if dayEvent == 1:
-		sprite.texture = back1
+		sprite.texture = backFam
 	elif dayEvent == 2:
-		sprite.texture = back2
+		sprite.texture = backLif
 	pass
+	
+	print("Exists")
 

@@ -1,8 +1,6 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=2 format=2]
 
 [ext_resource path="res://Event/Event.gd" type="Script" id=1]
-[ext_resource path="res://Assets/Backgrounds/test_house_2.png" type="Texture" id=2]
-[ext_resource path="res://Assets/BasicBiscuit.png" type="Texture" id=3]
 
 [node name="Event" type="Node2D"]
 script = ExtResource( 1 )
@@ -19,11 +17,9 @@ __meta__ = {
 [node name="Background" type="Sprite" parent="."]
 position = Vector2( 509, 286 )
 scale = Vector2( 0.53, 0.53 )
-texture = ExtResource( 2 )
 
 [node name="Character" type="Sprite" parent="."]
 position = Vector2( 489, 301 )
-texture = ExtResource( 3 )
 
 [node name="Dialogue" type="Label" parent="."]
 margin_left = 343.0

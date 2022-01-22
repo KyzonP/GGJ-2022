@@ -23,6 +23,10 @@ CTRL="*res://Control.gd"
 
 window/size/resizable=false
 
+[global]
+
+meta=false
+
 [physics]
 
 common/enable_pause_aware_picking=true

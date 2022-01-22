@@ -11,7 +11,7 @@ func _ready():
 	var card_path = "res://Schedule/ScheduleCard.tscn"
 	var card = load(card_path).instance()
 	card.dayEvent = 1
-	card.global_position = Vector2(50,50)
+	card.global_position = Vector2(-100,0)
 	add_child(card)
 	pass # Replace with function body.
 

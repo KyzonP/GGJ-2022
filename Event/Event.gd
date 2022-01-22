@@ -36,24 +36,17 @@ func _on_Button_pressed():
 	pass # Replace with function body.
 	
 func load_file():
-	#var file = File.new()
-	#file.open("res://eventExperience.json",File.READ)
-	#var json_which_event = file["event" + str(CYCLE.eventKey)]
-	
-	#background = json_which_event["background"]
-	
-	#print(background)
-	
 	var file = File.new()
 	file.open("res://eventExperience.json", file.READ)
 	#var json_event = file["event" + str(CYCLE.eventKey)]
 	var text = file.get_as_text()
 	allEvents = parse_json(text)
 	
-	var test = allEvents["event1"]
-	var test2 = test["background"]
+	#tests
+	#var test = allEvents["event1"]
+	#var test2 = test["background"]
+	#print(test2)
 	
-	print(test2)
 	file.close()
 	
 func _loadData():
