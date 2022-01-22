@@ -143,7 +143,7 @@ character{
 }
 
 character{
-	id = fren.11
+	id = player.1
 	name = playerName
 	type = player
 
@@ -155,6 +155,20 @@ character{
 		energy = 100
 		money = 100
 		happiness = 100
+		work = 100
+		
+
+	}
+
+character{
+	id = fren.12
+	name = "Work Bois"
+	type = people
+
+	tracker = {
+		infected = false
+		social_threshold = 100
+		last_seen = 0
 		
 
 	}

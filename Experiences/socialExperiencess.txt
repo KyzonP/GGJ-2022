@@ -3,8 +3,8 @@
 add_namespace = china
 
 # Concert in town
-social_event = {
-	id = concert.1
+social_Experience = {
+	id = social.1
 	title = "Concert invite"
 	who_from = rand_Char(person)
 	desc = "Hey duuude, hear there is a concert in town this cycle, wanna come with??"
@@ -15,7 +15,7 @@ social_event = {
 	option = { # go to concert
 		name = "Sure thing, will meet you there!"
 		effect_tooltip = {
-			JON = {
+			playerName = {
 				add_social = 100
 				add_energy = 100
 				add_happiness = 100
@@ -33,7 +33,7 @@ social_event = {
 		name = "No thanks, have to catch up on work stuff, go on without me"
 		
 		effect_tooltip = {
-			JON = {
+			playerName = {
 				add_social = -10
 				add_energy = 0
 				add_happiness = 0
