@@ -11,18 +11,19 @@ func _ready():
 	pass # Replace with function body.
 
 func _on_StartCycle_pressed():
+	_add_Events()
 	
+	CYCLE._nextEvent()
 	pass # Replace with function body.
 	
 func _add_Events():
-	CYCLE.event1 = $slot1.dayEvent
-	CYCLE.event2 = $slot2.dayEvent
-	CYCLE.event3 = $slot3.dayEvent
-	CYCLE.event4 = $slot4.dayEvent
-	CYCLE.event5 = $slot5.dayEvent
-	CYCLE.event6 = $slot6.dayEvent
-	CYCLE.event7 = $slot7.dayEvent
+	CYCLE.events[0] = $slot1.dayEvent
+	CYCLE.events[1] = $slot2.dayEvent
+	CYCLE.events[2] = $slot3.dayEvent
+	CYCLE.events[3] = $slot4.dayEvent
+	CYCLE.events[4] = $slot5.dayEvent
+	CYCLE.events[5] = $slot6.dayEvent
+	CYCLE.events[6] = $slot7.dayEvent
 	
-	CYCLE.currentEvent = 1
-	
+func _add_Experience():
 	

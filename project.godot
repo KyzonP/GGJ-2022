@@ -16,8 +16,12 @@ config/icon="res://icon.png"
 
 [autoload]
 
-CTRL="*res://Control.gd"
 CYCLE="*res://CycleManager/Cycle.gd"
+CTRL="*res://Control.gd"
+
+[display]
+
+window/size/resizable=false
 
 [physics]
 

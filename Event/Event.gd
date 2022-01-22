@@ -1,6 +1,5 @@
-extends Area2D
+extends Node2D
 
-var dayEvent = 2
 
 # Declare member variables here. Examples:
 # var a = 2
@@ -9,6 +8,7 @@ var dayEvent = 2
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	$Label.text = "Current event: " + str(CYCLE.eventKey)
 	pass # Replace with function body.
 
 
