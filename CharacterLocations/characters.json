@@ -4,7 +4,7 @@
 		"id":"fren1",
 		"name":"Roomamte",
 		"type":"person",
-		"img": "res://Assets/Characters/characterBoss.png",
+		"img": "res://Assets/Characters/characterFlatmate.png",
 
 		"tracker":{
 			"infected":false,
@@ -20,7 +20,7 @@
 		"id":"fren2",
 		"name":"Party Fren",
 		"type":"person",
-		"img": "res://Assets/Characters/characterBoss.png",
+		"img": "res://Assets/Characters/characterPartyFriend.png",
 
 		"tracker":{
 			"infected":false,
@@ -36,7 +36,7 @@
 		"id":"fren3",
 		"name":"Party Guests",
 		"type":"people",
-		"img": "res://Assets/Characters/characterBoss.png",
+		"img": "res://Assets/Characters/test-char-1.png",
 
 		"tracker":{
 			"infected":false,
@@ -52,7 +52,7 @@
 		"id":"fren4",
 		"name":"Grandma",
 		"type":"person",
-		"img": "res://Assets/Characters/characterBoss.png",
+		"img": "res://Assets/Characters/characterGrandma.png",
 
 		"tracker":{
 			"infected":false,
@@ -68,7 +68,7 @@
 		"id":"fren5",
 		"name":"Work Fren",
 		"type":"person",
-		"img": "res://Assets/Characters/characterBoss.png",
+		"img": "res://Assets/Characters/CharacterCoworker.png",
 
 		"tracker":{
 			"infected":false,
@@ -100,7 +100,7 @@
 		"id":"fren7",
 		"name":"ol Fren",
 		"type":"person",
-		"img": "res://Assets/Characters/characterBoss.png",
+		"img": "res://Assets/Characters/test-char-1.png",
 
 		"tracker":{
 			"infected":false,
@@ -116,7 +116,7 @@
 		"id":"fren8",
 		"name":"Shop Boi",
 		"type":"person",
-		"img": "res://Assets/Characters/characterBoss.png",
+		"img": "res://Assets/Characters/test-char-1.png",
 
 		"tracker":{
 			"infected":false,
@@ -132,7 +132,7 @@
 		"id":"fren9",
 		"name":"Parents",
 		"type":"family",
-		"img": "res://Assets/Characters/characterBoss.png",
+		"img": "res://Assets/Characters/characterParents.png",
 
 		"tracker":{
 			"infected":false,
@@ -148,7 +148,7 @@
 		"id":"fren10",
 		"name":"pupper",
 		"type":"pet",
-		"img": "res://Assets/Characters/characterBoss.png",
+		"img": "res://Assets/Characters/test-char-1.png",
 
 		"tracker":{
 			"infected":false,
@@ -164,7 +164,7 @@
 		"id":"player",
 		"name":"player""name",
 		"type":"player",
-		"img": "res://Assets/Characters/characterBoss.png",
+		"img": "res://Assets/Characters/characterPlayer.png",
 
 		"tracker":{
 			"infected":false,
@@ -184,7 +184,7 @@
 		"id":"fren12",
 		"name":"Work Bois",
 		"type":"people",
-		"img": "res://Assets/Characters/characterBoss.png",
+		"img": "res://Assets/Characters/test-char-1.png",
 
 		"tracker":{
 			"infected":false,
