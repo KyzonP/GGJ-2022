@@ -1,9 +1,9 @@
 {
 
-	"8": 
+	"11": 
 	{
 		"title": "Pupper wants a home",
-		"who_from": person,
+		"who_from": "person",
 		"type": "self",
 		
 		"desc": "So my fren has a doggo that needs a home, you want another fren?",
@@ -21,20 +21,20 @@
 					"add_money": -50,
 					"add_hunger": 0,
 					"add_work": 0 ,	
-					"has_pupper": 'true',
+					"has_pupper": "true",
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 				"get_infected": 0,
 				"fren_infected": 0,
-				"add_morality": 5,
+				"add_morality": 5
 
 			}
 
 			
-		}
+		},
 		"option2": 
 		{
 			"name": "No thanks, I dont have the time to care for a pupper sorry :( ",
@@ -51,20 +51,20 @@
 					"add_work": 0 ,	
 														
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-					"fren_infected": 0,
+					"fren_infected": 0
 			}
 			
 		}
-	}
+	},
 
 
-	"9": 
+	"12": 
 	{
 		"title": "Reminder: SmolBoi games are out",
-		"who_from": player,
+		"who_from": "player",
 		"type": "self",
 		
 		"desc": "Its time to buy a new game, which one to get?",
@@ -82,21 +82,21 @@
 					"add_happiness": 30,
 					"add_money": -60,
 					"add_hunger": 0,
-					"add_work": 0 ,	
+					"add_work": 0 
 					
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 				"get_infected": 0,
 				"add_morality": -10,
-				"fren_infected": 0,
+				"fren_infected": 0
 
 			}
 
 			
-		}
+		},
 		"option2": 
 		{
 			"name": "Human Migration: Old Passing",
@@ -110,24 +110,24 @@
 					"add_happiness": 30,
 					"add_money": -60,
 					"add_hunger": 0,
-					"add_work": 0 ,	
+					"add_work": 0 
 														
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 					"fren_infected": 0,
-					"add_morality": 10,
+					"add_morality": 10
 			}
 			
 		}
-	}
+	},
 
 
-	"10": 
+	"13": 
 	{
 		"title": "Stay at home",
-		"who_from": person,
+		"who_from": "person",
 		"type": "self",
 		
 		"desc": "I think you should stay at home today",
@@ -145,21 +145,21 @@
 					"add_happiness": 5,
 					"add_money": 0,
 					"add_hunger": 0,
-					"add_work": -5 ,	
+					"add_work": -5 	
 					
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 				"get_infected": 0,
 				"add_morality": 10,
-				"fren_infected": 0,
+				"fren_infected": 0
 
 			}
 
 			
-		}
+		},
 		"option2": 
 		{
 			"name": "I should go to work",
@@ -173,26 +173,26 @@
 					"add_happiness": -5,
 					"add_money": 0,
 					"add_hunger": 0,
-					"add_work": 5 ,	
+					"add_work": 5 
 														
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-					"get_infected": .1,
+					"get_infected": 0.1,
 					"fren_infected": 0,
-					"add_morality": 0,
+					"add_morality": 0
 			}
 			
 		}
-	}
+	},
 
 
 
-	"11": 
+	"14": 
 	{
 		"title": "Time to clean apartment",
-		"who_from": fren.1,
+		"who_from": "fren.1",
 		"type": "self",
 		
 		"desc": "I think we should clean the apartment today",
@@ -210,21 +210,21 @@
 					"add_happiness": 5,
 					"add_money": 0,
 					"add_hunger": 0,
-					"add_work": -5 ,	
+					"add_work": -5 
 					
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-				"get_infected": .10,
+				"get_infected": 0.10,
 				"add_morality": 0,
-				"fren_infected": .10,
+				"fren_infected": .10
 
 			}
 
 			
-		}
+		},
 		"option2": 
 		{
 			"name": "No, I should go to work",
@@ -238,26 +238,26 @@
 					"add_happiness": -5,
 					"add_money": 0,
 					"add_hunger": 0,
-					"add_work": 5 ,	
+					"add_work": 5 
 														
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-					"get_infected": .1,
-					"fren_infected": .1,
-					"add_morality": -10,
+					"get_infected": 0.1,
+					"fren_infected": 0.1,
+					"add_morality": -10
 			}
 			
 		}
-	}
+	},
 
 	
 
-	"12": 
+	"15": 
 	{
 		"title": "Wanna play some games together?",
-		"who_from": person,
+		"who_from": "person",
 		"type": "self",
 		
 		"desc": "Heard you got a new game, wanna have a few rounds in it?",
@@ -275,21 +275,21 @@
 					"add_happiness": 10,
 					"add_money": 0,
 					"add_hunger": 0,
-					"add_work": 0 ,	
+					"add_work": 0
 					
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-				"get_infected": .10,
+				"get_infected": 0.10,
 				"add_morality": 0,
-				"fren_infected": .10,
+				"fren_infected": 0.10
 
 			}
 
 			
-		}
+		},
 		"option2": 
 		{ 
 			"name": "No, I should go to work",
@@ -303,25 +303,25 @@
 					"add_happiness": -5,
 					"add_money": 0,
 					"add_hunger": 0,
-					"add_work": 5 ,	
+					"add_work": 5 
 														
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 					"get_infected": 0,
 					"fren_infected": 0,
-					"add_morality": 0,
+					"add_morality": 0
 			}
 			
 		}
-	}
+	},
 
 
-	"13":
+	"16":
 	{
 		"title": "Wanna watch a movie?",
-		"who_from": person,
+		"who_from": "person",
 		"type": "self",
 		
 		"desc": "Found a few films we should watch, wanna hang",
@@ -339,21 +339,21 @@
 					"add_happiness": 10,
 					"add_money": -15,
 					"add_hunger": -20,
-					"add_work": -5 ,	
+					"add_work": -5 
 					
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-				"get_infected": .10,
+				"get_infected": 0.10,
 				"add_morality": 0,
-				"fren_infected": .10,
+				"fren_infected": 0.10
 
 			}
 
 			
-		}
+		},
 		"option2": 
 		{ 
 			"name": "No, I should go to work",
@@ -367,24 +367,24 @@
 					"add_happiness": -5,
 					"add_money": 0,
 					"add_hunger": 0,
-					"add_work": 5 ,	
+					"add_work": 5 
 														
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 					"get_infected": 0,
 					"fren_infected": 0,
-					"add_morality": 0,
+					"add_morality": 0
 			}
 			
 		}
-	}
+	},
 
-	"14":
+	"17":
 	{
 		"title": "We should go for a walk",
-		"who_from": person,
+		"who_from": "person",
 		"type": "self",
 		
 		"desc": "Its a nice day outside, lets go for a walk",
@@ -402,21 +402,21 @@
 					"add_happiness": 15,
 					"add_money": 0,
 					"add_hunger": -5,
-					"add_work": -5 ,	
+					"add_work": -5 
 					
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 				"get_infected": 0.10,
 				"add_morality": 0,
-				"fren_infected": 0.10,
+				"fren_infected": 0.10
 
 			}
 
 			
-		}
+		},
 		"option2": 
 		{ 
 			"name": "No, I should go to work",
@@ -430,24 +430,24 @@
 					"add_happiness": -5,
 					"add_money": 0,
 					"add_hunger": 0,
-					"add_work": 5 ,	
+					"add_work": 5 
 														
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 					"get_infected": 0,
 					"fren_infected": 0,
-					"add_morality": 0,
+					"add_morality": 0
 			}
 			
 		}
-	}
+	},
 
-	"15":
+	"18":
 	{
 		"title": "Gym time",
-		"who_from": person,
+		"who_from": "person",
 		"type": "self",
 		
 		"desc": "We should go to the gym",
@@ -465,16 +465,16 @@
 					"add_happiness": 20,
 					"add_money": -10,
 					"add_hunger": -5,
-					"add_work": -5 ,	
+					"add_work": -5 
 					
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 				"get_infected": 0.10,
 				"add_morality": -5,
-				"fren_infected": 0.10,
+				"fren_infected": 0.10
 
 			}
 
@@ -493,7 +493,7 @@
 					"add_happiness": -5,
 					"add_money": 0,
 					"add_hunger": 0,
-					"add_work": 5 ,	
+					"add_work": 5 
 														
 				}
 			}

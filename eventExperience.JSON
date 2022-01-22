@@ -45,7 +45,7 @@
 		}
 	},
 	"event4": {
-		"background": "res/Assets/Backgrounds/backgroundGrandmasHouse.png",
+		"background": "res://Assets/Backgrounds/backgroundGrandmasHouse.png",
 		"character": "res://Assets/Characters/characterGrandma.png",
 		"dialogue": "It was so nice to see you my dear. Have a safe journey home.",
 
@@ -60,8 +60,8 @@
 		}
 	},
 	"event5": {
-		"background": "res/Assets/Backgrounds/backgroundPlayerHouse.png",
-		"character": "res/Assets/Characters/characterFlatmate.png",
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"character": "res://Assets/Characters/characterFlatmate.png",
 		"dialogue": "Nice hanging out dude. Weird how we barely do that despite living in the same place.",
 
 		"effects": {
@@ -75,8 +75,8 @@
 		}
 	},
 	"event6": {
-		"background": "res/Assets/Backgrounds/backgroundFriendHouse.png",
-		"character": "res/Assets/Characters/characterPartyFriend.png",
+		"background": "res://Assets/Backgrounds/backgroundFriendHouse.png",
+		"character": "res://Assets/Characters/characterPartyFriend.png",
 		"dialogue": "That was awesome bro! We gotta do this more often.",
 
 		"effects": {
@@ -101,6 +101,46 @@
 			"energy": -20,
 			"money": -10,
 			"happiness": 25,
+			"infected": "false"
+		}
+	},
+
+
+
+
+
+	"event23": {
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+
+		"dialogue": "A relaxing time on your own.",
+
+		"effects": {
+			"morality": 0,
+			"hunger": 10,
+			"social": -5,
+			"energy": 10,
+			"money": 0,
+			"happiness": 5,
+			"infected": "false"
+		}
+	},
+
+
+
+
+
+	"event37": {
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/characterBoss.png",
+		"dialogue": "Good work today. Some day soon we can talk about that promotion.",
+
+		"effects": {
+			"morality": 0,
+			"hunger": 10,
+			"social": 0,
+			"energy": -10,
+			"money": 10,
+			"happiness": -10,
 			"infected": "false"
 		}
 	}

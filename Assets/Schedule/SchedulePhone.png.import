@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/characterCoworker.png-c29036ac022ada5e392da8dd342fa0c0.stex"
+path="res://.import/SchedulePhone.png-6b53923b95ce4b1ee70e3237ecb6e279.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/characterCoworker.png"
-dest_files=[ "res://.import/characterCoworker.png-c29036ac022ada5e392da8dd342fa0c0.stex" ]
+source_file="res://Assets/Schedule/SchedulePhone.png"
+dest_files=[ "res://.import/SchedulePhone.png-6b53923b95ce4b1ee70e3237ecb6e279.stex" ]
 
 [params]
 

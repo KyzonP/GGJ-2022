@@ -1,6 +1,7 @@
 extends Area2D
 
-var dayEvent = 2
+var dayEvent = 0
+
 #onready var sprite = get_node("KinematicBody").get_node("Sprite")
 onready var KB = $KinematicBody2D
 onready var sprite = KB.get_node("Sprite")
@@ -18,10 +19,14 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if dayEvent == 1:
-		sprite.texture = backFam
-	elif dayEvent == 2:
+	if dayEvent >0 and dayEvent <11:
+		sprite.texture = backSoc
+	elif dayEvent >10 and dayEvent <21:
 		sprite.texture = backLif
+	elif dayEvent >20 and dayEvent <31:
+		sprite.texture = backFam
+	elif dayEvent > 30 and dayEvent <41:
+		sprite.texture = backWor
 	pass
 	
 	#print("Exists")

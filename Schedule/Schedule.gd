@@ -1,19 +1,13 @@
 extends Area2D
 
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-
+var card_path = "res://Schedule/ScheduleCard.tscn"
+var rng = RandomNumberGenerator.new()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	var card_path = "res://Schedule/ScheduleCard.tscn"
-	var card = load(card_path).instance()
-	card.dayEvent = 1
-	card.global_position = Vector2(-100,0)
-	add_child(card)
-	pass # Replace with function body.
+	_dailyTasks()
+	pass
+
 
 func _on_StartCycle_pressed():
 	#make sure all slots have been filled
@@ -21,7 +15,6 @@ func _on_StartCycle_pressed():
 		_add_Events()
 	
 		CYCLE._nextEvent()
-	pass # Replace with function body.
 	
 func _add_Events():
 	CYCLE.events[0] = $slot1.dayEvent
@@ -35,5 +28,26 @@ func _add_Events():
 func _add_Experience():
 	pass
 	
-#var crop_path = "res://Crops/Oat.tscn"
-#var crop = load(crop_path).instance()
+func _dailyTasks():
+	_loadCard(37, -413, -140)
+	_loadCard(37, -413, -76)
+	_loadCard(37, -413, -12)
+	_loadCard(23, -349, -140)
+	_loadCard(23, -349, -76)
+	_loadCard(23, -349, -12)
+	_loadCard(5, -285, -140)
+	
+	pass
+	
+func _loadCard(event, xPos, yPos):
+	var card = load(card_path).instance()
+	card.dayEvent = event
+	
+	rng.randomize()
+	card.global_position = Vector2(xPos, yPos)
+	
+	
+	add_child(card)
+	print("Created - " + str(event))
+	pass
+	
