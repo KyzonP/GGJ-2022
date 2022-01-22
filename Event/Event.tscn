@@ -1,6 +1,15 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Event/Event.gd" type="Script" id=1]
+[ext_resource path="res://fonts/OxaniumBold-p77oZ.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[sub_resource type="Theme" id=2]
+default_font = SubResource( 1 )
+
+[sub_resource type="Theme" id=3]
 
 [node name="Event" type="Node2D"]
 script = ExtResource( 1 )
@@ -24,8 +33,11 @@ position = Vector2( 489, 301 )
 [node name="Dialogue" type="Label" parent="."]
 margin_left = 343.0
 margin_top = 433.0
-margin_right = 387.0
-margin_bottom = 447.0
+margin_right = 441.0
+margin_bottom = 488.0
+theme = SubResource( 2 )
+text = "test
+"
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -36,6 +48,14 @@ margin_top = 519.0
 margin_right = 956.0
 margin_bottom = 539.0
 text = "NEXT EVENT"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DialogueTest" type="RichTextLabel" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+theme = SubResource( 3 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
