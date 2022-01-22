@@ -24,5 +24,4 @@ func _process(delta):
 		sprite.texture = backLif
 	pass
 	
-	print("Exists")
-
+	#print("Exists")
