@@ -2,7 +2,7 @@
 
 # Concert in town
 {
-	"social1": 
+	"1": 
 	{
 		"title": "Concert invite",
 		"who_from": fren.1,
@@ -56,7 +56,7 @@
 
 	#party event
 
-	"social2": 
+	"2": 
 	{
 		"title": "Wanna go to a party?",
 		"who_from": fren.1,
@@ -108,7 +108,7 @@
 
 	#pub experience
 
-	"social3": 
+	"3": 
 	{
 		"title": "Pub Time",
 		"who_from": fren.1,
@@ -160,7 +160,7 @@
 
 	#visit granny
 
-	"social4": 
+	"4": 
 	{
 		"title": "Go visit your granny",
 		"who_from": fren.9,
@@ -177,7 +177,7 @@
 					"add_social": 100,
 					"add_energy": 100,
 					"add_happiness": 100,
-					"add_money": -50,
+					"add_money": 10,
 					"add_hunger": -25,
 					"add_work": 0 ,	
 									
@@ -216,7 +216,7 @@
 
 	#hang out with roomamte
 
-	"social5": 
+	"5": 
 	{
 		"title": "Hang out with roomy",
 		"who_from": fren.1,
@@ -273,7 +273,7 @@
 
 	#hang out with old fren
 
-	"social6": 
+	"6": 
 	{
 		"title": "Hang out with frens from school",
 		"who_from": fren.7,
@@ -330,7 +330,7 @@
 
 	#go to the cinema
 
-	"social7": 
+	"7": 
 	{
 		"title": "Hang out with frens at the cinema",
 		"who_from": person,
@@ -361,7 +361,7 @@
 			
 		}
 		"option2": { # dont hang out
-			"name": "No thanks",
+			"name": "No thanks, go without me",
 			
 			"effect_tooltip": 
 			{
@@ -371,7 +371,7 @@
 					"add_energy": -10,
 					"add_happiness": -10,
 					"add_money": 0,
-					"add_hunger": 10,
+					"add_hunger": 5,
 					"add_work": 0 ,	
 									
 									
@@ -379,7 +379,7 @@
 			}
 			"hidden_effect": 
 			{
-					"fren_infected": 0,
+					"fren_infected": .25,
 			}
 			
 		}
