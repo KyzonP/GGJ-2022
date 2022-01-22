@@ -1,11 +1,5 @@
 extends Node2D
 
-
-
-
-
-
-
 export(Array, int) var events = [0,0,0,0,0,0,0]
 
 export(int) var currentEvent = 0
@@ -36,5 +30,5 @@ func _endEvent():
 		
 func _newCycle():
 	currentEvent = 0
-	get_tree().change_scene("res://Schedule/Schedule.tscn")
+	get_tree().change_scene("res://Main/main.tscn")
 	pass

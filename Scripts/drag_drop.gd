@@ -5,6 +5,7 @@ var placed = false
 
 signal dragsignal;
 
+
 func _ready():
 	connect("dragsignal",self,"_set_drag_pc")
 	
@@ -12,6 +13,7 @@ func _ready():
 func _process(delta):
 	if dragging:
 		self.global_position = get_global_mouse_position()
+	
 
 func _set_drag_pc():
 	dragging=!dragging

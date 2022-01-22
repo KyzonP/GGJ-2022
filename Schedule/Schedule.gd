@@ -8,6 +8,11 @@ extends Area2D
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	var card_path = "res://Schedule/ScheduleCard.tscn"
+	var card = load(card_path).instance()
+	card.dayEvent = 1
+	card.global_position = Vector2(50,50)
+	add_child(card)
 	pass # Replace with function body.
 
 func _on_StartCycle_pressed():
@@ -27,3 +32,6 @@ func _add_Events():
 	
 func _add_Experience():
 	pass
+	
+#var crop_path = "res://Crops/Oat.tscn"
+#var crop = load(crop_path).instance()

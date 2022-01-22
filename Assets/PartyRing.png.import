@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/test_house_1.png-240ed5caa636df3f90c0f3565e21b61d.stex"
+path="res://.import/PartyRing.png-5474cf7fed4b5d68a890211ecc7a71c4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Backgrounds/test_house_1.png"
-dest_files=[ "res://.import/test_house_1.png-240ed5caa636df3f90c0f3565e21b61d.stex" ]
+source_file="res://Assets/PartyRing.png"
+dest_files=[ "res://.import/PartyRing.png-5474cf7fed4b5d68a890211ecc7a71c4.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

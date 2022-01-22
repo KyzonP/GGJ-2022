@@ -1,10 +1,7 @@
 extends Area2D
 
 var dayEvent = 2
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
+onready var sprite = find_node("Sprite")
 
 
 # Called when the node enters the scene tree for the first time.
@@ -13,5 +10,10 @@ func _ready():
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-#func _process(delta):
-#	pass
+func _process(delta):
+	#if dayEvent == 1:
+	#	sprite.set_texture = load("res://Assets/JaffaCake")
+	#elif dayEvent == 2:
+	#	sprite.set_texture = load("res://Assets/JammieDodger")
+	pass
+
