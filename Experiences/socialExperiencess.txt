@@ -7,6 +7,9 @@ social_Experience = {
 	id = social.1
 	title = "Concert invite"
 	who_from = rand_Char(person)
+	background = "image_go_here.png"
+
+
 	desc = "Hey duuude, hear there is a concert in town this cycle, wanna come with??"
 	
 	
