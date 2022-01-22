@@ -52,15 +52,15 @@
 
 	"22": 
 	{
-		"title": "Parents visit town",
-		"who_from": "person",
+		"title": "Visit Grandma",
+		"who_from": "family",
 		"type": "family",
 		
-		"desc": "We are coming to town, we should a coffee",
+		"desc": "I think you should go over and visit your Grandma before she gets lonely",
 		
 		
 		"option1": {
-			"name": "Sure thing, come over and ill put the kettle on!",
+			"name": "Ok",
 			"effect_tooltip": 
 			{
 				"playerName": 
@@ -100,6 +100,263 @@
 			
 		}
 	},
+
+	"23": 
+	{
+		"title": "Coffee with grandma",
+		"who_from": "fren4",
+		"type": "family",
+		
+		"desc": "Im going to make a pot of coffee, would you like a cup?",
+		
+		
+		"option1": {
+			"name": "Yes please, that sounds amazing",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "Not at the moment sorry",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+	"24": 
+	{
+		"title": "Party at Grandmas",
+		"who_from": "fren4",
+		"type": "family",
+		
+		"desc": "Im having a party with my friends as they are retireing, wanna show up?",
+		
+		
+		"option1": {
+			"name": "Sounds like an epic party, I'll be there",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "Not at the moment sorry",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+	"25": 
+	{
+		"title": "Woof Woof",
+		"who_from": "pet",
+		"type": "family",
+		
+		"desc": "Woof WoofWoof WoofWoof WoofWoof WoofWoof WoofWoof WoofWoof Woof",
+		
+		
+		"option1": {
+			"name": "I think it may be time to walk the doggo",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "Are you hungry buddy??",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+	"26": 
+	{
+		"title": "Spend time with the pupper",
+		"who_from": "player",
+		"type": "family",
+		
+		"desc": "Pupper looks like he wants attention, I think i should spend some time with them",
+		
+		
+		"option1": {
+			"name": "Puppy time it is",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "Give the pupper my apologies",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+	"27": 
+	{
+		"title": "Train pupper",
+		"who_from": "pet",
+		"type": "family",
+		
+		"desc": "The pupper is looking at me with affectioness intent, maybe I should train them",
+		
+		
+		"option1": {
+			"name": "Grab the treat bag and train the doggo to be the best pupper they can be",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "Give the puppy a belly rub",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+
 
 
 
