@@ -16,9 +16,11 @@ func _ready():
 	pass # Replace with function body.
 
 func _on_StartCycle_pressed():
-	_add_Events()
+	#make sure all slots have been filled
+	if $slot1.dayEvent and $slot2.dayEvent and $slot3.dayEvent and $slot4.dayEvent and $slot5.dayEvent and $slot6.dayEvent and $slot7.dayEvent != 0:
+		_add_Events()
 	
-	CYCLE._nextEvent()
+		CYCLE._nextEvent()
 	pass # Replace with function body.
 	
 func _add_Events():

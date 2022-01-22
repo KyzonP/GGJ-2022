@@ -52,14 +52,18 @@ func load_file():
 func _loadData():
 	var eventData = allEvents["event" + str(CYCLE.eventKey)]
 	
-	var background = eventData["background"]
-	$Background.texture = load(background)
+	if "background" in eventData:
+		var background = eventData["background"]
+		$Background.texture = load(background)
 	
-	var character = eventData["character"]
-	$Character.texture = load(character)
+	if "character" in eventData:
+		var character = eventData["character"]
+		$Character.texture = load(character)
 	
-	var dialogue = eventData["dialogue"]
-	$Dialogue.text = dialogue
+	if "dialogue" in eventData:
+		var dialogue = eventData["dialogue"]
+		$Dialogue.text = dialogue
+
 	pass
 	
 	

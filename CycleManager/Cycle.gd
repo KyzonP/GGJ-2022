@@ -1,6 +1,6 @@
 extends Node2D
 
-export(Array, int) var events = [0,0,0,0,0,0,0]
+export(Array, int) var events = [0,0,0,0,0,0,0,0]
 
 export(int) var currentEvent = 0
 export(int) var eventKey = 0
@@ -18,9 +18,9 @@ func _nextEvent():
 	currentEvent += 1
 	eventKey = events[currentEvent-1]
 	print("Test" + str(eventKey))
-	if currentEvent < 3:
+	if currentEvent < 8:
 		get_tree().change_scene("res://Event/Event.tscn")
-	elif currentEvent == 3:
+	elif currentEvent == 8:
 		_newCycle()
 		
 func _endEvent():
