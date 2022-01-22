@@ -1,176 +1,198 @@
-#characters stuff goes here
+{
+	"character": 
+	{
+		"id":"fren1",
+		"name":"Roomamte",
+		"type":"person",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-#character assigning stuff
+		"tracker":{
+			"infected":false,
+			"social_threshold":100,
+			"last_seen":0
 
-character{
-	id = fren.1
-	name = "Roomamte"
-	type = person
+		}
 
-	tracker = {
-		infected = false
-		social_threshold = 100
-		last_seen = 0
+	},
 
-	}
+	"character": 
+	{
+		"id":"fren2",
+		"name":"Party Fren",
+		"type":"person",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-}
+		"tracker":{
+			"infected":false,
+			"social_threshold":100,
+			"last_seen":0,
 
-character{
-	id = fren.2
-	name = "Party Fren"
-	type = person
+		}
 
-	tracker = {
-		infected = false
-		social_threshold = 100
-		last_seen = 0
+	},
 
-	}
+	"character": 
+	{
+		"id":"fren3",
+		"name":"Party Guests",
+		"type":"people",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-}
+		"tracker":{
+			"infected":false,
+			"social_threshold":100,
+			"last_seen":0
 
-character{
-	id = fren.3
-	name = "Party Guests"
-	type = people
+		}
 
-	tracker = {
-		infected = false
-		social_threshold = 100
-		last_seen = 0
+	},
 
-	}
+	"character": 
+	{
+		"id":"fren4",
+		"name":"Grandma",
+		"type":"person",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-}
+		"tracker":{
+			"infected":false,
+			"social_threshold":100,
+			"last_seen":0
 
-character{
-	id = fren.4
-	name = "Grandma"
-	type = person
+		}
 
-	tracker = {
-		infected = false
-		social_threshold = 100
-		last_seen = 0
+	},
 
-	}
+	"character": 
+	{
+		"id":"fren5",
+		"name":"Work Fren",
+		"type":"person",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-}
+		"tracker":{
+			"infected":false,
+			"social_threshold":100,
+			"last_seen":0
 
-character{
-	id = fren.5
-	name = "Work Fren"
-	type = person
+		}
 
-	tracker = {
-		infected = false
-		social_threshold = 100
-		last_seen = 0
+	},
 
-	}
+	"character": 
+	{
+		"id":"fren6",
+		"name":"Work Boss",
+		"type":"person",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-}
+		"tracker":{
+			"infected":false,
+			"social_threshold":100,
+			"last_seen":0
 
-character{
-	id = fren.6
-	name = "Work Boss"
-	type = person
+		}
 
-	tracker = {
-		infected = false
-		social_threshold = 100
-		last_seen = 0
+	},
 
-	}
+	"character": 
+	{
+		"id":"fren7",
+		"name":"ol Fren",
+		"type":"person",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-}
+		"tracker":{
+			"infected":false,
+			"social_threshold":100,
+			"last_seen":0
 
-character{
-	id = fren.7
-	name = "ol Fren"
-	type = person
+		}
 
-	tracker = {
-		infected = false
-		social_threshold = 100
-		last_seen = 0
+	},
 
-	}
+	"character": 
+	{
+		"id":"fren8",
+		"name":"Shop Boi",
+		"type":"person",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-}
+		"tracker":{
+			"infected":false,
+			"social_threshold":100,
+			"last_seen":0,
 
-character{
-	id = fren.8
-	name = "Shop Boi"
-	type = person
+		}
 
-	tracker = {
-		infected = false
-		social_threshold = 100
-		last_seen = 0
+	},
 
-	}
+	"character": 
+	{
+		"id":"fren9",
+		"name":"Parents",
+		"type":"family",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-}
+		"tracker":{
+			"infected":false,
+			"social_threshold":100,
+			"last_seen":0,
 
-character{
-	id = fren.9
-	name = "Parents"
-	type = family
+		}
 
-	tracker = {
-		infected = false
-		social_threshold = 100
-		last_seen = 0
+	},
 
-	}
+	"character": 
+	{
+		"id":"fren10",
+		"name":"pupper",
+		"type":"pet",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-}
+		"tracker":{
+			"infected":false,
+			"social_threshold":100,
+			"last_seen":0
 
-character{
-	id = fren.10
-	name = "pupper"
-	type = pet
+		}
 
-	tracker = {
-		infected = false
-		social_threshold = 100
-		last_seen = 0
+	},
 
-	}
+	"character": 
+	{
+		"id":"player",
+		"name":"player""name",
+		"type":"player",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-}
+		"tracker":{
+			"infected":false,
+			"moraility":100,
+			"hunger":100,
+			"social":100,
+			"energy":100,
+			"money":100,
+			"happiness":100,
+			"work":100
+			
 
-character{
-	id = player.1
-	name = playerName
-	type = player
+		},
 
-	tracker = {
-		infected = false
-		moraility = 100
-		hunger = 100
-		social = 100
-		energy = 100
-		money = 100
-		happiness = 100
-		work = 100
-		
+	"character": 
+	{
+		"id":"fren12",
+		"name":"Work Bois",
+		"type":"people",
+		"img": "res://Assets/Characters/characterBoss.png",
 
-	}
+		"tracker":{
+			"infected":false,
+			"social_threshold":100,
+			"last_seen":0
+			
 
-character{
-	id = fren.12
-	name = "Work Bois"
-	type = people
+		}
 
-	tracker = {
-		infected = false
-		social_threshold = 100
-		last_seen = 0
-		
-
-	}
-
+	},
 }
