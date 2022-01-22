@@ -4,9 +4,9 @@
 [ext_resource path="res://Assets/Characters/characterPartyFriend.png" type="Texture" id=2]
 [ext_resource path="res://Assets/Characters/characterParents.png" type="Texture" id=3]
 [ext_resource path="res://Assets/Characters/characterGrandma.png" type="Texture" id=4]
-[ext_resource path="res://Assets/Characters/characterPlayer.png" type="Texture" id=5]
-[ext_resource path="res://Assets/Characters/CharacterCoworker.png" type="Texture" id=6]
-[ext_resource path="res://Assets/Characters/CharacterBoss.png" type="Texture" id=7]
+[ext_resource path="res://Assets/Characters/characterBoss.png" type="Texture" id=5]
+[ext_resource path="res://Assets/Characters/characterCoworker.png" type="Texture" id=6]
+[ext_resource path="res://Assets/Characters/characterPlayer.png" type="Texture" id=7]
 
 [node name="Node2D" type="Node2D"]
 
@@ -28,7 +28,7 @@ texture = ExtResource( 2 )
 
 [node name="Sprite5" type="Sprite" parent="."]
 position = Vector2( 6, 2 )
-texture = ExtResource( 5 )
+texture = ExtResource( 7 )
 
 [node name="CharacterGrandma" type="Sprite" parent="."]
 position = Vector2( 1184, -3 )
@@ -36,4 +36,4 @@ texture = ExtResource( 4 )
 
 [node name="CharacterBoss" type="Sprite" parent="."]
 position = Vector2( 1552, 31 )
-texture = ExtResource( 7 )
+texture = ExtResource( 5 )

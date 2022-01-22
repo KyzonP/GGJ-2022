@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/CharacterBoss.png-24f705ca7bfb881336b88c016834c98f.stex"
+path="res://.import/characterBoss.png-d3a69b8947ea8d222db6c57345817383.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/CharacterBoss.png"
-dest_files=[ "res://.import/CharacterBoss.png-24f705ca7bfb881336b88c016834c98f.stex" ]
+source_file="res://Assets/Characters/characterBoss.png"
+dest_files=[ "res://.import/characterBoss.png-d3a69b8947ea8d222db6c57345817383.stex" ]
 
 [params]
 

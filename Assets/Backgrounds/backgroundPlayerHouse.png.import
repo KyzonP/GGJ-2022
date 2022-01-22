@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/characterCoworker.png-c29036ac022ada5e392da8dd342fa0c0.stex"
+path="res://.import/backgroundPlayerHouse.png-33d7c5595cacef9bf546b4166fc06f67.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Characters/characterCoworker.png"
-dest_files=[ "res://.import/characterCoworker.png-c29036ac022ada5e392da8dd342fa0c0.stex" ]
+source_file="res://Assets/Backgrounds/backgroundPlayerHouse.png"
+dest_files=[ "res://.import/backgroundPlayerHouse.png-33d7c5595cacef9bf546b4166fc06f67.stex" ]
 
 [params]
 

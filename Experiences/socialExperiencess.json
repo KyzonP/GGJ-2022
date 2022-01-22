@@ -1,16 +1,13 @@
-# generic events
-
-# Concert in town
 {
 	"1": 
 	{
 		"title": "Concert invite",
-		"who_from": fren.1,
+		"who_from": "person",
 		
 		"desc": "Hey duuude, hear there is a concert in town this cycle, wanna come with??",
 		
 		
-		"option1": { # go to concert
+		"option1": {
 			"name": "Sure thing, will meet you there!",
 			"effect_tooltip": 
 			{
@@ -22,15 +19,15 @@
 					"add_money": -50
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-				"get_infected": .75,
-				"fren_infected": .75,
+				"get_infected": 0.75,
+				"fren_infected": 0.75
 			}
 			
-		}
-		"option2": { # dont go to concert
+		},
+		"option2": {
 			"name": "No thanks, have to catch up on work stuff, go on without me",
 			
 			"effect_tooltip": 
@@ -40,31 +37,26 @@
 					"add_social": -10,
 					"add_energy": 0,
 					"add_happiness": 0,
-					"add_money": 0,
+					"add_money": 0
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-					"fren_infected": .75,
+					"fren_infected": 0.75
 			}
 			
 		}
-	}
-
-
-
-	#party event
-
+	},
 	"2": 
 	{
 		"title": "Wanna go to a party?",
-		"who_from": fren.1,
+		"who_from": "person",
 		
 		"desc": "Hey. there is gonna be this sick party soon, you should come with",
 		
 		
-		"option1": { # go to party
+		"option1": { 
 			"name": "Sure thing, will meet you there!",
 			"effect_tooltip": 
 			{
@@ -79,12 +71,12 @@
 			}
 			"hidden_effect": 
 			{
-				"get_infected": .05,
-				"fren_infected": .05,
+				"get_infected": 0.05,
+				"fren_infected": 0.05,
 			}
 			
-		}
-		"option2": { # dont go to concert
+		},
+		"option2": {
 			"name": "No thanks",
 			
 			"effect_tooltip": 
@@ -94,29 +86,27 @@
 					"add_social": -10,
 					"add_energy": 0,
 					"add_happiness": -1,
-					"add_money": 0,
+					"add_money": 0
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-					"fren_infected": .05,
+					"fren_infected": 0.05
 			}
 			
 		}
-	}
-
-	#pub experience
+	},
 
 	"3": 
 	{
 		"title": "Pub Time",
-		"who_from": fren.1,
+		"who_from": "person",
 		
 		"desc": "Its that time of the cycle again, you coming to the pub?",
 		
 		
-		"option1": { # go to the pub
+		"option1": {
 			"name": "You bet, im on my way now",
 			"effect_tooltip": 
 			{
@@ -128,15 +118,15 @@
 					"add_money": -50
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-				"get_infected": .1,
-				"fren_infected": .1,
+				"get_infected": 0.1,
+				"fren_infected": 0.1
 			}
 			
-		}
-		"option2": { # dont go to concert
+		},
+		"option2": {
 			"name": "No thanks, have to catch up on work stuff, go on without me",
 			
 			"effect_tooltip": 
@@ -146,85 +136,74 @@
 					"add_social": -10,
 					"add_energy": 0,
 					"add_happiness": 0,
-					"add_money": 0,
+					"add_money": 0
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-					"fren_infected": .1,
+					"fren_infected": 0.1
 			}
 			
 		}
-	}
+	},
 
-	#visit granny
-
-	"4": 
-	{
+	"4": {
 		"title": "Go visit your granny",
-		"who_from": fren.9,
-		
+		"who_from": family,
+
 		"desc": "I think you should go visit your gran",
-		
-		
-		"option1": { #go visit gran
+
+
+		"option1": {
 			"name": "Sure thing, will meet you there!",
-			"effect_tooltip": 
-			{
-				"playerName": 
-				{
+			"effect_tooltip": {
+				"playerName": {
 					"add_social": 100,
 					"add_energy": 100,
 					"add_happiness": 100,
 					"add_money": 10,
 					"add_hunger": -25,
-					"add_work": 0 ,	
-									
+					"add_work": 0
+
 				}
+			},
+			"hidden_effect": {
+				"fren_infected": 0.5,
 			}
-			"hidden_effect": 
-			{
-				"fren_infected": .5,
-			}
-			
-		}
-		"option2": { # dont go to grans
+
+		},
+		"option2": {
 			"name": "Maybe, I'll think about it",
-			
-			"effect_tooltip": 
-			{
-				"playerName": 
-				{
+
+			"effect_tooltip": {
+				"playerName": {
 					"add_social": -10,
 					"add_energy": -10,
 					"add_happiness": -10,
 					"add_money": 0,
 					"add_hunger": 10,
-					"add_work": 0 ,	
-									
-									
-				}
-			}
-			"hidden_effect": 
-			{
-					"fren_infected": 0,
-			}
-			
-		}
-	}
+					"add_work": 0,
 
-	#hang out with roomamte
+
+				}
+			},
+			"hidden_effect": {
+				"fren_infected": 0
+			}
+
+		}
+	},
 
 	"5": 
 	{
 		"title": "Hang out with roomy",
-		"who_from": fren.1,
+		"who_from": "person",
 		
 		"desc": "We should hang out dude",
 		
 		
-		"option1": { #hang out
+		"option1": {
 			"name": "Sure",
 			"effect_tooltip": 
 			{
@@ -235,18 +214,18 @@
 					"add_happiness": 100,
 					"add_money": -50,
 					"add_hunger": -25,
-					"add_work": 0 ,	
+					"add_work": 0	
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 				"get_infected": 0,
-				"fren_infected": 0,
+				"fren_infected": 0
 			}
 			
-		}
-		"option2": { # dont hang out
+		},
+		"option2": {
 			"name": "Maybe, I'll think about it",
 			
 			"effect_tooltip": 
@@ -258,30 +237,28 @@
 					"add_happiness": -10,
 					"add_money": 0,
 					"add_hunger": 10,
-					"add_work": 0 ,	
+					"add_work": 0
 									
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-					"fren_infected": 0,
+					"fren_infected": 0
 			}
 			
 		}
-	}
-
-	#hang out with old fren
+	},
 
 	"6": 
 	{
 		"title": "Hang out with frens from school",
-		"who_from": fren.7,
+		"who_from": "person",
 		
 		"desc": "We should hang out dude",
 		
 		
-		"option1": { #hang out
+		"option1": {
 			"name": "Sure",
 			"effect_tooltip": 
 			{
@@ -295,15 +272,15 @@
 					"add_work": 0 ,	
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 				"get_infected": 0.25,
-				"fren_infected": 0.25,
+				"fren_infected": 0.25
 			}
 			
-		}
-		"option2": { # dont hang out
+		},
+		"option2": {
 			"name": "No thanks",
 			
 			"effect_tooltip": 
@@ -315,30 +292,28 @@
 					"add_happiness": -10,
 					"add_money": 0,
 					"add_hunger": 10,
-					"add_work": 0 ,	
+					"add_work": 0	
 									
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-					"fren_infected": 0,
+					"fren_infected": 0
 			}
 			
 		}
-	}
-
-	#go to the cinema
+	},
 
 	"7": 
 	{
 		"title": "Hang out with frens at the cinema",
-		"who_from": person,
+		"who_from": "person",
 		
 		"desc": "We should go to the cinema",
 		
 		
-		"option1": { #hang out
+		"option1": {
 			"name": "Sure",
 			"effect_tooltip": 
 			{
@@ -349,18 +324,18 @@
 					"add_happiness": 10,
 					"add_money": -20,
 					"add_hunger": -5,
-					"add_work": 0 ,	
+					"add_work": 0	
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
 				"get_infected": 0.25,
-				"fren_infected": 0.25,
+				"fren_infected": 0.25
 			}
 			
-		}
-		"option2": { # dont hang out
+		},
+		"option2": {
 			"name": "No thanks, go without me",
 			
 			"effect_tooltip": 
@@ -372,14 +347,14 @@
 					"add_happiness": -10,
 					"add_money": 0,
 					"add_hunger": 5,
-					"add_work": 0 ,	
+					"add_work": 0 
 									
 									
 				}
-			}
+			},
 			"hidden_effect": 
 			{
-					"fren_infected": .25,
+					"fren_infected": 0.25,
 			}
 			
 		}
