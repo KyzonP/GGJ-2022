@@ -60,6 +60,7 @@
 		}
 	},
 	"event5": {
+		"subtitle":  "Chill",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
 		"character": "res://Assets/Characters/characterFlatmate.png",
 		"dialogue": "Nice hanging out dude. Weird how we barely do that despite living in the same place.",
@@ -110,6 +111,7 @@
 
 
 	"event23": {
+		"subtitle":  "Flatmate",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
 
 		"dialogue": "A relaxing time on your own.",
@@ -130,6 +132,7 @@
 
 
 	"event37": {
+		"subtitle":  "Work",
 		"background": "res://Assets/Backgrounds/test_house_1.png",
 		"character": "res://Assets/Characters/characterBoss.png",
 		"dialogue": "Good work today. Some day soon we can talk about that promotion.",

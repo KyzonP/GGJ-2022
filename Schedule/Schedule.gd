@@ -46,6 +46,15 @@ func _loadCard(event, xPos, yPos):
 	rng.randomize()
 	card.global_position = Vector2(xPos, yPos)
 	
+	###changing its text
+	var eventData = CYCLE.allEvents["event" + str(event)]
+	
+	if "subtitle" in eventData:
+		var subtitle = eventData["subtitle"]
+		card.cardType = subtitle
+
+	
+	
 	
 	add_child(card)
 	print("Created - " + str(event))

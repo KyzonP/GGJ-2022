@@ -1,10 +1,12 @@
 extends Area2D
 
 var dayEvent = 0
+var cardType = ""
 
 #onready var sprite = get_node("KinematicBody").get_node("Sprite")
 onready var KB = $KinematicBody2D
 onready var sprite = KB.get_node("Sprite")
+onready var eventName = KB.get_node("Name")
 
 onready var backFam = load("res://Assets/Schedule/ScheduleSelector_Family.png")
 onready var backLif = load("res://Assets/Schedule/ScheduleSelector_Life.png")
@@ -28,5 +30,7 @@ func _process(delta):
 	elif dayEvent > 30 and dayEvent <41:
 		sprite.texture = backWor
 	pass
+	
+	eventName.text = cardType
 	
 	#print("Exists")
