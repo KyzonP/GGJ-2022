@@ -64,6 +64,22 @@ func _loadData():
 		var dialogue = eventData["dialogue"]
 		$Dialogue.text = dialogue
 
+	if "effects" in eventData:
+		var effects = eventData["effects"]
+		
+		if "morality" in effects:
+			CTRL.moralityChange = effects["morality"]
+		if "hunger" in effects:
+			CTRL.hungerChange = effects["hunger"]
+		if "social" in effects:
+			CTRL.socialChange = effects["social"]
+		if "energy" in effects:
+			CTRL.energyChange = effects["energy"]
+		if "money" in effects:
+			CTRL.moneyChange = effects["money"]
+		if "happiness" in effects:
+			CTRL.happinessChange = effects["happiness"]
+
 	pass
 	
 	

@@ -38,7 +38,6 @@ func _dailyTasks():
 	_loadCard(23, -349, -76)
 	_loadCard(23, -349, -12)
 	_loadCard(5, -285, -140)
-	
 
 func _loadCard(event, xPos, yPos):
 	var card = load(card_path).instance()
@@ -57,7 +56,9 @@ func _loadCard(event, xPos, yPos):
 	add_child(card)
 	print("Created - " + str(event))
 	
-	
 func _additionalTasks():
 	_loadCard(CYCLE.randomSocial, -285, 52)
 	pass
+	
+func _spawnRandSocial():
+	_loadCard(CYCLE.randomSocial, -285, 52)

@@ -20,7 +20,7 @@
 					"add_money": -50,
 					"add_hunger": 0,
 					"add_work": 0 ,	
-					"has_pupper": "true",
+					"has_pupper": "true"
 									
 				}
 			},
@@ -218,7 +218,7 @@
 			{
 				"get_infected": 0.10,
 				"add_morality": 0,
-				"fren_infected": .10
+				"fren_infected": 0.10
 
 			}
 
@@ -500,7 +500,7 @@
 			{
 					"get_infected": 0,
 					"fren_infected": 0,
-					"add_morality": 0,
+					"add_morality": 0
 			}
 			
 		}

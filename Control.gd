@@ -8,7 +8,8 @@ export (int) var money = 50
 export (int) var happiness = 50
 export (bool) var infected = false 
 
-export (int) var hungeChange = 0
+export (int) var moralityChange = 0
+export (int) var hungerChange = 0
 export (int) var socialChange = 0
 export (int) var energyChange = 0
 export (int) var moneyChange = 0
@@ -22,3 +23,19 @@ func _ready():
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 #func _process(delta):
 #	pass
+
+func _resetChanges():
+	moralityChange = 0
+	hungerChange = 0
+	socialChange = 0
+	energyChange = 0
+	moneyChange = 0
+	happinessChange = 0
+	
+func _implementChanges():
+	morality += moralityChange
+	hunger += hungerChange
+	social += socialChange
+	energy += energyChange
+	money += moneyChange
+	happiness += happinessChange

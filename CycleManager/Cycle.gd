@@ -8,6 +8,9 @@ export(int) var eventKey = 0
 export var allEvents = {}
 
 export (int) var randomSocial = 0
+export (int) var randomSelf = 0
+export (int) var randomFamily = 0
+export (int) var randomWork = 0
 
 var rng = RandomNumberGenerator.new()
 
@@ -17,6 +20,15 @@ func _ready():
 	
 	rng.randomize()
 	randomSocial = rng.randi_range(1,7)
+	
+	rng.randomize()
+	randomSelf = rng.randi_range(1,7)
+	
+	rng.randomize()
+	randomFamily = rng.randi_range(1,7)
+	
+	rng.randomize()
+	randomWork = rng.randi_range(1,7)
 	print(randomSocial)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -34,7 +46,7 @@ func _nextEvent():
 		
 func _endEvent():
 	###Summary of previous event - added modifiers etc
-	_nextEvent()
+	get_tree().change_scene("res://Transition/Transition.tscn")
 		
 func _newCycle():
 	currentEvent = 0
@@ -42,6 +54,15 @@ func _newCycle():
 	
 	rng.randomize()
 	randomSocial = rng.randi_range(1,7)
+	
+	rng.randomize()
+	randomSelf = rng.randi_range(1,7)
+	
+	rng.randomize()
+	randomFamily = rng.randi_range(1,7)
+	
+	rng.randomize()
+	randomWork = rng.randi_range(1,7)
 	print(randomSocial)
 	
 func load_file():
