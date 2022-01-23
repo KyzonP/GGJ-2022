@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/concert.mp3-89052337bdf3f4c00cfa287fa0eb22a7.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/concert.mp3"
+dest_files=[ "res://.import/concert.mp3-89052337bdf3f4c00cfa287fa0eb22a7.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

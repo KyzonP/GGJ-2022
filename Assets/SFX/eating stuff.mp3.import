@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/eating stuff.mp3-63d59f1bb884db367b4e6d32759facdd.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/eating stuff.mp3"
+dest_files=[ "res://.import/eating stuff.mp3-63d59f1bb884db367b4e6d32759facdd.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/talking.mp3-fa600da5231f0eadacd1514633481507.mp3str"
+
+[deps]
+
+source_file="res://Assets/SFX/talking.mp3"
+dest_files=[ "res://.import/talking.mp3-fa600da5231f0eadacd1514633481507.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
