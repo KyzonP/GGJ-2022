@@ -1,49 +1,361 @@
-# generic events
-
-add_namespace = china
-
-# Concert in town
-social_event = {
-	id = social.1
-	title = "Concert invite"
-	who_from = rand_Char(person)
-	desc = "Hey duuude, hear there is a concert in town this cycle, wanna come with??"
-	
-	
-	is_triggered_only = yes
-	
-	option = { # go to concert
-		name = "Sure thing, will meet you there!"
-		effect_tooltip = {
-			playerName = {
-				add_social = 100
-				add_energy = 100
-				add_happiness = 100
-				add_money = -50
-								
+{
+	"31": 
+	{
+		"title": "Party at Work",
+		"who_from": "person",
+		"type": "work",
+		
+		"desc": "We are having a party at work, wanna come?",
+		
+		
+		"option1": {
+			"name": "Sure thing, ill grab some snacks on my way over!",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
 			}
-		}
-		hidden_effect = {
-			get_infected = .75
-			fren_infected = .75
-		}
-		
-	}
-	option = { # dont go to concert
-		name = "No thanks, have to catch up on work stuff, go on without me"
-		
-		effect_tooltip = {
-			playerName = {
-				add_social = -10
-				add_energy = 0
-				add_happiness = 0
-				add_money = 0
-								
+			
+		},
+		"option2": {
+			"name": "Not at the moment sorry",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
 			}
+			
 		}
-		hidden_effect = {
-				fren_infected = .75
-		}
+	},
+
+	"32": 
+	{
+		"title": "Deadlines at work",
+		"who_from": "person",
+		"type": "work",
 		
-	}
+		"desc": "Our work project was planned badly, we need some help to avoid overtime",
+		
+		
+		"option1": {
+			"name": "Damn, Ill help out!",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "Not at the moment sorry",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+	"33": 
+	{
+		"title": "Payday Party",
+		"who_from": "person",
+		"type": "work",
+		
+		"desc": "Its that time of the cycle again, drinks at the office?",
+		
+		
+		"option1": {
+			"name": "Sounds like a blast, I'll get some supllies",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "Its a night in for me",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+	"34": 
+	{
+		"title": "Problems at work",
+		"who_from": "player",
+		"type": "work",
+		
+		"desc": "Boss is looking down at me for not being here all the time",
+		
+		
+		"option1": {
+			"name": "I think I need to step up my presence at work",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "I think he is just having a bad day, I'll be ok",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+	"35": 
+	{
+		"title": "Losing Job",
+		"who_from": "person",
+		"type": "work",
+		
+		"desc": "You are being fired for poor performance, you should have gone to work more",
+		
+		
+		"option1": {
+			"name": "Give me another chance please!",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "This is fine",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+	"36": 
+	{
+		"title": "Promotion",
+		"who_from": "person",
+		"type": "work",
+		
+		"desc": "Your performance is beyond stellar, heres a promotion",
+		
+		
+		"option1": {
+			"name": "Ill take this in stride",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "I rather stay where I am at the moment, I like it here",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+	"37": 
+	{
+		"title": "Go to Work",
+		"who_from": "player",
+		"type": "work",
+		
+		"desc": "I think I should go to work this cycle",
+		
+		
+		"option1": {
+			"name": "Sounds like a plan",
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": 100,
+					"add_energy": 100,
+					"add_happiness": 100,
+					"add_money": -50
+									
+				}
+			},
+			"hidden_effect": 
+			{
+				"get_infected": 0.5,
+				"fren_infected": 0
+			}
+			
+		},
+		"option2": {
+			"name": "Not this cycle",
+			
+			"effect_tooltip": 
+			{
+				"playerName": 
+				{
+					"add_social": -10,
+					"add_energy": 0,
+					"add_happiness": 0,
+					"add_money": 0
+									
+				}
+			},
+			"hidden_effect": 
+			{
+					"fren_infected": 0.75
+			}
+			
+		}
+	},
+
+
+
 }
