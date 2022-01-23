@@ -12,14 +12,11 @@ func _ready():
 	if "subtitle" in PrevData:
 		$Prev.text = "Effects of Event : " + PrevData["subtitle"]
 	
-	var currentEvent = CYCLE.currentEvent
-	currentEvent += 1
-	var nextEvent = CYCLE.events[currentEvent]
-	
-	var NextData = CYCLE.allEvents["event" + str(nextEvent)]
-	if "subtitle" in NextData:
-		$Next.text = "Next Event: " + NextData["subtitle"]
-	
+	if CYCLE.currentEvent < 7:
+		var nextEventKey = CYCLE.events[CYCLE.currentEvent]
+		var NextData = CYCLE.allEvents["event" + str(nextEventKey)]
+		if "subtitle" in NextData:
+			$Next.text = NextData["subtitle"]
 	
 	pass # Replace with function body.
 

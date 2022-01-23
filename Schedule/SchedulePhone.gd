@@ -165,4 +165,4 @@ func _on_NoButton_pressed():
 	pass # Replace with function body.
 
 func _beep():
-	SOUND.get_node("Click").play()
+	SOUND.get_node("Beep").play()

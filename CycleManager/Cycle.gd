@@ -12,6 +12,8 @@ export (int) var randomSelf = 0
 export (int) var randomFamily = 0
 export (int) var randomWork = 0
 
+export (bool) var gameOver = false
+
 var rng = RandomNumberGenerator.new()
 
 # Called when the node enters the scene tree for the first time.
@@ -62,27 +64,31 @@ func _endEvent():
 	get_tree().change_scene("res://Transition/Transition.tscn")
 		
 func _newCycle():
-	currentEvent = 0
-	get_tree().change_scene("res://Main/main.tscn")
+	_detectGameOver()
 	
-	rng.randomize()
-	randomSocial = rng.randi_range(1,7)
-	
-	rng.randomize()
-	randomSelf = rng.randi_range(1,7)
-	
-	rng.randomize()
-	randomFamily = rng.randi_range(1,7)
-	
-	if CTRL.hasDog == false and randomFamily > 4:
-		randomFamily = 0
-	
-	if CTRL.employed == true:
-		rng.randomize()
-		randomWork = rng.randi_range(1,7)
+	if gameOver == false:
+		currentEvent = 0
+		get_tree().change_scene("res://Main/main.tscn")
 		
-	print(randomSocial)
-	
+		rng.randomize()
+		randomSocial = rng.randi_range(1,7)
+		
+		rng.randomize()
+		randomSelf = rng.randi_range(1,7)
+		
+		rng.randomize()
+		randomFamily = rng.randi_range(1,7)
+		
+		if CTRL.hasDog == false and randomFamily > 4:
+			randomFamily = 0
+		
+		if CTRL.employed == true:
+			rng.randomize()
+			randomWork = rng.randi_range(1,7)
+			
+		print(randomSocial)
+	if gameOver == true:
+		get_tree().change_scene("res://GameOver/GameOver.tscn")
 func load_file():
 	#event Experience
 	var file = File.new()
@@ -96,6 +102,18 @@ func _unhandled_input(event):
 	if event is InputEventMouseButton:
 		SOUND.get_node("Click").play()
 
+func _detectGameOver():
+	
+	if CTRL.hunger > 99:
+		gameOver = true
+	elif CTRL.social < 1:
+		gameOver = true
+	elif CTRL.energy < 1:
+		gameOver = true
+	elif CTRL.money < 1:
+		gameOver = true
+	elif CTRL.happiness <1:
+		gameOver = true
 
 	
 	

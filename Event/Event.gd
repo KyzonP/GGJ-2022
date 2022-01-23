@@ -32,6 +32,14 @@ func _process(delta):
 
 
 func _on_Button_pressed():
+	var eventData = allEvents["event" + str(CYCLE.eventKey)]
+	if "sound1" in eventData:
+		var sound1 = eventData["sound1"]
+		_stopSound(sound1["name"])
+		
+	if "sound2" in eventData:
+		var sound2 = eventData["sound2"]
+		_stopSound(sound2["name"])
 	CYCLE._endEvent()
 	pass # Replace with function body.
 	
@@ -79,10 +87,23 @@ func _loadData():
 			CTRL.moneyChange = effects["money"]
 		if "happiness" in effects:
 			CTRL.happinessChange = effects["happiness"]
+			
+	if "sound1" in eventData:
+		var sound1 = eventData["sound1"]
+		_playSound(sound1["name"])
+		
+	if "sound2" in eventData:
+		var sound2 = eventData["sound2"]
+		_playSound(sound2["name"])
+			
 
 	pass
 	
+func _playSound(sound):
+	SOUND.get_node(sound).play()
 	
+func _stopSound(sound):
+	SOUND.get_node(sound).stop()
 	
 	
 	

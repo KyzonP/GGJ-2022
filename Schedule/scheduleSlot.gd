@@ -13,6 +13,8 @@ func _process(delta):
 
 func _on_slot_body_shape_entered(body_rid, body, body_shape_index, local_shape_index):
 	if filled == false and self.get_meta("type") != "placed":
+		_toggle()
+		
 		var filled = true
 		body.set_meta("type", "placed")
 		self.set_meta("type", "placed")
@@ -28,3 +30,6 @@ func _on_slot_body_shape_exited(body_rid, body, body_shape_index, local_shape_in
 		filled = false
 		self.set_meta("type", "notPlaced")
 		body.set_meta("type", "notPlaced")
+		
+func _toggle():
+	SOUND.get_node("Toggle").play()
