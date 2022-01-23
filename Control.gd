@@ -15,6 +15,13 @@ export (int) var energyChange = 0
 export (int) var moneyChange = 0
 export (int) var happinessChange = 0
 
+export (int) var moralityMod = 0
+export (int) var hungerMod = 0
+export (int) var socialMod = 0
+export (int) var energyMod = 0
+export (int) var moneyMod = 0
+export (int) var happinessMod = 0
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.

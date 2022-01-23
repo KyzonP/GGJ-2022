@@ -34,9 +34,9 @@ func _dailyTasks():
 	_loadCard(37, -413, -140)
 	_loadCard(37, -413, -76)
 	_loadCard(37, -413, -12)
-	_loadCard(23, -349, -140)
-	_loadCard(23, -349, -76)
-	_loadCard(23, -349, -12)
+	_loadCard(13, -349, -140)
+	_loadCard(13, -349, -76)
+	_loadCard(13, -349, -12)
 	_loadCard(5, -285, -140)
 
 func _loadCard(event, xPos, yPos):
@@ -62,3 +62,12 @@ func _additionalTasks():
 	
 func _spawnRandSocial():
 	_loadCard(CYCLE.randomSocial, -285, 52)
+
+func _spawnRandSelf():
+	_loadCard(CYCLE.randomSelf+10, -221, 52)
+	
+func _spawnRandFamily():
+	_loadCard(CYCLE.randomFamily+20, -349, 52)
+	
+func _spawnRandWork():
+	_loadCard(CYCLE.randomWork+30, -413, 52)

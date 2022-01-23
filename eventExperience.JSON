@@ -1,16 +1,16 @@
 {
 	"event1": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/characterBoss.png",
-		"dialogue": "this is some event see the effects below event 1",
+		"background": "res://Assets/Backgrounds/backgroundConcert",
+		"character": "res://Assets/Characters/characterPartyFriend.png",
+		"dialogue": "Woah dude that was wicked! I love these guys' music",
 
 		"effects": {
 			"morality": 0,
 			"hunger": 5,
-			"social": -60,
-			"energy": 50,
-			"money": 67,
-			"happiness": 100,
+			"social": 50,
+			"energy": -25,
+			"money": -35,
+			"happiness": 30,
 			"infected": "false"
 		}
 	},
@@ -22,7 +22,7 @@
 		"effects": {
 			"morality": 10,
 			"hunger": 10,
-			"social": 60,
+			"social": 20,
 			"energy": -20,
 			"money": -10,
 			"happiness": 25,
@@ -30,9 +30,9 @@
 		}
 	},
 	"event3": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "Man that was awesome. We should do this more often.",
+		"background": "res://Assets/Backgrounds/backgroundPub.png",
+		"character": "res://Assets/Characters/characterPartyFriend.png",
+		"dialogue": "I needed that for sure. See you later!",
 
 		"effects": {
 			"morality": 10,
@@ -51,11 +51,11 @@
 
 		"effects": {
 			"morality": 10,
-			"hunger": -25,
-			"social": 20,
-			"energy": 10,
+			"hunger": -15,
+			"social": 10,
+			"energy": 5,
 			"money": 0,
-			"happiness": 35,
+			"happiness": 25,
 			"infected": "false"
 		}
 	},
@@ -91,8 +91,8 @@
 		}
 	},
 	"event7": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
+		"background": "res://Assets/Backgrounds/backgroundCinema.png",
+		"character": "res://Assets/Characters/characterPartyFriend.png",
 		"dialogue": "Man that was awesome. We should do this more often.",
 
 		"effects": {
@@ -113,11 +113,11 @@
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"hunger": 0,
+			"social": 0,
+			"energy": 0,
+			"money": 0,
+			"happiness": 10,
 			"infected": "false"
 		}
 
@@ -125,15 +125,15 @@
 	"event12": {
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
 		"character": "res://Assets/Characters/characterPlayer.png",
-		"dialogue": "This is a nice game, I love it",
+		"dialogue": "This is a nice game, I love it!",
 
 		"effects": {
-			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
+			"morality": 0,
+			"hunger": 5,
+			"social": -5,
+			"energy": 0,
 			"money": -10,
-			"happiness": 25,
+			"happiness": 20,
 			"infected": "false"
 		}
 
@@ -142,7 +142,7 @@
 	"event13": {
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
 		"character": "res://Assets/Characters/characterPlayer.png",
-		"dialogue": "Its nice to stay at home sometimes",
+		"dialogue": "Its nice to stay at home \nsometimes",
 
 		"effects": {
 			"morality": 10,
@@ -157,51 +157,51 @@
 	},
 
 	"event14": {
-		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouseClean.png",
 		"character": "res://Assets/Characters/characterFlatmate.png",
-		"dialogue": "A clean house is a happy house",
+		"dialogue": "A clean house is a happy house!",
 
 		"effects": {
-			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"morality": 0,
+			"hunger": 0,
+			"social": 5,
+			"energy": -10,
+			"money": 0,
+			"happiness": 10,
 			"infected": "false"
 		}
 
 	},
 
 	"event15": {
-		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouseMovie.png",
 		"character": "res://Assets/Characters/characterFlatmate.png",
 		"dialogue": "Its great fun playing these games",
 
 		"effects": {
-			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"morality": 0,
+			"hunger": 5,
+			"social": -5,
+			"energy": 5,
+			"money": 0,
+			"happiness": 10,
 			"infected": "false"
 		}
 
 	},
 
 	"event16": {
-		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouseMovie.png",
 		"character": "res://Assets/Characters/characterFlatmate.png",
-		"dialogue": "that film rocked, cant wait for the next one",
+		"dialogue": "That film rocked, cant wait for the next one!",
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"hunger": -5,
+			"social": 0,
+			"energy": 0,
+			"money": -5,
+			"happiness": 10,
 			"infected": "false"
 		}
 
@@ -209,48 +209,31 @@
 
 	"event17": {
 		"background": "res://Assets/Backgrounds/backgroundPark.png",
-		"character": "res://Assets/Characters/characterPartner.png",
-		"dialogue": "test",
+		"character": "res://Assets/Characters/characterDog.png",
+		"dialogue": "Nothing like a walk in the park to clear my head",
 
 		"effects": {
-			"morality": 10,
+			"morality": 0,
 			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
-			"infected": "false"
-		}
-
-	},
-
-	"event18": {
-		"background": "res://Assets/Backgrounds/backgroundGym.png",
-		"character": "res://Assets/Characters/characterFriend.png",
-		"dialogue": "test",
-
-		"effects": {
-			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"social": 0,
+			"energy": 5,
+			"money": 0,
+			"happiness": 10,
 			"infected": "false"
 		}
 
 	},
 
 	"event21": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundRestaurant.png",
+		"character": "res://Assets/Characters/characterParents.png",
+		"dialogue": "Great seeing you, my boy. See you soon!",
 
 		"effects": {
-			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
+			"morality": 0,
+			"hunger": -10,
+			"social": 0,
+			"energy": -5,
 			"money": -10,
 			"happiness": 25,
 			"infected": "false"
@@ -259,16 +242,16 @@
 	},
 
 	"event22": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundGrandmasHouse.png",
+		"character": "res://Assets/Characters/characterGrandma.png",
+		"dialogue": "I do love these visits, dearie.",
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
+			"hunger": -15,
+			"social": 10,
+			"energy": 5,
+			"money": 0,
 			"happiness": 25,
 			"infected": "false"
 		}
@@ -276,16 +259,16 @@
 	},
 
 	"event23": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundGrandmaHouse.png",
+		"character": "res://Assets/Characters/characterGrandma.png",
+		"dialogue": "Nothing like a hot home brewed coffee.",
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
+			"hunger": -5,
+			"social": 10,
+			"energy": 15,
+			"money":  0,
 			"happiness": 25,
 			"infected": "false"
 		}
@@ -293,68 +276,68 @@
 	},
 
 	"event24": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundPartyHouse.png",
+		"character": "res://Assets/Characters/characterGrandma.png",
+		"dialogue": "Just like the old days.",
 
 		"effects": {
-			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
+			"morality": -10,
+			"hunger": 5,
+			"social": 15,
+			"energy": -15,
 			"money": -10,
-			"happiness": 25,
+			"happiness": 30,
 			"infected": "false"
 		}
 
 	},
 
 	"event25": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundPark.png",
+		"character": "res://Assets/Characters/characterDog.png",
+		"dialogue": "Woof, woof woof!",
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"hunger": 0,
+			"social": 0,
+			"energy": -10,
+			"money": 0,
+			"happiness": 15,
 			"infected": "false"
 		}
 
 	},
 
 	"event26": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"character": "res://Assets/Characters/characterDog.png",
+		"dialogue": "I love you",
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"hunger": 0,
+			"social": 0,
+			"energy": -5,
+			"money": 0,
+			"happiness": 10,
 			"infected": "false"
 		}
 
 	},
 
 	"event27": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"character": "res://Assets/Characters/characterDog.png",
+		"dialogue": "I wonder if I can train him to train himself",
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"hunger": 5,
+			"social": 0,
+			"energy": -5,
+			"money": -5,
+			"happiness": 20,
 			"infected": "false"
 		}
 
@@ -378,142 +361,106 @@
 	},
 
 	"event32": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundWorkParty.png",
+		"character": "res://Assets/Characters/characterCoworker.png",
+		"dialogue": "These things never quite live up to my expectations",
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"hunger": -5,
+			"social": 5,
+			"energy": 0,
+			"money": 0,
+			"happiness": -5,
 			"infected": "false"
 		}
 
 	},
 
 	"event33": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundWork.png",
+		"character": "res://Assets/Characters/characterBoss.png",
+		"dialogue": "Thanks for your help, partner. I've given you a small bonus.",
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"hunger": 0,
+			"social": 0,
+			"energy": -15,
+			"money": 20,
+			"happiness": -10,
 			"infected": "false"
 		}
 
 	},
 
 	"event34": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundWork.png",
+		"character": "res://Assets/Characters/characterCoworker.png",
+		"dialogue": "I swear they keep leaving out a zero on these payslips.",
 
 		"effects": {
-			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"morality": 0,
+			"hunger": 0,
+			"social": 0,
+			"energy": -5,
+			"money": 10,
+			"happiness": 10,
 			"infected": "false"
 		}
 
 	},
 
 	"event35": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/characterWork.png",
+		"character": "res://Assets/Characters/characterBoss.png",
+		"dialogue": "You've been doing very well. Keep it up!",
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"hunger": 0,
+			"social": 0,
+			"energy": -5,
+			"money": 5,
+			"happiness": 5,
 			"infected": "false"
 		}
 
 	},
 
 	"event36": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundWork.png",
+		"character": "res://Assets/Characters/characterBoss.png",
+		"dialogue": "I'll give you one more chance.",
 
 		"effects": {
-			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"morality": 0,
+			"hunger": 5,
+			"social": 0,
+			"energy": -5,
+			"money": -5,
+			"happiness": -5,
 			"infected": "false"
 		}
 
 	},
 
 	"event37": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
+		"background": "res://Assets/Backgrounds/backgroundWork.png",
+		"character": "res://Assets/Characters/characterBoss.png",
+		"dialogue": "You've earned this, partner!",
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"hunger": 5,
+			"social": 0,
+			"energy": -5,
+			"money": 10,
+			"happiness": 10,
 			"infected": "false"
 		}
 
 	},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1226,61 +1173,6 @@
 
 		}
 	},
-
-	"sel18": {
-		"title": "Gym time",
-		"who_from": "person",
-		"type": "self",
-
-		"desc": "We should go to the gym",
-
-
-		"option1": {
-			"name": "Sure, I'll meet you there",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 10,
-					"add_energy": -20,
-					"add_happiness": 20,
-					"add_money": -10,
-					"add_hunger": -5,
-					"add_work": -5
-
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.10,
-				"add_morality": -5,
-				"fren_infected": 0.10
-
-			}
-
-
-		},
-		"option2": {
-			"name": "No, I should go to work",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -5,
-					"add_energy": 0,
-					"add_happiness": -5,
-					"add_money": 0,
-					"add_hunger": 0,
-					"add_work": 5
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0,
-				"fren_infected": 0,
-				"add_morality": 0
-			}
-
-		}
-	},
-
 
 	"fam21": {
 		"title": "Parents visit town",

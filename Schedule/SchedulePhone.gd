@@ -6,7 +6,8 @@ var currentEvent = "social"
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
-	_socialEvent()
+	if CYCLE.randomSocial != 0:
+		_socialEvent()
 	pass # Replace with function body.
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -38,7 +39,7 @@ func _socialEvent():
 
 func _selfEvent():
 	###changing its text
-	var selfData = CYCLE.allEvents["sel" + str(CYCLE.randomSocial)]
+	var selfData = CYCLE.allEvents["sel" + str(CYCLE.randomSelf+10)]
 	
 	if "desc" in selfData:
 		$TextBody.text = selfData["desc"]
@@ -61,7 +62,7 @@ func _selfEvent():
 
 func _familyEvent():
 	###changing its text
-	var familyData = CYCLE.allEvents["fam" + str(CYCLE.randomSocial)]
+	var familyData = CYCLE.allEvents["fam" + str(CYCLE.randomFamily+20)]
 	
 	if "desc" in familyData:
 		$TextBody.text = familyData["desc"]
@@ -84,7 +85,7 @@ func _familyEvent():
 
 func _workEvent():
 	###changing its text
-	var workData = CYCLE.allEvents["fam" + str(CYCLE.randomSocial)]
+	var workData = CYCLE.allEvents["wor" + str(CYCLE.randomWork+30)]
 	
 	if "desc" in workData:
 		$TextBody.text = workData["desc"]
@@ -106,26 +107,29 @@ func _workEvent():
 	pass
 
 func _on_YesButton_pressed():
-	if currentEvent == "self":
+	if currentEvent == "social":
+		get_parent().get_node("Schedule")._spawnRandWork()
+		self.visible = false
+	elif currentEvent == "self":
 		get_parent().get_node("Schedule")._spawnRandSocial()
-	
-	#if currentEvent == "social":
-	#	self.visible = false
-	#elif currentEvent == "self":
-	#	_selfEvent()
-	#elif currentEvent == "family":
-	#	_familyEvent()
-	#elif currentEvent == "work":
-	#	_workEvent()
+		_selfEvent()
+	elif currentEvent == "family":
+		get_parent().get_node("Schedule")._spawnRandSelf()
+		_familyEvent()
+	elif currentEvent == "work":
+		get_parent().get_node("Schedule")._spawnRandFamily()
+		_workEvent()
 	pass # Replace with function body.
+	
+
 
 func _on_NoButton_pressed():
-	#if currentEvent == "social":
-	#	self.visible = false
-	#elif currentEvent == "self":
-	#	_selfEvent()
-	#elif currentEvent == "family":
-	#	_familyEvent()
-	#elif currentEvent == "work":
-	#	_workEvent()
+	if currentEvent == "social":
+		self.visible = false
+	elif currentEvent == "self":
+		_selfEvent()
+	elif currentEvent == "family":
+		_familyEvent()
+	elif currentEvent == "work":
+		_workEvent()
 	pass # Replace with function body.

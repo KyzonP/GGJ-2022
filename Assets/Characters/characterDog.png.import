@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/backgroundGrandmasHouse.png-883a9e68a61fb96fa6a2a1fb6d826ae4.stex"
+path="res://.import/characterDog.png-4a0ee4edaadae387e3fafc56101f3531.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Backgrounds/backgroundGrandmasHouse.png"
-dest_files=[ "res://.import/backgroundGrandmasHouse.png-883a9e68a61fb96fa6a2a1fb6d826ae4.stex" ]
+source_file="res://Assets/Characters/characterDog.png"
+dest_files=[ "res://.import/characterDog.png-4a0ee4edaadae387e3fafc56101f3531.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=false
+flags/filter=true
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

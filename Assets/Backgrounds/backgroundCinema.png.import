@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/backgroundGrandmasHouse.png-883a9e68a61fb96fa6a2a1fb6d826ae4.stex"
+path="res://.import/backgroundCinema.png-c57c235e2446b267f4f8df4c82819147.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Backgrounds/backgroundGrandmasHouse.png"
-dest_files=[ "res://.import/backgroundGrandmasHouse.png-883a9e68a61fb96fa6a2a1fb6d826ae4.stex" ]
+source_file="res://Assets/Backgrounds/backgroundCinema.png"
+dest_files=[ "res://.import/backgroundCinema.png-c57c235e2446b267f4f8df4c82819147.stex" ]
 
 [params]
 

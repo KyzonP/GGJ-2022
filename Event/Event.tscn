@@ -28,7 +28,7 @@ position = Vector2( 509, 286 )
 scale = Vector2( 0.6, 0.6 )
 
 [node name="Character" type="Sprite" parent="."]
-position = Vector2( 489, 301 )
+position = Vector2( 790, 365 )
 
 [node name="Dialogue" type="Label" parent="."]
 margin_left = 343.0
