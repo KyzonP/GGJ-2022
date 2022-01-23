@@ -6,6 +6,8 @@ var rng = RandomNumberGenerator.new()
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	_dailyTasks()
+	
+	
 	pass
 
 
@@ -37,8 +39,7 @@ func _dailyTasks():
 	_loadCard(23, -349, -12)
 	_loadCard(5, -285, -140)
 	
-	pass
-	
+
 func _loadCard(event, xPos, yPos):
 	var card = load(card_path).instance()
 	card.dayEvent = event
@@ -52,11 +53,11 @@ func _loadCard(event, xPos, yPos):
 	if "subtitle" in eventData:
 		var subtitle = eventData["subtitle"]
 		card.cardType = subtitle
-
-	
-	
 	
 	add_child(card)
 	print("Created - " + str(event))
-	pass
 	
+	
+func _additionalTasks():
+	_loadCard(CYCLE.randomSocial, -285, 52)
+	pass

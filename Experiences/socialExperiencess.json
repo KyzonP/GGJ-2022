@@ -1,107 +1,93 @@
 {
-	"1": 
-	{
+	"1": {
 		"title": "Concert invite",
 		"who_from": "person",
 		"type": "social",
-		
+
 		"desc": "Hey duuude, hear there is a concert in town this cycle, wanna come with??",
-		
-		
+
+
 		"option1": {
 			"name": "Sure thing, will meet you there!",
-			"effect_tooltip": 
-			{
-				"playerName": 
-				{
+			"effect_tooltip": {
+				"playerName": {
 					"add_social": 100,
 					"add_energy": 100,
 					"add_happiness": 100,
 					"add_money": -50
-									
+
 				}
 			},
-			"hidden_effect": 
-			{
+			"hidden_effect": {
 				"get_infected": 0.75,
 				"fren_infected": 0.75
 			}
-			
+
 		},
 		"option2": {
 			"name": "No thanks, have to catch up on work stuff, go on without me",
-			
-			"effect_tooltip": 
-			{
-				"playerName": 
-				{
+
+			"effect_tooltip": {
+				"playerName": {
 					"add_social": -10,
 					"add_energy": 0,
 					"add_happiness": 0,
 					"add_money": 0
-									
+
 				}
 			},
-			"hidden_effect": 
-			{
-					"fren_infected": 0.75
+			"hidden_effect": {
+				"fren_infected": 0.75
 			}
-			
+
 		}
 	},
-	"2": 
-	{
+
+	"2": {
 		"title": "Wanna go to a party?",
 		"who_from": "person",
 		"type": "social",
-		
+
 		"desc": "Hey. there is gonna be this sick party soon, you should come with",
-		
-		
-		"option1": { 
+
+
+		"option1": {
 			"name": "Sure thing, will meet you there!",
-			"effect_tooltip": 
-			{
-				"playerName": 
-				{
+			"effect_tooltip": {
+				"playerName": {
 					"add_social": 5,
 					"add_energy": -5,
 					"add_happiness": 10,
 					"add_money": -15
-									
+
 				}
 			}
-			"hidden_effect": 
-			{
+			"hidden_effect": {
 				"get_infected": 0.05,
 				"fren_infected": 0.05,
 			}
-			
+
 		},
 		"option2": {
 			"name": "No thanks",
-			
-			"effect_tooltip": 
-			{
-				"playerName": 
-				{
+
+			"effect_tooltip": {
+				"playerName": {
 					"add_social": -10,
 					"add_energy": 0,
 					"add_happiness": -1,
 					"add_money": 0
-									
+
 				}
 			},
-			"hidden_effect": 
-			{
-					"fren_infected": 0.05
+			"hidden_effect": {
+				"fren_infected": 0.05
 			}
-			
+
 		}
 	},
 
-	"3": 
-	{
+	"3": {
 		"title": "Pub Time",
 		"who_from": "person",
 		"type": "social",
@@ -199,8 +185,7 @@
 		}
 	},
 
-	"5": 
-	{
+	"5": {
 		"title": "Hang out with roomy",
 		"who_from": "person",
 		"type": "social",
@@ -255,8 +240,7 @@
 		}
 	},
 
-	"6": 
-	{
+	"6": {
 		"title": "Hang out with frens from school",
 		"who_from": "person",
 		"type": "social",
@@ -311,8 +295,7 @@
 		}
 	},
 
-	"7": 
-	{
+	"7": {
 		"title": "Hang out with frens at the cinema",
 		"who_from": "person",
 		"type": "social",

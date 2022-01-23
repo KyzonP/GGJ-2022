@@ -7,12 +7,17 @@ export(int) var eventKey = 0
 
 export var allEvents = {}
 
+export (int) var randomSocial = 0
+
+var rng = RandomNumberGenerator.new()
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	load_file()
 	
-	pass # Replace with function body.
+	rng.randomize()
+	randomSocial = rng.randi_range(1,7)
+	print(randomSocial)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -30,24 +35,25 @@ func _nextEvent():
 func _endEvent():
 	###Summary of previous event - added modifiers etc
 	_nextEvent()
-	pass
 		
 func _newCycle():
 	currentEvent = 0
 	get_tree().change_scene("res://Main/main.tscn")
-	pass
+	
+	rng.randomize()
+	randomSocial = rng.randi_range(1,7)
+	print(randomSocial)
 	
 func load_file():
+	#event Experience
 	var file = File.new()
 	file.open("res://eventExperience.json", file.READ)
 	#var json_event = file["event" + str(CYCLE.eventKey)]
 	var text = file.get_as_text()
 	allEvents = parse_json(text)
-	
-	#tests
-	#var test = allEvents["event1"]
-	#var test2 = test["background"]
-	#print(test2)
-	
 	file.close()
+
+
+	
+	
 	
