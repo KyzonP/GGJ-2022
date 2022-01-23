@@ -586,7 +586,7 @@
 		"who_from": "Grandma",
 		"type": "family",
 
-		"desc": "Im having a party with my friends as they are retireing, wanna show up?",
+		"desc": "Im having a party with my friends as they are \n retireing, wanna show up?",
 
 
 		"option1": {
@@ -819,7 +819,7 @@
 		},
 		"who_from": "Reminder",
 		"type": "work",
-		"desc": "Boss is looking down at me for not being here all the time",
+		"desc": "Boss is looking down at me for not being here \n all the time",
 
 		"option1": {
 			"name": "I think I need to step up my presence at work"
