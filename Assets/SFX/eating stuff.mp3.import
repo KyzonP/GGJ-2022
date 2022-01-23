@@ -11,5 +11,5 @@ dest_files=[ "res://.import/eating stuff.mp3-63d59f1bb884db367b4e6d32759facdd.mp
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

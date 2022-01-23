@@ -34,6 +34,8 @@ func _ready():
 		randomFamily = 0
 
 	print(randomSocial)
+	
+	
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
@@ -89,6 +91,10 @@ func load_file():
 	var text = file.get_as_text()
 	allEvents = parse_json(text)
 	file.close()
+	
+func _unhandled_input(event):
+	if event is InputEventMouseButton:
+		SOUND.get_node("Click").play()
 
 
 	

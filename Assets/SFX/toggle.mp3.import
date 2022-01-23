@@ -11,5 +11,5 @@ dest_files=[ "res://.import/toggle.mp3-46221df75152eda43a6becb0b30532c1.mp3str" 
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

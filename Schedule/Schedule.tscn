@@ -19,11 +19,13 @@ script = ExtResource( 4 )
 
 [node name="CycleText" type="Label" parent="Schedule"]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 158.0
-margin_top = 11.0
-margin_right = 232.0
-margin_bottom = 25.0
-text = "Begin Cycle"
+margin_left = 161.0
+margin_top = -8.0
+margin_right = 235.0
+margin_bottom = 23.0
+rect_scale = Vector2( 2, 2 )
+text = "Begin 
+Cycle"
 __meta__ = {
 "_edit_use_anchors_": false
 }

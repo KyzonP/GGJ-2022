@@ -18,6 +18,7 @@ config/icon="res://icon.png"
 
 CYCLE="*res://CycleManager/Cycle.gd"
 CTRL="*res://Control.gd"
+SOUND="*res://CycleManager/Cycle.tscn"
 
 [display]
 

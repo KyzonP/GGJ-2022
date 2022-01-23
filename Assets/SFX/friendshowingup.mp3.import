@@ -11,5 +11,5 @@ dest_files=[ "res://.import/friendshowingup.mp3-7e9930cee1d045f4f95bf87414f62461
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

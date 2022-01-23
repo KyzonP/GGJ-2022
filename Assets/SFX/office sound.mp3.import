@@ -11,5 +11,5 @@ dest_files=[ "res://.import/office sound.mp3-a6aefb5ddeb2be584e8ec6d3223bc939.mp
 
 [params]
 
-loop=true
+loop=false
 loop_offset=0

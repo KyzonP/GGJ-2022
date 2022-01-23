@@ -16,6 +16,8 @@ func _ready():
 
 func _socialEvent():
 	if CYCLE.randomSocial != 0:
+		_beep()
+		
 		###changing its text
 		var socialData = CYCLE.allEvents["event" + str(CYCLE.randomSocial)]
 		
@@ -42,6 +44,8 @@ func _socialEvent():
 
 func _selfEvent():
 	if CYCLE.randomSelf != 0:
+		_beep()
+		
 		###changing its text
 		var selfData = CYCLE.allEvents["event" + str(CYCLE.randomSelf+10)]
 		
@@ -68,6 +72,8 @@ func _selfEvent():
 
 func _familyEvent():
 	if CYCLE.randomFamily != 0:
+		_beep()
+		
 		###changing its text
 		var familyData = CYCLE.allEvents["event" + str(CYCLE.randomFamily+20)]
 		
@@ -94,6 +100,7 @@ func _familyEvent():
 
 func _workEvent():
 	if CYCLE.randomWork != 0:
+		_beep()
 		###changing its text
 		var workData = CYCLE.allEvents["event" + str(CYCLE.randomWork+30)]
 		
@@ -156,3 +163,6 @@ func _on_NoButton_pressed():
 	elif currentEvent == "work":
 		_workEvent()
 	pass # Replace with function body.
+
+func _beep():
+	SOUND.get_node("Click").play()
