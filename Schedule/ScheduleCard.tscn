@@ -24,11 +24,11 @@ shape = SubResource( 1 )
 
 [node name="Name" type="Label" parent="KinematicBody2D"]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = -20.0
-margin_top = -8.66667
-margin_right = 20.0
-margin_bottom = 5.33333
-rect_scale = Vector2( 0.75, 0.75 )
+margin_left = -14.6667
+margin_top = -8.0
+margin_right = 25.3333
+margin_bottom = 9.0
+rect_scale = Vector2( 0.5, 0.5 )
 theme = ExtResource( 2 )
 __meta__ = {
 "_edit_use_anchors_": false
