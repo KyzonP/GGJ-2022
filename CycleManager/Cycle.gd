@@ -29,6 +29,10 @@ func _ready():
 	
 	rng.randomize()
 	randomWork = rng.randi_range(1,7)
+	
+	if CTRL.hasDog == false and randomFamily > 4:
+		randomFamily = 0
+
 	print(randomSocial)
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -36,6 +40,13 @@ func _process(delta):
 	pass
 
 func _nextEvent():
+	###cONTROL
+	if eventKey == 35:
+		CTRL.employed = true
+	elif eventKey == 11:
+		CTRL.hasDog = true
+	
+	
 	currentEvent += 1
 	eventKey = events[currentEvent-1]
 	print("Test" + str(eventKey))
@@ -60,6 +71,9 @@ func _newCycle():
 	
 	rng.randomize()
 	randomFamily = rng.randi_range(1,7)
+	
+	if CTRL.hasDog == false and randomFamily > 4:
+		randomFamily = 0
 	
 	if CTRL.employed == true:
 		rng.randomize()

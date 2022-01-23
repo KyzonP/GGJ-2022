@@ -1,16 +1,17 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=8 format=2]
 
 [ext_resource path="res://Event/Event.gd" type="Script" id=1]
 [ext_resource path="res://fonts/OxaniumBold-p77oZ.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://Assets/Characters/characterPlayer.png" type="Texture" id=3]
+[ext_resource path="res://Assets/UI/textBox.png" type="Texture" id=4]
+
+[sub_resource type="Theme" id=3]
 
 [sub_resource type="DynamicFont" id=4]
 font_data = ExtResource( 2 )
 
 [sub_resource type="Theme" id=2]
 default_font = SubResource( 4 )
-
-[sub_resource type="Theme" id=3]
 
 [node name="Event" type="Node2D"]
 script = ExtResource( 1 )
@@ -35,28 +36,6 @@ position = Vector2( 790, 365 )
 position = Vector2( 234, 366 )
 texture = ExtResource( 3 )
 
-[node name="Dialogue" type="Label" parent="."]
-margin_left = 343.0
-margin_top = 433.0
-margin_right = 441.0
-margin_bottom = 488.0
-theme = SubResource( 2 )
-text = "test
-"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
-[node name="Button" type="Button" parent="."]
-margin_left = 869.0
-margin_top = 519.0
-margin_right = 956.0
-margin_bottom = 539.0
-text = "NEXT EVENT"
-__meta__ = {
-"_edit_use_anchors_": false
-}
-
 [node name="DialogueTest" type="RichTextLabel" parent="."]
 margin_right = 40.0
 margin_bottom = 40.0
@@ -65,4 +44,32 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[node name="TextBox" type="Sprite" parent="."]
+position = Vector2( 515, 520 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 4 )
+
+[node name="Button" type="Button" parent="TextBox"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 754.0
+margin_top = 42.0
+margin_right = 926.0
+margin_bottom = 102.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Dialogue" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 76.0
+margin_top = 488.0
+margin_right = 174.0
+margin_bottom = 543.0
+theme = SubResource( 2 )
+text = "test
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="TextBox/Button" to="." method="_on_Button_pressed"]

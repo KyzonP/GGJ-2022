@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Assets/Schedule/ScheduleMenu.png" type="Texture" id=1]
-[ext_resource path="res://Assets/Schedule/SchedulePhone.png" type="Texture" id=2]
+[ext_resource path="res://Assets/UI/uiPhone.png" type="Texture" id=2]
 [ext_resource path="res://Schedule/SchedulePhone.gd" type="Script" id=3]
 [ext_resource path="res://Schedule/Schedule.gd" type="Script" id=4]
 [ext_resource path="res://Schedule/ScheduleSlot.tscn" type="PackedScene" id=6]
@@ -17,12 +17,24 @@ __meta__ = {
 position = Vector2( 510, 300 )
 script = ExtResource( 4 )
 
+[node name="CycleText" type="Label" parent="Schedule"]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 158.0
+margin_top = 11.0
+margin_right = 232.0
+margin_bottom = 25.0
+text = "Begin Cycle"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="StartCycle" type="Button" parent="Schedule"]
-margin_left = 128.0
-margin_top = -25.0
-margin_right = 188.0
-margin_bottom = 29.0
-rect_scale = Vector2( 2, 2 )
+modulate = Color( 1, 1, 1, 0 )
+margin_left = 130.0
+margin_top = -43.0
+margin_right = 190.0
+margin_bottom = 11.0
+rect_scale = Vector2( 2.12, 2.32 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -59,37 +71,61 @@ texture = ExtResource( 2 )
 script = ExtResource( 3 )
 
 [node name="YesButton" type="Button" parent="SchedulePhone"]
-margin_left = -130.0
-margin_top = 20.0
-margin_right = -118.0
-margin_bottom = 40.0
+modulate = Color( 1, 1, 1, 0 )
+margin_left = -168.0
+margin_top = 10.0
+margin_right = 169.0
+margin_bottom = 39.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="NoButton" type="Button" parent="SchedulePhone"]
-margin_left = -130.0
-margin_top = 55.0
-margin_right = -118.0
-margin_bottom = 75.0
+modulate = Color( 1, 1, 1, 0 )
+margin_left = -167.0
+margin_top = 42.0
+margin_right = 168.0
+margin_bottom = 71.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="TextBody" type="Label" parent="SchedulePhone"]
-margin_left = -131.0
-margin_top = -47.0
-margin_right = -91.0
-margin_bottom = -33.0
+modulate = Color( 0, 0, 0, 1 )
+margin_left = -165.0
+margin_top = -49.0
+margin_right = -125.0
+margin_bottom = -35.0
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="TextPerson" type="Label" parent="SchedulePhone"]
-margin_left = -132.0
-margin_top = -76.0
-margin_right = -92.0
-margin_bottom = -62.0
+modulate = Color( 0, 0, 0, 1 )
+margin_left = -164.0
+margin_top = -70.0
+margin_right = -124.0
+margin_bottom = -56.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="YesText" type="Label" parent="SchedulePhone"]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = -168.0
+margin_top = 10.0
+margin_right = -128.0
+margin_bottom = 24.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NoText" type="Label" parent="SchedulePhone"]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = -168.0
+margin_top = 42.0
+margin_right = -128.0
+margin_bottom = 56.0
 __meta__ = {
 "_edit_use_anchors_": false
 }

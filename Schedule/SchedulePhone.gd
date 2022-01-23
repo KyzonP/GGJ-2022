@@ -28,12 +28,12 @@ func _socialEvent():
 		if "option1" in socialData:
 			option1 = socialData["option1"]
 			if "name" in option1:
-				$YesButton.text = option1["name"]
+				$YesText.text = option1["name"]
 		
 		if "option2" in socialData:
 			option2 = socialData["option2"]
 			if "name" in option2:
-				$NoButton.text = option2["name"]
+				$NoText.text = option2["name"]
 			
 		currentEvent = "self"
 	else:
@@ -54,12 +54,12 @@ func _selfEvent():
 		if "option1" in selfData:
 			option1 = selfData["option1"]
 			if "name" in option1:
-				$YesButton.text = option1["name"]
+				$YesText.text = option1["name"]
 		
 		if "option2" in selfData:
 			option2 = selfData["option2"]
 			if "name" in option2:
-				$NoButton.text = option2["name"]
+				$NoText.text = option2["name"]
 			
 		currentEvent = "family"
 	else:
@@ -80,12 +80,12 @@ func _familyEvent():
 		if "option1" in familyData:
 			option1 = familyData["option1"]
 			if "name" in option1:
-				$YesButton.text = option1["name"]
+				$YesText.text = option1["name"]
 		
 		if "option2" in familyData:
 			option2 = familyData["option2"]
 			if "name" in option2:
-				$NoButton.text = option2["name"]
+				$NoText.text = option2["name"]
 		
 		currentEvent = "work"
 	else:
@@ -106,14 +106,19 @@ func _workEvent():
 		if "option1" in workData:
 			option1 = workData["option1"]
 			if "name" in option1:
-				$YesButton.text = option1["name"]
+				$YesText.text = option1["name"]
 		
 		if "option2" in workData:
 			option2 = workData["option2"]
 			if "name" in option2:
-				$NoButton.text = option2["name"]
+				$NoText.text = option2["name"]
 		
 		currentEvent = "social"
+		
+		
+		###CONTROL 
+		if CYCLE.randomWork == 5:
+			CTRL.employed = false
 	else:
 		currentEvent = "social"
 		_on_NoButton_pressed()

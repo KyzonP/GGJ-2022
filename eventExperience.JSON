@@ -24,13 +24,13 @@
 			"name": "Sure thing, will meet you there!"
 		},
 		"option2": {
-			"name": "No thanks, have to catch up on work stuff, go on without me"
+			"name": "No thanks, have to catch up \n on work stuff, go on without me"
 		}
 	},
 
 	"event2": {
 		"subtitle": "Party",
-		"background": "res://Assets/Backgrounds/PartyHouse.png",
+		"background": "res://Assets/Backgrounds/backgroundPartyHouse.png",
 		"character": "res://Assets/Characters/characterPartyFriend.png",
 		"dialogue": "Man that was awesome. We should do this more often.",
 
@@ -43,10 +43,10 @@
 			"happiness": 25,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Friend",
 		"type": "social",
 
-		"desc": "Hey. there is gonna be this sick party soon, you should come with",
+		"desc": "Hey. there is gonna be this sick \n party soon, you should come with",
 
 
 		"option1": {
@@ -72,17 +72,17 @@
 			"happiness": 25,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Friend",
 		"type": "social",
 
-		"desc": "Its that time of the cycle again, you coming to the pub?",
+		"desc": "Its that time of the cycle again, \n you coming to the pub?",
 
 
 		"option1": {
 			"name": "You bet, im on my way now"
 		},
 		"option2": {
-			"name": "No thanks, have to catch up on work stuff, go on without me"
+			"name": "No thanks, have to catch up on work \n stuff, go on without me"
 		}
 	},
 
@@ -101,14 +101,14 @@
 			"happiness": 25,
 			"infected": "false"
 		},
-		"who_from": "family",
+		"who_from": "Mom",
 		"type": "social",
 
-		"desc": "I think you should go visit your gran",
+		"desc": "I think you should go visit your \n gran",
 
 
 		"option1": {
-			"name": "Sure thing, will meet you there!"
+			"name": "Sure thing, I'll go see her soon!"
 
 		},
 		"option2": {
@@ -131,7 +131,7 @@
 			"happiness": 15,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Flatmate",
 		"type": "social",
 
 		"desc": "We should hang out dude",
@@ -158,16 +158,16 @@
 			"happiness": 20,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Friend",
 		"type": "social",
-		"desc": "We should hang out dude",
+		"desc": "We should hang out at my place \n dude",
 
 
 		"option1": {
 			"name": "Sure"
 		},
 		"option2": {
-			"name": "No thanks"
+			"name": "Sorry, busy!"
 		}
 	},
 
@@ -186,7 +186,7 @@
 			"happiness": 25,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Friend",
 		"type": "social",
 		"desc": "We should go to the cinema",
 
@@ -215,10 +215,10 @@
 			"infected": "false"
 		},
 
-		"who_from": "person",
+		"who_from": "Flatmate",
 		"type": "self",
 
-		"desc": "So my fren has a doggo that needs a home, you want another fren?",
+		"desc": "Friend of mine has a mushroom that \n needs a home, how about it?",
 
 
 		"option1": {
@@ -226,7 +226,7 @@
 
 		},
 		"option2": {
-			"name": "No thanks, I dont have the time to care for a pupper sorry :( "
+			"name": "No thanks, I dont have the time to \n care for a mushroom sorry :( "
 		}
 
 	},
@@ -246,7 +246,7 @@
 			"infected": "false"
 		},
 
-		"who_from": "player",
+		"who_from": "Reminder",
 		"type": "self",
 
 		"desc": "Its time to buy a new game, which one to get?",
@@ -265,7 +265,7 @@
 	"event13": {
 		"subtitle": "Chill",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
-		"dialogue": "Its nice to stay at home \nsometimes",
+		"dialogue": "Its nice to stay at home sometimes",
 
 		"effects": {
 			"morality": 10,
@@ -277,17 +277,17 @@
 			"infected": "false"
 		},
 
-		"who_from": "person",
+		"who_from": "Reminder",
 		"type": "self",
 
-		"desc": "I think you should stay at home today",
+		"desc": "Have some more me time!",
 
 		"option1": {
 			"name": "Sounds like a plan"
 
 		},
 		"option2": {
-			"name": "I should go to work"
+			"name": "I have too much work"
 		}
 	},
 
@@ -306,7 +306,7 @@
 			"happiness": 10,
 			"infected": "false"
 		},
-		"who_from": "fren.1",
+		"who_from": "Flatmate",
 		"type": "self",
 
 		"desc": "I think we should clean the apartment today",
@@ -316,7 +316,7 @@
 			"name": "I agree, looks like a mess"
 		},
 		"option2": {
-			"name": "No, I should go to work"
+			"name": "I'll get around to it"
 		}
 
 	},
@@ -336,17 +336,17 @@
 			"happiness": 10,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Friend",
 		"type": "self",
 
-		"desc": "Heard you got a new game, wanna have a few rounds in it?",
+		"desc": "Heard you got a new game, \n wanna have a few rounds in it?",
 
 
 		"option1": {
 			"name": "Sure"
 		},
 		"option2": {
-			"name": "No, I should go to work"
+			"name": "Not up for gaming today"
 		}
 	},
 
@@ -365,17 +365,17 @@
 			"happiness": 10,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Flatmate",
 		"type": "self",
 
-		"desc": "Found a few films we should watch, wanna hang",
+		"desc": "Found a few films we should watch, wanna hang?",
 
 
 		"option1": {
 			"name": "Sure, I'll put on the popcorn"
 		},
 		"option2": {
-			"name": "No, I should go to work"
+			"name": "Not in a filmy mood, sorry!"
 		}
 	},
 
@@ -394,7 +394,7 @@
 			"happiness": 10,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Flatmate",
 		"type": "self",
 
 		"desc": "Its a nice day outside, lets go for a walk",
@@ -422,22 +422,22 @@
 			"happiness": 25,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Mom",
 		"type": "family",
 
 		"desc": "We are coming to town, we should a coffee",
 
 
 		"option1": {
-			"name": "Sure thing, come over and ill put the kettle on!"
+			"name": "Sure thing, I know a great place!"
 		},
 		"option2": {
-			"name": "Not at the moment sorry"
+			"name": "I'm busy then, sorry!"
 		}
 	},
 
 	"event22": {
-		"Subtitle": "Grandma",
+		"subtitle": "Grandma",
 		"background": "res://Assets/Backgrounds/backgroundGrandmasHouse.png",
 		"character": "res://Assets/Characters/characterGrandma.png",
 		"dialogue": "I do love these visits, dearie.",
@@ -451,13 +451,13 @@
 			"happiness": 25,
 			"infected": "false"
 		},
-		"who_from": "family",
+		"who_from": "Mom",
 		"type": "family",
 
-		"desc": "I think you should go over and visit your Grandma before she gets lonely",
+		"desc": "I think you should go over and visit \n your Grandma before she gets lonely",
 
 		"option1": {
-			"name": "Ok"
+			"name": "Ok!"
 		},
 		"option2": {
 			"name": "Not at the moment sorry"
@@ -479,10 +479,10 @@
 			"happiness": 25,
 			"infected": "false"
 		},
-		"who_from": "fren4",
+		"who_from": "Grandma",
 		"type": "family",
 
-		"desc": "Im going to make a pot of coffee, would you like a cup?",
+		"desc": "Im going to make a pot of coffee, \n would you like a cup?",
 
 		"option1": {
 			"name": "Yes please, that sounds amazing"
@@ -507,7 +507,7 @@
 			"happiness": 30,
 			"infected": "false"
 		},
-		"who_from": "fren4",
+		"who_from": "Grandma",
 		"type": "family",
 
 		"desc": "Im having a party with my friends as they are retireing, wanna show up?",
@@ -522,7 +522,7 @@
 	},
 
 	"event25": {
-		"subtitle": "Walk \n Dog",
+		"subtitle": "Walk \n Pet",
 		"background": "res://Assets/Backgrounds/backgroundPark.png",
 		"character": "res://Assets/Characters/characterDog.png",
 		"dialogue": "Woof, woof woof!",
@@ -536,14 +536,14 @@
 			"happiness": 15,
 			"infected": "false"
 		},
-		"who_from": "pet",
+		"who_from": "Pet",
 		"type": "family",
 
-		"desc": "Woof WoofWoof WoofWoof WoofWoof WoofWoof WoofWoof WoofWoof Woof",
+		"desc": "Woof WoofWoof WoofWoof WoofWoof",
 
 
 		"option1": {
-			"name": "I think it may be time to walk the doggo"
+			"name": "I think it may be time to walk the mushroom"
 		},
 		"option2": {
 			"name": "Are you hungry buddy??"
@@ -554,7 +554,7 @@
 		"subtitle": "Pet \n Care",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
 		"character": "res://Assets/Characters/characterDog.png",
-		"dialogue": "I love you",
+		"dialogue": "I love you. So much.",
 
 		"effects": {
 			"morality": 10,
@@ -565,16 +565,16 @@
 			"happiness": 10,
 			"infected": "false"
 		},
-		"who_from": "player",
+		"who_from": "Pet",
 		"type": "family",
 
-		"desc": "Pupper looks like he wants attention, I think i should spend some time with them",
+		"desc": "Mushroom looks like he wants attention, \n I think i should spend some time with them",
 
 		"option1": {
-			"name": "Puppy time it is"
+			"name": "Mushroom time it is"
 		},
 		"option2": {
-			"name": "Give the pupper my apologies"
+			"name": "Give the mushroom my apologies"
 
 		}
 	},
@@ -583,7 +583,7 @@
 		"subtitle": "Train \n Pet",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
 		"character": "res://Assets/Characters/characterDog.png",
-		"dialogue": "I wonder if I can train him to train himself",
+		"dialogue": "I wonder if I can train him to train himself...",
 
 		"effects": {
 			"morality": 10,
@@ -594,18 +594,18 @@
 			"happiness": 20,
 			"infected": "false"
 		},
-		"who_from": "pet",
+		"who_from": "Pet",
 		"type": "family",
 
-		"desc": "The pupper is looking at me with affectioness intent, maybe I should train them",
+		"desc": "The mushroom is looking at me with \n vague intent, maybe I should train them",
 
 
 		"option1": {
-			"name": "Grab the treat bag and train the doggo to be the best pupper they can be"
+			"name": "Grab the compost bag and train the \n mushroom to be the best mushroom they can be"
 
 		},
 		"option2": {
-			"name": "Give the puppy a belly rub"
+			"name": "Give the mushroom a pat on the head"
 		}
 	},
 
@@ -624,7 +624,7 @@
 			"happiness": -5,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Coworker",
 		"type": "work",
 
 		"desc": "We are having a party at work, wanna come?",
@@ -653,10 +653,10 @@
 			"happiness": -10,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Boss",
 		"type": "work",
 
-		"desc": "Our work project was planned badly, we need some help to avoid overtime",
+		"desc": "Our work project was planned badly, \n we'd appreciate you doing some overtime.",
 
 
 		"option1": {
@@ -682,7 +682,7 @@
 			"happiness": 10,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Flatmate",
 		"type": "work",
 
 		"desc": "Its that time of the cycle again, drinks at the office?",
@@ -711,7 +711,7 @@
 			"happiness": 5,
 			"infected": "false"
 		},
-		"who_from": "player",
+		"who_from": "Reminder",
 		"type": "work",
 		"desc": "Boss is looking down at me for not being here all the time",
 
@@ -738,16 +738,16 @@
 			"happiness": -5,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Boss",
 		"type": "work",
 
-		"desc": "You are being fired for poor performance, you should have gone to work more. \n This takes effect from the start of the next cycle.",
+		"desc": "You are being fired for poor performance. \n This takes effect from the start of the next cycle.",
 
 		"option1": {
 			"name": "Give me another chance please!"
 		},
 		"option2": {
-			"name": "This is fine"
+			"name": "This is fine."
 		}
 	},
 
@@ -766,17 +766,17 @@
 			"happiness": 10,
 			"infected": "false"
 		},
-		"who_from": "person",
+		"who_from": "Boss",
 		"type": "work",
 
-		"desc": "Your performance is beyond stellar, heres a promotion",
+		"desc": "Your performance is beyond stellar, \n you're due a promotion!",
 
 
 		"option1": {
 			"name": "Ill take this in stride"
 		},
 		"option2": {
-			"name": "I rather stay where I am at the moment, I like it here"
+			"name": "I rather stay where I am at \n the moment, I like it here"
 		}
 	},
 
@@ -787,7 +787,7 @@
 		"dialogue": "See you next shift, I guess",
 
 		"effects": {
-			"morality": "00",
+			"morality": 0,
 			"hunger": 5,
 			"social": 0,
 			"energy": -5,
@@ -795,10 +795,10 @@
 			"happiness": -5,
 			"infected": "false"
 		},
-		"who_from": "player",
+		"who_from": "Coworker",
 		"type": "work",
 
-		"desc": "I think I should go to work this cycle",
+		"desc": "I think I should go to work \n this cycle",
 
 
 		"option1": {
