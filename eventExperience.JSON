@@ -1,5 +1,6 @@
 {
 	"event1": {
+		"subtitle": "Concert",
 		"background": "res://Assets/Backgrounds/backgroundConcert",
 		"character": "res://Assets/Characters/characterPartyFriend.png",
 		"dialogue": "Woah dude that was wicked! I love these guys' music",
@@ -12,9 +13,23 @@
 			"money": -35,
 			"happiness": 30,
 			"infected": "false"
+		},
+		"who_from": "Friend",
+		"type": "social",
+
+		"desc": "Hey duuude, hear there is a \n concert in town this cycle, wanna \n come with??",
+
+
+		"option1": {
+			"name": "Sure thing, will meet you there!"
+		},
+		"option2": {
+			"name": "No thanks, have to catch up on work stuff, go on without me"
 		}
 	},
+
 	"event2": {
+		"subtitle": "Party",
 		"background": "res://Assets/Backgrounds/PartyHouse.png",
 		"character": "res://Assets/Characters/characterPartyFriend.png",
 		"dialogue": "Man that was awesome. We should do this more often.",
@@ -27,9 +42,23 @@
 			"money": -10,
 			"happiness": 25,
 			"infected": "false"
+		},
+		"who_from": "person",
+		"type": "social",
+
+		"desc": "Hey. there is gonna be this sick party soon, you should come with",
+
+
+		"option1": {
+			"name": "Sure thing, will meet you there!"
+		},
+		"option2": {
+			"name": "No thanks"
 		}
 	},
+
 	"event3": {
+		"subtitle": "Pub",
 		"background": "res://Assets/Backgrounds/backgroundPub.png",
 		"character": "res://Assets/Characters/characterPartyFriend.png",
 		"dialogue": "I needed that for sure. See you later!",
@@ -42,9 +71,23 @@
 			"money": -10,
 			"happiness": 25,
 			"infected": "false"
+		},
+		"who_from": "person",
+		"type": "social",
+
+		"desc": "Its that time of the cycle again, you coming to the pub?",
+
+
+		"option1": {
+			"name": "You bet, im on my way now"
+		},
+		"option2": {
+			"name": "No thanks, have to catch up on work stuff, go on without me"
 		}
 	},
+
 	"event4": {
+		"subtitle": "Grandma",
 		"background": "res://Assets/Backgrounds/backgroundGrandmasHouse.png",
 		"character": "res://Assets/Characters/characterGrandma.png",
 		"dialogue": "It was so nice to see you my dear. Have a safe journey home.",
@@ -57,10 +100,24 @@
 			"money": 0,
 			"happiness": 25,
 			"infected": "false"
+		},
+		"who_from": "family",
+		"type": "social",
+
+		"desc": "I think you should go visit your gran",
+
+
+		"option1": {
+			"name": "Sure thing, will meet you there!"
+
+		},
+		"option2": {
+			"name": "Maybe, I'll think about it"
 		}
 	},
+
 	"event5": {
-		"subtitle": "Chill",
+		"subtitle": "Flatmate",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
 		"character": "res://Assets/Characters/characterFlatmate.png",
 		"dialogue": "Nice hanging out dude. Weird how we barely do that despite living in the same place.",
@@ -73,9 +130,21 @@
 			"money": 0,
 			"happiness": 15,
 			"infected": "false"
+		},
+		"who_from": "person",
+		"type": "social",
+
+		"desc": "We should hang out dude",
+		"option1": {
+			"name": "Sure"
+		},
+		"option2": {
+			"name": "Maybe, I'll think about it"
 		}
 	},
+
 	"event6": {
+		"subtitle": "Friend",
 		"background": "res://Assets/Backgrounds/backgroundFriendHouse.png",
 		"character": "res://Assets/Characters/characterPartyFriend.png",
 		"dialogue": "That was awesome bro! We gotta do this more often.",
@@ -88,9 +157,22 @@
 			"money": -5,
 			"happiness": 20,
 			"infected": "false"
+		},
+		"who_from": "person",
+		"type": "social",
+		"desc": "We should hang out dude",
+
+
+		"option1": {
+			"name": "Sure"
+		},
+		"option2": {
+			"name": "No thanks"
 		}
 	},
+
 	"event7": {
+		"subtitle": "Cinema",
 		"background": "res://Assets/Backgrounds/backgroundCinema.png",
 		"character": "res://Assets/Characters/characterPartyFriend.png",
 		"dialogue": "Man that was awesome. We should do this more often.",
@@ -103,10 +185,22 @@
 			"money": -10,
 			"happiness": 25,
 			"infected": "false"
+		},
+		"who_from": "person",
+		"type": "social",
+		"desc": "We should go to the cinema",
+
+
+		"option1": {
+			"name": "Sure"
+		},
+		"option2": {
+			"name": "No thanks, go without me"
 		}
 	},
 
 	"event11": {
+		"subtitle": "Get \n Pet",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
 		"character": "res://Assets/Characters/characterDog.png",
 		"dialogue": "Woof WoofWoof WoofWoof Woof",
@@ -119,10 +213,25 @@
 			"money": 0,
 			"happiness": 10,
 			"infected": "false"
+		},
+
+		"who_from": "person",
+		"type": "self",
+
+		"desc": "So my fren has a doggo that needs a home, you want another fren?",
+
+
+		"option1": {
+			"name": "Sure thing, send me their details"
+
+		},
+		"option2": {
+			"name": "No thanks, I dont have the time to care for a pupper sorry :( "
 		}
 
 	},
 	"event12": {
+		"subtitle": "Get \n Game",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
 		"character": "res://Assets/Characters/characterPlayer.png",
 		"dialogue": "This is a nice game, I love it!",
@@ -135,13 +244,27 @@
 			"money": -10,
 			"happiness": 20,
 			"infected": "false"
+		},
+
+		"who_from": "player",
+		"type": "self",
+
+		"desc": "Its time to buy a new game, which one to get?",
+
+
+		"option1": {
+			"name": "Demon Slayer: Infinity"
+
+		},
+		"option2": {
+			"name": "Human Migration: Old Passing"
 		}
 
 	},
 
 	"event13": {
+		"subtitle": "Chill",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
-		"character": "res://Assets/Characters/characterPlayer.png",
 		"dialogue": "Its nice to stay at home \nsometimes",
 
 		"effects": {
@@ -152,11 +275,24 @@
 			"money": -10,
 			"happiness": 25,
 			"infected": "false"
-		}
+		},
 
+		"who_from": "person",
+		"type": "self",
+
+		"desc": "I think you should stay at home today",
+
+		"option1": {
+			"name": "Sounds like a plan"
+
+		},
+		"option2": {
+			"name": "I should go to work"
+		}
 	},
 
 	"event14": {
+		"subtitle": "Clean",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouseClean.png",
 		"character": "res://Assets/Characters/characterFlatmate.png",
 		"dialogue": "A clean house is a happy house!",
@@ -169,11 +305,24 @@
 			"money": 0,
 			"happiness": 10,
 			"infected": "false"
+		},
+		"who_from": "fren.1",
+		"type": "self",
+
+		"desc": "I think we should clean the apartment today",
+
+
+		"option1": {
+			"name": "I agree, looks like a mess"
+		},
+		"option2": {
+			"name": "No, I should go to work"
 		}
 
 	},
 
 	"event15": {
+		"subtitle": "Play \n Games",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouseMovie.png",
 		"character": "res://Assets/Characters/characterFlatmate.png",
 		"dialogue": "Its great fun playing these games",
@@ -186,11 +335,23 @@
 			"money": 0,
 			"happiness": 10,
 			"infected": "false"
-		}
+		},
+		"who_from": "person",
+		"type": "self",
 
+		"desc": "Heard you got a new game, wanna have a few rounds in it?",
+
+
+		"option1": {
+			"name": "Sure"
+		},
+		"option2": {
+			"name": "No, I should go to work"
+		}
 	},
 
 	"event16": {
+		"subtitle": "Movie",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouseMovie.png",
 		"character": "res://Assets/Characters/characterFlatmate.png",
 		"dialogue": "That film rocked, cant wait for the next one!",
@@ -203,13 +364,25 @@
 			"money": -5,
 			"happiness": 10,
 			"infected": "false"
-		}
+		},
+		"who_from": "person",
+		"type": "self",
 
+		"desc": "Found a few films we should watch, wanna hang",
+
+
+		"option1": {
+			"name": "Sure, I'll put on the popcorn"
+		},
+		"option2": {
+			"name": "No, I should go to work"
+		}
 	},
 
 	"event17": {
+		"subtitle": "Park",
 		"background": "res://Assets/Backgrounds/backgroundPark.png",
-		"character": "res://Assets/Characters/characterDog.png",
+		"character": "res://Assets/Characters/characterFlatmate.png",
 		"dialogue": "Nothing like a walk in the park to clear my head",
 
 		"effects": {
@@ -220,11 +393,22 @@
 			"money": 0,
 			"happiness": 10,
 			"infected": "false"
-		}
+		},
+		"who_from": "person",
+		"type": "self",
 
+		"desc": "Its a nice day outside, lets go for a walk",
+
+		"option1": {
+			"name": "Sure, I'll meet you at the park"
+		},
+		"option2": {
+			"name": "No, I should go to work"
+		}
 	},
 
 	"event21": {
+		"subtitle": "Parents",
 		"background": "res://Assets/Backgrounds/backgroundRestaurant.png",
 		"character": "res://Assets/Characters/characterParents.png",
 		"dialogue": "Great seeing you, my boy. See you soon!",
@@ -237,11 +421,23 @@
 			"money": -10,
 			"happiness": 25,
 			"infected": "false"
-		}
+		},
+		"who_from": "person",
+		"type": "family",
 
+		"desc": "We are coming to town, we should a coffee",
+
+
+		"option1": {
+			"name": "Sure thing, come over and ill put the kettle on!"
+		},
+		"option2": {
+			"name": "Not at the moment sorry"
+		}
 	},
 
 	"event22": {
+		"Subtitle": "Grandma",
 		"background": "res://Assets/Backgrounds/backgroundGrandmasHouse.png",
 		"character": "res://Assets/Characters/characterGrandma.png",
 		"dialogue": "I do love these visits, dearie.",
@@ -254,11 +450,22 @@
 			"money": 0,
 			"happiness": 25,
 			"infected": "false"
-		}
+		},
+		"who_from": "family",
+		"type": "family",
 
+		"desc": "I think you should go over and visit your Grandma before she gets lonely",
+
+		"option1": {
+			"name": "Ok"
+		},
+		"option2": {
+			"name": "Not at the moment sorry"
+		}
 	},
 
 	"event23": {
+		"subtitle": "Grandma \n Coffee",
 		"background": "res://Assets/Backgrounds/backgroundGrandmaHouse.png",
 		"character": "res://Assets/Characters/characterGrandma.png",
 		"dialogue": "Nothing like a hot home brewed coffee.",
@@ -268,14 +475,25 @@
 			"hunger": -5,
 			"social": 10,
 			"energy": 15,
-			"money":  0,
+			"money": 0,
 			"happiness": 25,
 			"infected": "false"
-		}
+		},
+		"who_from": "fren4",
+		"type": "family",
 
+		"desc": "Im going to make a pot of coffee, would you like a cup?",
+
+		"option1": {
+			"name": "Yes please, that sounds amazing"
+		},
+		"option2": {
+			"name": "Not at the moment sorry"
+		}
 	},
 
 	"event24": {
+		"subtitle": "Grandma \n Party",
 		"background": "res://Assets/Backgrounds/backgroundPartyHouse.png",
 		"character": "res://Assets/Characters/characterGrandma.png",
 		"dialogue": "Just like the old days.",
@@ -288,11 +506,23 @@
 			"money": -10,
 			"happiness": 30,
 			"infected": "false"
-		}
+		},
+		"who_from": "fren4",
+		"type": "family",
 
+		"desc": "Im having a party with my friends as they are retireing, wanna show up?",
+
+
+		"option1": {
+			"name": "Sounds like an epic party, I'll be there"
+		},
+		"option2": {
+			"name": "Not at the moment sorry"
+		}
 	},
 
 	"event25": {
+		"subtitle": "Walk \n Dog",
 		"background": "res://Assets/Backgrounds/backgroundPark.png",
 		"character": "res://Assets/Characters/characterDog.png",
 		"dialogue": "Woof, woof woof!",
@@ -305,11 +535,23 @@
 			"money": 0,
 			"happiness": 15,
 			"infected": "false"
-		}
+		},
+		"who_from": "pet",
+		"type": "family",
 
+		"desc": "Woof WoofWoof WoofWoof WoofWoof WoofWoof WoofWoof WoofWoof Woof",
+
+
+		"option1": {
+			"name": "I think it may be time to walk the doggo"
+		},
+		"option2": {
+			"name": "Are you hungry buddy??"
+		}
 	},
 
 	"event26": {
+		"subtitle": "Pet \n Care",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
 		"character": "res://Assets/Characters/characterDog.png",
 		"dialogue": "I love you",
@@ -322,11 +564,23 @@
 			"money": 0,
 			"happiness": 10,
 			"infected": "false"
-		}
+		},
+		"who_from": "player",
+		"type": "family",
 
+		"desc": "Pupper looks like he wants attention, I think i should spend some time with them",
+
+		"option1": {
+			"name": "Puppy time it is"
+		},
+		"option2": {
+			"name": "Give the pupper my apologies"
+
+		}
 	},
 
 	"event27": {
+		"subtitle": "Train \n Pet",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
 		"character": "res://Assets/Characters/characterDog.png",
 		"dialogue": "I wonder if I can train him to train himself",
@@ -339,28 +593,24 @@
 			"money": -5,
 			"happiness": 20,
 			"infected": "false"
-		}
+		},
+		"who_from": "pet",
+		"type": "family",
 
+		"desc": "The pupper is looking at me with affectioness intent, maybe I should train them",
+
+
+		"option1": {
+			"name": "Grab the treat bag and train the doggo to be the best pupper they can be"
+
+		},
+		"option2": {
+			"name": "Give the puppy a belly rub"
+		}
 	},
 
 	"event31": {
-		"background": "res://Assets/Backgrounds/test_house_1.png",
-		"character": "res://Assets/Characters/test-char-1.png",
-		"dialogue": "test",
-
-		"effects": {
-			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
-			"infected": "false"
-		}
-
-	},
-
-	"event32": {
+		"subtitle": "Work \n Party",
 		"background": "res://Assets/Backgrounds/backgroundWorkParty.png",
 		"character": "res://Assets/Characters/characterCoworker.png",
 		"dialogue": "These things never quite live up to my expectations",
@@ -373,11 +623,23 @@
 			"money": 0,
 			"happiness": -5,
 			"infected": "false"
-		}
+		},
+		"who_from": "person",
+		"type": "work",
 
+		"desc": "We are having a party at work, wanna come?",
+
+
+		"option1": {
+			"name": "Sure thing, ill grab some snacks on my way over!"
+		},
+		"option2": {
+			"name": "Not at the moment sorry"
+		}
 	},
 
-	"event33": {
+	"event32": {
+		"subtitle": "Overtime",
 		"background": "res://Assets/Backgrounds/backgroundWork.png",
 		"character": "res://Assets/Characters/characterBoss.png",
 		"dialogue": "Thanks for your help, partner. I've given you a small bonus.",
@@ -390,12 +652,24 @@
 			"money": 20,
 			"happiness": -10,
 			"infected": "false"
-		}
+		},
+		"who_from": "person",
+		"type": "work",
 
+		"desc": "Our work project was planned badly, we need some help to avoid overtime",
+
+
+		"option1": {
+			"name": "Damn, Ill help out!"
+		},
+		"option2": {
+			"name": "Not at the moment sorry"
+		}
 	},
 
-	"event34": {
-		"background": "res://Assets/Backgrounds/backgroundWork.png",
+	"event33": {
+		"subtitle": "Payday",
+		"background": "res://Assets/Backgrounds/backgroundWorkParty.png",
 		"character": "res://Assets/Characters/characterCoworker.png",
 		"dialogue": "I swear they keep leaving out a zero on these payslips.",
 
@@ -407,11 +681,23 @@
 			"money": 10,
 			"happiness": 10,
 			"infected": "false"
-		}
+		},
+		"who_from": "person",
+		"type": "work",
 
+		"desc": "Its that time of the cycle again, drinks at the office?",
+
+
+		"option1": {
+			"name": "Sounds like a blast, I'll get some supllies"
+		},
+		"option2": {
+			"name": "Its a night in for me"
+		}
 	},
 
-	"event35": {
+	"event34": {
+		"subtitle": "Work \n Hard",
 		"background": "res://Assets/Backgrounds/characterWork.png",
 		"character": "res://Assets/Characters/characterBoss.png",
 		"dialogue": "You've been doing very well. Keep it up!",
@@ -420,15 +706,25 @@
 			"morality": 10,
 			"hunger": 0,
 			"social": 0,
-			"energy": -5,
+			"energy": -10,
 			"money": 5,
 			"happiness": 5,
 			"infected": "false"
-		}
+		},
+		"who_from": "player",
+		"type": "work",
+		"desc": "Boss is looking down at me for not being here all the time",
 
+		"option1": {
+			"name": "I think I need to step up my presence at work"
+		},
+		"option2": {
+			"name": "I think he is just having a bad day, I'll be ok"
+		}
 	},
 
-	"event36": {
+	"event35": {
+		"subtitle": "Get \n Job",
 		"background": "res://Assets/Backgrounds/backgroundWork.png",
 		"character": "res://Assets/Characters/characterBoss.png",
 		"dialogue": "I'll give you one more chance.",
@@ -441,11 +737,22 @@
 			"money": -5,
 			"happiness": -5,
 			"infected": "false"
-		}
+		},
+		"who_from": "person",
+		"type": "work",
 
+		"desc": "You are being fired for poor performance, you should have gone to work more. \n This takes effect from the start of the next cycle.",
+
+		"option1": {
+			"name": "Give me another chance please!"
+		},
+		"option2": {
+			"name": "This is fine"
+		}
 	},
 
-	"event37": {
+	"event36": {
+		"subtitle": "Promotion",
 		"background": "res://Assets/Backgrounds/backgroundWork.png",
 		"character": "res://Assets/Characters/characterBoss.png",
 		"dialogue": "You've earned this, partner!",
@@ -458,1252 +765,7 @@
 			"money": 10,
 			"happiness": 10,
 			"infected": "false"
-		}
-
-	},
-
-
-
-
-	"soc1": {
-		"title": "Concert invite",
-		"who_from": "person",
-		"type": "social",
-
-		"desc": "Hey duuude, hear there is a concert in town this cycle, wanna come with??",
-
-
-		"option1": {
-			"name": "Sure thing, will meet you there!",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.75,
-				"fren_infected": 0.75
-			}
-
 		},
-		"option2": {
-			"name": "No thanks, have to catch up on work stuff, go on without me",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"soc2": {
-		"title": "Wanna go to a party?",
-		"who_from": "person",
-		"type": "social",
-
-		"desc": "Hey. there is gonna be this sick party soon, you should come with",
-
-
-		"option1": {
-			"name": "Sure thing, will meet you there!",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 5,
-					"add_energy": -5,
-					"add_happiness": 10,
-					"add_money": -15
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.05,
-				"fren_infected": 0.05
-			}
-
-		},
-		"option2": {
-			"name": "No thanks",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": -1,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.05
-			}
-
-		}
-	},
-
-	"soc3": {
-		"title": "Pub Time",
-		"who_from": "person",
-		"type": "social",
-
-		"desc": "Its that time of the cycle again, you coming to the pub?",
-
-
-		"option1": {
-			"name": "You bet, im on my way now",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 20,
-					"add_energy": -10,
-					"add_happiness": 10,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.1,
-				"fren_infected": 0.1
-			}
-
-		},
-		"option2": {
-			"name": "No thanks, have to catch up on work stuff, go on without me",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.1
-			}
-
-		}
-	},
-
-	"soc4": {
-		"title": "Go visit your granny",
-		"who_from": "family",
-		"type": "social",
-
-		"desc": "I think you should go visit your gran",
-
-
-		"option1": {
-			"name": "Sure thing, will meet you there!",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": 10,
-					"add_hunger": -25,
-					"add_work": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.5
-			}
-
-		},
-		"option2": {
-			"name": "Maybe, I'll think about it",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": -10,
-					"add_happiness": -10,
-					"add_money": 0,
-					"add_hunger": 10,
-					"add_work": 0
-
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0
-			}
-
-		}
-	},
-
-	"soc5": {
-		"title": "Hang out with roomy",
-		"who_from": "person",
-		"type": "social",
-
-		"desc": "We should hang out dude",
-
-
-		"option1": {
-			"name": "Sure",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 15,
-					"add_energy": 10,
-					"add_happiness": 100,
-					"add_money": -50,
-					"add_hunger": -25,
-					"add_work": 0
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "Maybe, I'll think about it",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": -10,
-					"add_happiness": -10,
-					"add_money": 0,
-					"add_hunger": 10,
-					"add_work": 0
-
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0
-			}
-
-		}
-	},
-
-	"soc6": {
-		"title": "Hang out with frens from school",
-		"who_from": "person",
-		"type": "social",
-
-		"desc": "We should hang out dude",
-
-
-		"option1": {
-			"name": "Sure",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 10,
-					"add_energy": -5,
-					"add_happiness": 10,
-					"add_money": -20,
-					"add_hunger": -5,
-					"add_work": 0
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.25,
-				"fren_infected": 0.25
-			}
-
-		},
-		"option2": {
-			"name": "No thanks",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": -10,
-					"add_happiness": -10,
-					"add_money": 0,
-					"add_hunger": 10,
-					"add_work": 0
-
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0
-			}
-
-		}
-	},
-
-	"soc7": {
-		"title": "Hang out with frens at the cinema",
-		"who_from": "person",
-		"type": "social",
-
-		"desc": "We should go to the cinema",
-
-
-		"option1": {
-			"name": "Sure",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 10,
-					"add_energy": -5,
-					"add_happiness": 10,
-					"add_money": -20,
-					"add_hunger": -5,
-					"add_work": 0
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.25,
-				"fren_infected": 0.25
-			}
-
-		},
-		"option2": {
-			"name": "No thanks, go without me",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": -10,
-					"add_happiness": -10,
-					"add_money": 0,
-					"add_hunger": 5,
-					"add_work": 0
-
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.25
-			}
-
-		}
-	},
-
-	"sel11": {
-		"title": "Pupper wants a home",
-		"who_from": "person",
-		"type": "self",
-
-		"desc": "So my fren has a doggo that needs a home, you want another fren?",
-
-
-		"option1": {
-			"name": "Sure thing, send me their details",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 0,
-					"add_energy": -30,
-					"add_happiness": 30,
-					"add_money": -50,
-					"add_hunger": 0,
-					"add_work": 0,
-					"has_pupper": "true"
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0,
-				"fren_infected": 0,
-				"add_morality": 5
-
-			}
-
-
-		},
-		"option2": {
-			"name": "No thanks, I dont have the time to care for a pupper sorry :( ",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 0,
-					"add_energy": 0,
-					"add_happiness": -5,
-					"add_money": 0,
-					"add_hunger": 0,
-					"add_work": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0
-			}
-
-		}
-	},
-
-
-	"sel12": {
-		"title": "Reminder: SmolBoi games are out",
-		"who_from": "player",
-		"type": "self",
-
-		"desc": "Its time to buy a new game, which one to get?",
-
-
-		"option1": {
-			"name": "Demon Slayer: Infinity",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 0,
-					"add_energy": -5,
-					"add_happiness": 30,
-					"add_money": -60,
-					"add_hunger": 0,
-					"add_work": 0
-
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0,
-				"add_morality": -10,
-				"fren_infected": 0
-
-			}
-
-
-		},
-		"option2": {
-			"name": "Human Migration: Old Passing",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 0,
-					"add_energy": -5,
-					"add_happiness": 30,
-					"add_money": -60,
-					"add_hunger": 0,
-					"add_work": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0,
-				"add_morality": 10
-			}
-
-		}
-	},
-
-
-	"sel13": {
-		"title": "Stay at home",
-		"who_from": "person",
-		"type": "self",
-
-		"desc": "I think you should stay at home today",
-
-
-		"option1": {
-			"name": "Sounds like a plan",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -5,
-					"add_energy": 10,
-					"add_happiness": 5,
-					"add_money": 0,
-					"add_hunger": 0,
-					"add_work": -5
-
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0,
-				"add_morality": 10,
-				"fren_infected": 0
-
-			}
-
-
-		},
-		"option2": {
-			"name": "I should go to work",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 0,
-					"add_energy": 0,
-					"add_happiness": -5,
-					"add_money": 0,
-					"add_hunger": 0,
-					"add_work": 5
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.1,
-				"fren_infected": 0,
-				"add_morality": 0
-			}
-
-		}
-	},
-
-
-
-	"sel14": {
-		"title": "Time to clean apartment",
-		"who_from": "fren.1",
-		"type": "self",
-
-		"desc": "I think we should clean the apartment today",
-
-
-		"option1": {
-			"name": "I agree, looks like a mess",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 0,
-					"add_energy": -10,
-					"add_happiness": 5,
-					"add_money": 0,
-					"add_hunger": 0,
-					"add_work": -5
-
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.10,
-				"add_morality": 0,
-				"fren_infected": 0.10
-
-			}
-
-
-		},
-		"option2": {
-			"name": "No, I should go to work",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 0,
-					"add_energy": 0,
-					"add_happiness": -5,
-					"add_money": 0,
-					"add_hunger": 0,
-					"add_work": 5
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.1,
-				"fren_infected": 0.1,
-				"add_morality": -10
-			}
-
-		}
-	},
-
-
-
-	"sel15": {
-		"title": "Wanna play some games together?",
-		"who_from": "person",
-		"type": "self",
-
-		"desc": "Heard you got a new game, wanna have a few rounds in it?",
-
-
-		"option1": {
-			"name": "Sure",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 5,
-					"add_energy": 0,
-					"add_happiness": 10,
-					"add_money": 0,
-					"add_hunger": 0,
-					"add_work": 0
-
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.10,
-				"add_morality": 0,
-				"fren_infected": 0.10
-
-			}
-
-
-		},
-		"option2": {
-			"name": "No, I should go to work",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 0,
-					"add_energy": 0,
-					"add_happiness": -5,
-					"add_money": 0,
-					"add_hunger": 0,
-					"add_work": 5
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0,
-				"fren_infected": 0,
-				"add_morality": 0
-			}
-
-		}
-	},
-
-
-	"sel16": {
-		"title": "Wanna watch a movie?",
-		"who_from": "person",
-		"type": "self",
-
-		"desc": "Found a few films we should watch, wanna hang",
-
-
-		"option1": {
-			"name": "Sure, I'll put on the popcorn",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 5,
-					"add_energy": 5,
-					"add_happiness": 10,
-					"add_money": -15,
-					"add_hunger": -20,
-					"add_work": -5
-
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.10,
-				"add_morality": 0,
-				"fren_infected": 0.10
-
-			}
-
-
-		},
-		"option2": {
-			"name": "No, I should go to work",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 0,
-					"add_energy": 0,
-					"add_happiness": -5,
-					"add_money": 0,
-					"add_hunger": 0,
-					"add_work": 5
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0,
-				"fren_infected": 0,
-				"add_morality": 0
-			}
-
-		}
-	},
-
-	"sel17": {
-		"title": "We should go for a walk",
-		"who_from": "person",
-		"type": "self",
-
-		"desc": "Its a nice day outside, lets go for a walk",
-
-
-		"option1": {
-			"name": "Sure, I'll meet you at the park",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 10,
-					"add_energy": 5,
-					"add_happiness": 15,
-					"add_money": 0,
-					"add_hunger": -5,
-					"add_work": -5
-
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.10,
-				"add_morality": 0,
-				"fren_infected": 0.10
-
-			}
-
-
-		},
-		"option2": {
-			"name": "No, I should go to work",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 0,
-					"add_energy": 0,
-					"add_happiness": -5,
-					"add_money": 0,
-					"add_hunger": 0,
-					"add_work": 5
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0,
-				"fren_infected": 0,
-				"add_morality": 0
-			}
-
-		}
-	},
-
-	"fam21": {
-		"title": "Parents visit town",
-		"who_from": "person",
-		"type": "family",
-
-		"desc": "We are coming to town, we should a coffee",
-
-
-		"option1": {
-			"name": "Sure thing, come over and ill put the kettle on!",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "Not at the moment sorry",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"fam22": {
-		"title": "Visit Grandma",
-		"who_from": "family",
-		"type": "family",
-
-		"desc": "I think you should go over and visit your Grandma before she gets lonely",
-
-
-		"option1": {
-			"name": "Ok",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "Not at the moment sorry",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"fam23": {
-		"title": "Coffee with grandma",
-		"who_from": "fren4",
-		"type": "family",
-
-		"desc": "Im going to make a pot of coffee, would you like a cup?",
-
-
-		"option1": {
-			"name": "Yes please, that sounds amazing",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "Not at the moment sorry",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"fam24": {
-		"title": "Party at Grandmas",
-		"who_from": "fren4",
-		"type": "family",
-
-		"desc": "Im having a party with my friends as they are retireing, wanna show up?",
-
-
-		"option1": {
-			"name": "Sounds like an epic party, I'll be there",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "Not at the moment sorry",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"fam25": {
-		"title": "Woof Woof",
-		"who_from": "pet",
-		"type": "family",
-
-		"desc": "Woof WoofWoof WoofWoof WoofWoof WoofWoof WoofWoof WoofWoof Woof",
-
-
-		"option1": {
-			"name": "I think it may be time to walk the doggo",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "Are you hungry buddy??",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"fam26": {
-		"title": "Spend time with the pupper",
-		"who_from": "player",
-		"type": "family",
-
-		"desc": "Pupper looks like he wants attention, I think i should spend some time with them",
-
-
-		"option1": {
-			"name": "Puppy time it is",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "Give the pupper my apologies",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"fam27": {
-		"title": "Train pupper",
-		"who_from": "pet",
-		"type": "family",
-
-		"desc": "The pupper is looking at me with affectioness intent, maybe I should train them",
-
-
-		"option1": {
-			"name": "Grab the treat bag and train the doggo to be the best pupper they can be",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "Give the puppy a belly rub",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"wor31": {
-		"title": "Party at Work",
-		"who_from": "person",
-		"type": "work",
-
-		"desc": "We are having a party at work, wanna come?",
-
-
-		"option1": {
-			"name": "Sure thing, ill grab some snacks on my way over!",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "Not at the moment sorry",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"wor32": {
-		"title": "Deadlines at work",
-		"who_from": "person",
-		"type": "work",
-
-		"desc": "Our work project was planned badly, we need some help to avoid overtime",
-
-
-		"option1": {
-			"name": "Damn, Ill help out!",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "Not at the moment sorry",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"wor33": {
-		"title": "Payday Party",
-		"who_from": "person",
-		"type": "work",
-
-		"desc": "Its that time of the cycle again, drinks at the office?",
-
-
-		"option1": {
-			"name": "Sounds like a blast, I'll get some supllies",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "Its a night in for me",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"wor34": {
-		"title": "Problems at work",
-		"who_from": "player",
-		"type": "work",
-
-		"desc": "Boss is looking down at me for not being here all the time",
-
-
-		"option1": {
-			"name": "I think I need to step up my presence at work",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "I think he is just having a bad day, I'll be ok",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"wor35": {
-		"title": "Losing Job",
-		"who_from": "person",
-		"type": "work",
-
-		"desc": "You are being fired for poor performance, you should have gone to work more",
-
-
-		"option1": {
-			"name": "Give me another chance please!",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
-		},
-		"option2": {
-			"name": "This is fine",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
-		}
-	},
-
-	"wor36": {
-		"title": "Promotion",
 		"who_from": "person",
 		"type": "work",
 
@@ -1711,43 +773,28 @@
 
 
 		"option1": {
-			"name": "Ill take this in stride",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
+			"name": "Ill take this in stride"
 		},
 		"option2": {
-			"name": "I rather stay where I am at the moment, I like it here",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
+			"name": "I rather stay where I am at the moment, I like it here"
 		}
 	},
 
-	"wor37": {
-		"title": "Go to Work",
+	"event37": {
+		"subtitle": "Work",
+		"background": "res://Assets/Backgrounds/backgroundWork.png",
+		"character": "res://Assets/Characters/characterCoworker.png",
+		"dialogue": "See you next shift, I guess",
+
+		"effects": {
+			"morality": "00",
+			"hunger": 5,
+			"social": 0,
+			"energy": -5,
+			"money": 5,
+			"happiness": -5,
+			"infected": "false"
+		},
 		"who_from": "player",
 		"type": "work",
 
@@ -1755,43 +802,10 @@
 
 
 		"option1": {
-			"name": "Sounds like a plan",
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": 100,
-					"add_energy": 100,
-					"add_happiness": 100,
-					"add_money": -50
-
-				}
-			},
-			"hidden_effect": {
-				"get_infected": 0.5,
-				"fren_infected": 0
-			}
-
+			"name": "Sounds like a plan"
 		},
 		"option2": {
-			"name": "Not this cycle",
-
-			"effect_tooltip": {
-				"playerName": {
-					"add_social": -10,
-					"add_energy": 0,
-					"add_happiness": 0,
-					"add_money": 0
-
-				}
-			},
-			"hidden_effect": {
-				"fren_infected": 0.75
-			}
-
+			"name": "Not this cycle"
 		}
 	}
-
-
-
-
-
 }

@@ -1,7 +1,8 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://Event/Event.gd" type="Script" id=1]
 [ext_resource path="res://fonts/OxaniumBold-p77oZ.ttf" type="DynamicFontData" id=2]
+[ext_resource path="res://Assets/Characters/characterPlayer.png" type="Texture" id=3]
 
 [sub_resource type="DynamicFont" id=4]
 font_data = ExtResource( 2 )
@@ -29,6 +30,10 @@ scale = Vector2( 0.6, 0.6 )
 
 [node name="Character" type="Sprite" parent="."]
 position = Vector2( 790, 365 )
+
+[node name="Player" type="Sprite" parent="."]
+position = Vector2( 234, 366 )
+texture = ExtResource( 3 )
 
 [node name="Dialogue" type="Label" parent="."]
 margin_left = 343.0

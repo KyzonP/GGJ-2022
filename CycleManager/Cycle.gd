@@ -61,8 +61,10 @@ func _newCycle():
 	rng.randomize()
 	randomFamily = rng.randi_range(1,7)
 	
-	rng.randomize()
-	randomWork = rng.randi_range(1,7)
+	if CTRL.employed == true:
+		rng.randomize()
+		randomWork = rng.randi_range(1,7)
+		
 	print(randomSocial)
 	
 func load_file():

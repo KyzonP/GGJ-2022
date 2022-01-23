@@ -15,98 +15,116 @@ func _ready():
 #	pass
 
 func _socialEvent():
-	###changing its text
-	var socialData = CYCLE.allEvents["soc" + str(CYCLE.randomSocial)]
-	
-	if "desc" in socialData:
-		$TextBody.text = socialData["desc"]
+	if CYCLE.randomSocial != 0:
+		###changing its text
+		var socialData = CYCLE.allEvents["event" + str(CYCLE.randomSocial)]
 		
-	if "who_from" in socialData:
-		$TextPerson.text = socialData["who_from"]
+		if "desc" in socialData:
+			$TextBody.text = socialData["desc"]
+			
+		if "who_from" in socialData:
+			$TextPerson.text = socialData["who_from"]
+			
+		if "option1" in socialData:
+			option1 = socialData["option1"]
+			if "name" in option1:
+				$YesButton.text = option1["name"]
 		
-	if "option1" in socialData:
-		option1 = socialData["option1"]
-		if "name" in option1:
-			$YesButton.text = option1["name"]
-	
-	if "option2" in socialData:
-		option2 = socialData["option2"]
-		if "name" in option2:
-			$NoButton.text = option2["name"]
-		
-	currentEvent = "self"
-	pass
+		if "option2" in socialData:
+			option2 = socialData["option2"]
+			if "name" in option2:
+				$NoButton.text = option2["name"]
+			
+		currentEvent = "self"
+	else:
+		currentEvent = "self"
+		_on_NoButton_pressed()
 
 func _selfEvent():
-	###changing its text
-	var selfData = CYCLE.allEvents["sel" + str(CYCLE.randomSelf+10)]
-	
-	if "desc" in selfData:
-		$TextBody.text = selfData["desc"]
+	if CYCLE.randomSelf != 0:
+		###changing its text
+		var selfData = CYCLE.allEvents["event" + str(CYCLE.randomSelf+10)]
 		
-	if "who_from" in selfData:
-		$TextPerson.text = selfData["who_from"]
+		if "desc" in selfData:
+			$TextBody.text = selfData["desc"]
+			
+		if "who_from" in selfData:
+			$TextPerson.text = selfData["who_from"]
+			
+		if "option1" in selfData:
+			option1 = selfData["option1"]
+			if "name" in option1:
+				$YesButton.text = option1["name"]
 		
-	if "option1" in selfData:
-		option1 = selfData["option1"]
-		if "name" in option1:
-			$YesButton.text = option1["name"]
-	
-	if "option2" in selfData:
-		option2 = selfData["option2"]
-		if "name" in option2:
-			$NoButton.text = option2["name"]
-		
-	currentEvent = "family"
-	pass
+		if "option2" in selfData:
+			option2 = selfData["option2"]
+			if "name" in option2:
+				$NoButton.text = option2["name"]
+			
+		currentEvent = "family"
+	else:
+		currentEvent = "family"
+		_on_NoButton_pressed()
 
 func _familyEvent():
-	###changing its text
-	var familyData = CYCLE.allEvents["fam" + str(CYCLE.randomFamily+20)]
-	
-	if "desc" in familyData:
-		$TextBody.text = familyData["desc"]
+	if CYCLE.randomFamily != 0:
+		###changing its text
+		var familyData = CYCLE.allEvents["event" + str(CYCLE.randomFamily+20)]
 		
-	if "who_from" in familyData:
-		$TextPerson.text = familyData["who_from"]
+		if "desc" in familyData:
+			$TextBody.text = familyData["desc"]
+			
+		if "who_from" in familyData:
+			$TextPerson.text = familyData["who_from"]
+			
+		if "option1" in familyData:
+			option1 = familyData["option1"]
+			if "name" in option1:
+				$YesButton.text = option1["name"]
 		
-	if "option1" in familyData:
-		option1 = familyData["option1"]
-		if "name" in option1:
-			$YesButton.text = option1["name"]
-	
-	if "option2" in familyData:
-		option2 = familyData["option2"]
-		if "name" in option2:
-			$NoButton.text = option2["name"]
-	
-	currentEvent = "work"
-	pass
+		if "option2" in familyData:
+			option2 = familyData["option2"]
+			if "name" in option2:
+				$NoButton.text = option2["name"]
+		
+		currentEvent = "work"
+	else:
+		currentEvent = "work"
+		_on_NoButton_pressed()
 
 func _workEvent():
-	###changing its text
-	var workData = CYCLE.allEvents["wor" + str(CYCLE.randomWork+30)]
-	
-	if "desc" in workData:
-		$TextBody.text = workData["desc"]
+	if CYCLE.randomWork != 0:
+		###changing its text
+		var workData = CYCLE.allEvents["event" + str(CYCLE.randomWork+30)]
 		
-	if "who_from" in workData:
-		$TextPerson.text = workData["who_from"]
+		if "desc" in workData:
+			$TextBody.text = workData["desc"]
+			
+		if "who_from" in workData:
+			$TextPerson.text = workData["who_from"]
+			
+		if "option1" in workData:
+			option1 = workData["option1"]
+			if "name" in option1:
+				$YesButton.text = option1["name"]
 		
-	if "option1" in workData:
-		option1 = workData["option1"]
-		if "name" in option1:
-			$YesButton.text = option1["name"]
-	
-	if "option2" in workData:
-		option2 = workData["option2"]
-		if "name" in option2:
-			$NoButton.text = option2["name"]
-	
-	currentEvent = "social"
-	pass
+		if "option2" in workData:
+			option2 = workData["option2"]
+			if "name" in option2:
+				$NoButton.text = option2["name"]
+		
+		currentEvent = "social"
+	else:
+		currentEvent = "social"
+		_on_NoButton_pressed()
 
 func _on_YesButton_pressed():
+	###TRACKERS FOR STUFF:
+	if CYCLE.randomWork == 5 + 30:
+		CTRL.employed = false
+	
+	
+	
 	if currentEvent == "social":
 		get_parent().get_node("Schedule")._spawnRandWork()
 		self.visible = false

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/backgroundHouseMovie.png-4bacec958319c1ee91f2bb878fee214f.stex"
+path="res://.import/backgroundPlayerHouseMovie.png-ff3346d871c7ee7b7c04916946a16f79.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Backgrounds/backgroundHouseMovie.png"
-dest_files=[ "res://.import/backgroundHouseMovie.png-4bacec958319c1ee91f2bb878fee214f.stex" ]
+source_file="res://Assets/Backgrounds/backgroundPlayerHouseMovie.png"
+dest_files=[ "res://.import/backgroundPlayerHouseMovie.png-ff3346d871c7ee7b7c04916946a16f79.stex" ]
 
 [params]
 

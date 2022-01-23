@@ -31,13 +31,20 @@ func _add_Experience():
 	pass
 	
 func _dailyTasks():
-	_loadCard(37, -413, -140)
-	_loadCard(37, -413, -76)
-	_loadCard(37, -413, -12)
-	_loadCard(13, -349, -140)
-	_loadCard(13, -349, -76)
-	_loadCard(13, -349, -12)
+	#Only spawn jobs if employed - otherwise spawn the 'get job' one
+	if CTRL.employed == true:
+		_loadCard(37, -413, -140)
+		_loadCard(37, -413, -76)
+	else:
+		_loadCard(35, -413, -140)
+		
+	#social
 	_loadCard(5, -285, -140)
+	_loadCard(5, -285, -76)
+	
+	#self
+	_loadCard(13, -221, -140)
+	_loadCard(13, -221, -76)
 
 func _loadCard(event, xPos, yPos):
 	var card = load(card_path).instance()
