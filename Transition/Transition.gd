@@ -16,7 +16,7 @@ func _ready():
 		var nextEventKey = CYCLE.events[CYCLE.currentEvent]
 		var NextData = CYCLE.allEvents["event" + str(nextEventKey)]
 		if "subtitle" in NextData:
-			$Next.text = NextData["subtitle"]
+			$Next.text = "Next Events: " + NextData["subtitle"]
 	
 	pass # Replace with function body.
 

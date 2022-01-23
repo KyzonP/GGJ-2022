@@ -8,10 +8,10 @@
 		"effects": {
 			"morality": 0,
 			"hunger": 5,
-			"social": 50,
+			"social": 30,
 			"energy": -25,
 			"money": -35,
-			"happiness": 30,
+			"happiness": 20,
 			"infected": "false"
 		},
 		"who_from": "Friend",
@@ -27,7 +27,10 @@
 			"name": "No thanks, have to catch up \n on work stuff, go on without me"
 		},
 		"sound1": {
-			"name":  "Concert"
+			"name": "Concert"
+		},
+		"sound2": {
+			"name":  "Talking"
 		}
 	},
 
@@ -39,11 +42,11 @@
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 20,
+			"hunger": 0,
+			"social": 15,
 			"energy": -20,
 			"money": -10,
-			"happiness": 25,
+			"happiness": 20,
 			"infected": "false"
 		},
 		"who_from": "Friend",
@@ -59,7 +62,10 @@
 			"name": "No thanks"
 		},
 		"sound1": {
-			"name":  "Eating stuff"
+			"name": "Eating stuff"
+		},
+		"sound2": {
+			"name":  "FriendShowingUp"
 		}
 
 	},
@@ -72,10 +78,10 @@
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
+			"hunger": 5,
+			"social": 20,
+			"energy": -15,
+			"money": -15,
 			"happiness": 25,
 			"infected": "false"
 		},
@@ -92,8 +98,12 @@
 			"name": "No thanks, have to catch up on work \n stuff, go on without me"
 		},
 		"sound1": {
-			"name":  "Pub"
+			"name": "Pub"
+		},
+		"sound2": {
+			"name": "Talking"
 		}
+
 	},
 
 	"event4": {
@@ -105,10 +115,10 @@
 		"effects": {
 			"morality": 10,
 			"hunger": -15,
-			"social": 10,
+			"social": 5,
 			"energy": 5,
 			"money": 0,
-			"happiness": 25,
+			"happiness": 10,
 			"infected": "false"
 		},
 		"who_from": "Mom",
@@ -125,7 +135,10 @@
 			"name": "Maybe, I'll think about it"
 		},
 		"sound1": {
-			"name":  "Eating stuff"
+			"name": "Eating stuff"
+		},
+		"sound2": {
+			"name": "Talking"
 		}
 	},
 
@@ -137,11 +150,11 @@
 
 		"effects": {
 			"morality": 10,
-			"hunger": 0,
-			"social": 10,
-			"energy": 15,
+			"hunger": -5,
+			"social": 5,
+			"energy": -5,
 			"money": 0,
-			"happiness": 15,
+			"happiness": 5,
 			"infected": "false"
 		},
 		"who_from": "Flatmate",
@@ -155,7 +168,7 @@
 			"name": "Maybe, I'll think about it"
 		},
 		"sound1": {
-			"name":  "Talking"
+			"name": "Talking"
 		}
 	},
 
@@ -167,11 +180,11 @@
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 25,
-			"energy": 15,
-			"money": -5,
-			"happiness": 20,
+			"hunger": 0,
+			"social": 10,
+			"energy": -10,
+			"money": 0,
+			"happiness": 10,
 			"infected": "false"
 		},
 		"who_from": "Friend",
@@ -186,7 +199,10 @@
 			"name": "Sorry, busy!"
 		},
 		"sound1": {
-			"name":  "Talking"
+			"name": "Talking"
+		},
+		"sound2": {
+			"name": "FriendShowingUp"
 		}
 	},
 
@@ -198,11 +214,11 @@
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"hunger": -5,
+			"social": 5,
+			"energy": 5,
+			"money": -5,
+			"happiness": 5,
 			"infected": "false"
 		},
 		"who_from": "Friend",
@@ -273,15 +289,15 @@
 		"who_from": "Reminder",
 		"type": "self",
 
-		"desc": "Its time to buy a new game, which one to get?",
+		"desc": "Is it time to buy a new game, maybe?",
 
 
 		"option1": {
-			"name": "Demon Slayer: Infinity"
+			"name": "Oh yeah Gamer Mode"
 
 		},
 		"option2": {
-			"name": "Human Migration: Old Passing"
+			"name": "I left that life behind"
 		},
 		"sound1": {
 			"name":  "Gaming"
@@ -296,11 +312,11 @@
 
 		"effects": {
 			"morality": 10,
-			"hunger": 10,
-			"social": 60,
-			"energy": -20,
-			"money": -10,
-			"happiness": 25,
+			"hunger": -5,
+			"social": -5,
+			"energy":  5,
+			"money": 0,
+			"happiness": 5,
 			"infected": "false"
 		},
 
@@ -329,9 +345,9 @@
 
 		"effects": {
 			"morality": 0,
-			"hunger": 0,
-			"social": 5,
-			"energy": -10,
+			"hunger": 5,
+			"social": 0,
+			"energy": -5,
 			"money": 0,
 			"happiness": 10,
 			"infected": "false"
@@ -362,9 +378,9 @@
 
 		"effects": {
 			"morality": 0,
-			"hunger": 5,
+			"hunger": 0,
 			"social": -5,
-			"energy": 5,
+			"energy": 0,
 			"money": 0,
 			"happiness": 10,
 			"infected": "false"
@@ -382,7 +398,10 @@
 			"name": "Not up for gaming today"
 		},
 		"sound1": {
-			"name":  "Gaming"
+			"name": "Gaming"
+		},
+		"sound2": {
+			"name": "Talking"
 		}
 	},
 
@@ -428,7 +447,7 @@
 			"morality": 0,
 			"hunger": 10,
 			"social": 0,
-			"energy": 5,
+			"energy": 15,
 			"money": 0,
 			"happiness": 10,
 			"infected": "false"
@@ -461,7 +480,7 @@
 			"social": 0,
 			"energy": -5,
 			"money": -10,
-			"happiness": 25,
+			"happiness": 20,
 			"infected": "false"
 		},
 		"who_from": "Mom",
@@ -477,7 +496,10 @@
 			"name": "I'm busy then, sorry!"
 		},
 		"sound1": {
-			"name":  "Talking"
+			"name": "Talking"
+		},
+		"sound2": {
+			"name": "Eating Stuff"
 		}
 	},
 
@@ -490,10 +512,10 @@
 		"effects": {
 			"morality": 10,
 			"hunger": -15,
-			"social": 10,
+			"social": 5,
 			"energy": 5,
 			"money": 0,
-			"happiness": 25,
+			"happiness": 20,
 			"infected": "false"
 		},
 		"who_from": "Mom",
@@ -520,11 +542,11 @@
 
 		"effects": {
 			"morality": 10,
-			"hunger": -5,
-			"social": 10,
-			"energy": 15,
+			"hunger": -10,
+			"social": 5,
+			"energy": 10,
 			"money": 0,
-			"happiness": 25,
+			"happiness": 20,
 			"infected": "false"
 		},
 		"who_from": "Grandma",
@@ -539,7 +561,10 @@
 			"name": "Not at the moment sorry"
 		},
 		"sound1": {
-			"name":  "Talking"
+			"name": "Talking"
+		},
+		"sound2": {
+			"name": "Eating Stuff"
 		}
 	},
 
@@ -550,12 +575,12 @@
 		"dialogue": "Just like the old days.",
 
 		"effects": {
-			"morality": -10,
-			"hunger": 5,
-			"social": 15,
-			"energy": -15,
-			"money": -10,
-			"happiness": 30,
+			"morality": 10,
+			"hunger": -5,
+			"social": 10,
+			"energy": 5,
+			"money": 0,
+			"happiness": 20,
 			"infected": "false"
 		},
 		"who_from": "Grandma",
@@ -584,7 +609,7 @@
 		"effects": {
 			"morality": 10,
 			"hunger": 0,
-			"social": 0,
+			"social": 5,
 			"energy": -10,
 			"money": 0,
 			"happiness": 15,
@@ -616,7 +641,7 @@
 		"effects": {
 			"morality": 10,
 			"hunger": 0,
-			"social": 0,
+			"social": 5,
 			"energy": -5,
 			"money": 0,
 			"happiness": 10,
@@ -648,7 +673,7 @@
 		"effects": {
 			"morality": 10,
 			"hunger": 5,
-			"social": 0,
+			"social": 10,
 			"energy": -5,
 			"money": -5,
 			"happiness": 20,
@@ -680,9 +705,9 @@
 
 		"effects": {
 			"morality": 10,
-			"hunger": -5,
-			"social": 5,
-			"energy": 0,
+			"hunger": -10,
+			"social": 10,
+			"energy": 5,
 			"money": 0,
 			"happiness": -5,
 			"infected": "false"
@@ -700,7 +725,10 @@
 			"name": "Not at the moment sorry"
 		},
 		"sound1": {
-			"name":  "Concert"
+			"name": "Concert"
+		},
+		"sound2": {
+			"name": "Office"
 		}
 	},
 
@@ -714,8 +742,8 @@
 			"morality": 10,
 			"hunger": 0,
 			"social": 0,
-			"energy": -15,
-			"money": 20,
+			"energy": -10,
+			"money": 10,
 			"happiness": -10,
 			"infected": "false"
 		},
@@ -732,7 +760,10 @@
 			"name": "Not at the moment sorry"
 		},
 		"sound1": {
-			"name":  "Office"
+			"name": "Office"
+		},
+		"sound2": {
+			"name": "OfficeMachines"
 		}
 	},
 
@@ -744,7 +775,7 @@
 
 		"effects": {
 			"morality": 0,
-			"hunger": 0,
+			"hunger": -5,
 			"social": 0,
 			"energy": -5,
 			"money": 10,
@@ -764,7 +795,10 @@
 			"name": "Its a night in for me"
 		},
 		"sound1": {
-			"name":  "Office"
+			"name": "Office"
+		},
+		"sound2": {
+			"name": "OfficeMachines"
 		}
 	},
 
@@ -776,11 +810,11 @@
 
 		"effects": {
 			"morality": 10,
-			"hunger": 0,
+			"hunger": -5,
 			"social": 0,
 			"energy": -10,
 			"money": 5,
-			"happiness": 5,
+			"happiness": 0,
 			"infected": "false"
 		},
 		"who_from": "Reminder",
@@ -794,7 +828,10 @@
 			"name": "I think he is just having a bad day, I'll be ok"
 		},
 		"sound1": {
-			"name":  "OfficeMachines"
+			"name": "OfficeMachines"
+		},
+		"sound2": {
+			"name": "Office"
 		}
 	},
 
@@ -825,7 +862,10 @@
 			"name": "This is fine."
 		},
 		"sound1": {
-			"name":  "Talking"
+			"name": "Talking"
+		},
+		"sound2": {
+			"name": "OfficeMachines"
 		}
 	},
 
@@ -857,7 +897,10 @@
 			"name": "I rather stay where I am at \n the moment, I like it here"
 		},
 		"sound1": {
-			"name":  "Office"
+			"name": "Office"
+		},
+		"sound2": {
+			"name": "OfficeMachines"
 		}
 	},
 
@@ -889,7 +932,10 @@
 			"name": "Not this cycle"
 		},
 		"sound1": {
-			"name":  "Office"
+			"name": "Office"
+		},
+		"sound2": {
+			"name": "OfficeMachines"
 		}
 	}
 }
