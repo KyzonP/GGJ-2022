@@ -233,7 +233,6 @@
 	"event12": {
 		"subtitle": "Get \n Game",
 		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
-		"character": "res://Assets/Characters/characterPlayer.png",
 		"dialogue": "This is a nice game, I love it!",
 
 		"effects": {
@@ -698,7 +697,7 @@
 
 	"event34": {
 		"subtitle": "Work \n Hard",
-		"background": "res://Assets/Backgrounds/characterWork.png",
+		"background": "res://Assets/Backgrounds/backgroundWork.png",
 		"character": "res://Assets/Characters/characterBoss.png",
 		"dialogue": "You've been doing very well. Keep it up!",
 

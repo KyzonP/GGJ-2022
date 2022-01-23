@@ -18,12 +18,25 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
+[node name="Prev" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 313.0
+margin_top = 98.0
+margin_right = 388.0
+margin_bottom = 112.0
+rect_scale = Vector2( 2.5, 2.5 )
+text = "Placeholder"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="Hunger" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 320.0
-margin_top = 153.0
-margin_right = 360.0
-margin_bottom = 167.0
+margin_left = 150.0
+margin_top = 225.0
+margin_right = 225.0
+margin_bottom = 239.0
+rect_scale = Vector2( 2.5, 2.5 )
 text = "Placeholder"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -31,10 +44,11 @@ __meta__ = {
 
 [node name="Social" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 320.0
-margin_top = 173.0
-margin_right = 360.0
-margin_bottom = 187.0
+margin_left = 150.0
+margin_top = 265.0
+margin_right = 225.0
+margin_bottom = 279.0
+rect_scale = Vector2( 2.5, 2.5 )
 text = "Placeholder"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -42,10 +56,11 @@ __meta__ = {
 
 [node name="Energy" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 320.0
-margin_top = 193.0
-margin_right = 360.0
-margin_bottom = 207.0
+margin_left = 150.0
+margin_top = 305.0
+margin_right = 225.0
+margin_bottom = 319.0
+rect_scale = Vector2( 2.5, 2.5 )
 text = "Placeholder"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -53,10 +68,11 @@ __meta__ = {
 
 [node name="Money" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 320.0
-margin_top = 213.0
-margin_right = 360.0
-margin_bottom = 227.0
+margin_left = 150.0
+margin_top = 345.0
+margin_right = 225.0
+margin_bottom = 359.0
+rect_scale = Vector2( 2.5, 2.5 )
 text = "Placeholder"
 __meta__ = {
 "_edit_use_anchors_": false
@@ -64,10 +80,23 @@ __meta__ = {
 
 [node name="Happiness" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 320.0
-margin_top = 233.0
-margin_right = 360.0
-margin_bottom = 247.0
+margin_left = 150.0
+margin_top = 385.0
+margin_right = 225.0
+margin_bottom = 399.0
+rect_scale = Vector2( 2.5, 2.5 )
+text = "Placeholder"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Next" type="Label" parent="."]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 150.0
+margin_top = 475.0
+margin_right = 225.0
+margin_bottom = 489.0
+rect_scale = Vector2( 2.5, 2.5 )
 text = "Placeholder"
 __meta__ = {
 "_edit_use_anchors_": false
