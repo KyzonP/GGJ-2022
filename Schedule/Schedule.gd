@@ -38,6 +38,10 @@ func _dailyTasks():
 	else:
 		_loadCard(35, -413, -140)
 		
+	#family
+	_loadCard(22, -349, -140)
+	_loadCard(22, -349, -76)
+		
 	#social
 	_loadCard(5, -285, -140)
 	_loadCard(5, -285, -76)

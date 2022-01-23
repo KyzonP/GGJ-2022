@@ -536,7 +536,7 @@
 
 	"event23": {
 		"subtitle": "Grandma \n Coffee",
-		"background": "res://Assets/Backgrounds/backgroundGrandmaHouse.png",
+		"background": "res://Assets/Backgrounds/backgroundGrandmasHouse.png",
 		"character": "res://Assets/Characters/characterGrandma.png",
 		"dialogue": "Nothing like a hot home brewed coffee.",
 
