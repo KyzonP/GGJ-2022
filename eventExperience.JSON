@@ -1,7 +1,7 @@
 {
 	"event1": {
 		"subtitle": "Concert",
-		"background": "res://Assets/Backgrounds/backgroundConcert",
+		"background": "res://Assets/Backgrounds/backgroundConcert.png",
 		"character": "res://Assets/Characters/characterPartyFriend.png",
 		"dialogue": "Woah dude that was wicked! I love these guys' music",
 
@@ -27,7 +27,7 @@
 			"name": "No thanks, have to catch up \n on work stuff, go on without me"
 		},
 		"sound1": {
-			"name":  "Conert"
+			"name":  "Concert"
 		}
 	},
 
@@ -57,7 +57,11 @@
 		},
 		"option2": {
 			"name": "No thanks"
+		},
+		"sound1": {
+			"name":  "Eating stuff"
 		}
+
 	},
 
 	"event3": {
@@ -86,6 +90,9 @@
 		},
 		"option2": {
 			"name": "No thanks, have to catch up on work \n stuff, go on without me"
+		},
+		"sound1": {
+			"name":  "Pub"
 		}
 	},
 
@@ -116,6 +123,9 @@
 		},
 		"option2": {
 			"name": "Maybe, I'll think about it"
+		},
+		"sound1": {
+			"name":  "Eating stuff"
 		}
 	},
 
@@ -143,6 +153,9 @@
 		},
 		"option2": {
 			"name": "Maybe, I'll think about it"
+		},
+		"sound1": {
+			"name":  "Talking"
 		}
 	},
 
@@ -171,6 +184,9 @@
 		},
 		"option2": {
 			"name": "Sorry, busy!"
+		},
+		"sound1": {
+			"name":  "Talking"
 		}
 	},
 
@@ -199,6 +215,9 @@
 		},
 		"option2": {
 			"name": "No thanks, go without me"
+		},
+		"sound1": {
+			"name":  "Talking"
 		}
 	},
 
@@ -230,6 +249,9 @@
 		},
 		"option2": {
 			"name": "No thanks, I dont have the time to \n care for a mushroom sorry :( "
+		},
+		"sound1": {
+			"name":  "Pet"
 		}
 
 	},
@@ -260,6 +282,9 @@
 		},
 		"option2": {
 			"name": "Human Migration: Old Passing"
+		},
+		"sound1": {
+			"name":  "Gaming"
 		}
 
 	},
@@ -290,6 +315,9 @@
 		},
 		"option2": {
 			"name": "I have too much work"
+		},
+		"sound1": {
+			"name":  "Talking"
 		}
 	},
 
@@ -319,6 +347,9 @@
 		},
 		"option2": {
 			"name": "I'll get around to it"
+		},
+		"sound1": {
+			"name":  "Talking"
 		}
 
 	},
@@ -349,6 +380,9 @@
 		},
 		"option2": {
 			"name": "Not up for gaming today"
+		},
+		"sound1": {
+			"name":  "Gaming"
 		}
 	},
 
@@ -378,6 +412,9 @@
 		},
 		"option2": {
 			"name": "Not in a filmy mood, sorry!"
+		},
+		"sound1": {
+			"name":  "Talking"
 		}
 	},
 
@@ -406,6 +443,9 @@
 		},
 		"option2": {
 			"name": "No, I should go to work"
+		},
+		"sound1": {
+			"name":  "Talking"
 		}
 	},
 
@@ -435,6 +475,9 @@
 		},
 		"option2": {
 			"name": "I'm busy then, sorry!"
+		},
+		"sound1": {
+			"name":  "Talking"
 		}
 	},
 
@@ -463,6 +506,9 @@
 		},
 		"option2": {
 			"name": "Not at the moment sorry"
+		},
+		"sound1": {
+			"name":  "Talking"
 		}
 	},
 
@@ -491,6 +537,9 @@
 		},
 		"option2": {
 			"name": "Not at the moment sorry"
+		},
+		"sound1": {
+			"name":  "Talking"
 		}
 	},
 
@@ -520,6 +569,9 @@
 		},
 		"option2": {
 			"name": "Not at the moment sorry"
+		},
+		"sound1": {
+			"name":  "Concert"
 		}
 	},
 
@@ -549,6 +601,9 @@
 		},
 		"option2": {
 			"name": "Are you hungry buddy??"
+		},
+		"sound1": {
+			"name":  "Pet"
 		}
 	},
 
@@ -578,6 +633,9 @@
 		"option2": {
 			"name": "Give the mushroom my apologies"
 
+		},
+		"sound1": {
+			"name":  "Pet"
 		}
 	},
 
@@ -608,6 +666,9 @@
 		},
 		"option2": {
 			"name": "Give the mushroom a pat on the head"
+		},
+		"sound1": {
+			"name":  "Pet"
 		}
 	},
 
@@ -637,6 +698,9 @@
 		},
 		"option2": {
 			"name": "Not at the moment sorry"
+		},
+		"sound1": {
+			"name":  "Concert"
 		}
 	},
 
@@ -666,6 +730,9 @@
 		},
 		"option2": {
 			"name": "Not at the moment sorry"
+		},
+		"sound1": {
+			"name":  "Office"
 		}
 	},
 
@@ -695,6 +762,9 @@
 		},
 		"option2": {
 			"name": "Its a night in for me"
+		},
+		"sound1": {
+			"name":  "Office"
 		}
 	},
 
@@ -722,6 +792,9 @@
 		},
 		"option2": {
 			"name": "I think he is just having a bad day, I'll be ok"
+		},
+		"sound1": {
+			"name":  "OfficeMachines"
 		}
 	},
 
@@ -750,6 +823,9 @@
 		},
 		"option2": {
 			"name": "This is fine."
+		},
+		"sound1": {
+			"name":  "Talking"
 		}
 	},
 
@@ -779,6 +855,9 @@
 		},
 		"option2": {
 			"name": "I rather stay where I am at \n the moment, I like it here"
+		},
+		"sound1": {
+			"name":  "Office"
 		}
 	},
 
@@ -808,6 +887,9 @@
 		},
 		"option2": {
 			"name": "Not this cycle"
+		},
+		"sound1": {
+			"name":  "Office"
 		}
 	}
 }
