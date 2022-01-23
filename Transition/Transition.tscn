@@ -99,11 +99,11 @@ __meta__ = {
 
 [node name="Next" type="Label" parent="."]
 modulate = Color( 0, 0, 0, 1 )
-margin_left = 150.0
-margin_top = 475.0
-margin_right = 225.0
-margin_bottom = 489.0
-rect_scale = Vector2( 2.5, 2.5 )
+margin_left = 146.0
+margin_top = 464.0
+margin_right = 344.0
+margin_bottom = 481.0
+rect_scale = Vector2( 2, 2 )
 theme = ExtResource( 3 )
 text = "No new events. New cycle:"
 __meta__ = {
