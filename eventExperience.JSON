@@ -106,6 +106,378 @@
 		}
 	},
 
+	"event11":{
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"character": "res://Assets/Characters/characterDog.png",
+		"dialogue": "Woof WoofWoof WoofWoof Woof",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+	"event12":{
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"character": "res://Assets/Characters/characterPlayer.png",
+		"dialogue": "This is a nice game, I love it",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event13":{
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"character": "res://Assets/Characters/characterPlayer.png",
+		"dialogue": "Its nice to stay at home sometimes",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event14":{
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"character": "res://Assets/Characters/characterFlatmate.png",
+		"dialogue": "A clean house is a happy house",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event15":{
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"character": "res://Assets/Characters/characterFlatmate.png",
+		"dialogue": "Its great fun playing these games",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event16":{
+		"background": "res://Assets/Backgrounds/backgroundPlayerHouse.png",
+		"character": "res://Assets/Characters/characterFlatmate.png",
+		"dialogue": "that film rocked, cant wait for the next one",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event17":{
+		"background": "res://Assets/Backgrounds/backgroundPark.png",
+		"character": "res://Assets/Characters/characterPartner.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event18":{
+		"background": "res://Assets/Backgrounds/backgroundGym.png",
+		"character": "res://Assets/Characters/characterFriend.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event21":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event22":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event23":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event24":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event25":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event26":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event27":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event31":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event32":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event33":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event34":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event35":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event36":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
+
+	"event37":{
+		"background": "res://Assets/Backgrounds/test_house_1.png",
+		"character": "res://Assets/Characters/test-char-1.png",
+		"dialogue": "test",
+
+		"effects": {
+			"morality": 10,
+			"hunger": 10,
+			"social": 60,
+			"energy": -20,
+			"money": -10,
+			"happiness": 25,
+			"infected": "false"
+		}
+
+	},
 
 
 
